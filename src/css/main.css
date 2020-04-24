@@ -9,13 +9,19 @@ code {
 #navbar {
 	background-color: #084177;
 	color: #fff;
+	font-family: "Major Mono Display";
+	font-size: 30px;
+	font-weight: bold;
 	margin: 0;
 	list-style: none;
+	padding: 0;
 	position: fixed;
 	right: 5px;
 	bottom: 5px;
+	overflow: hidden;
 }
 
 #navbar li {
-	padding: 5px;	
+	padding: 5px;
+	display: inline;
 }
