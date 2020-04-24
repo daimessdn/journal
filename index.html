@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.0/styles/default.min.css">
+</head>
+<body>
+	<pre>
+		<code class="js">
+			function getFinalOpenedDoors(numDoors) {
+			  // initialize all closed doors
+			  let doors = []
+			  for (let i = 1; i <= numDoors; i++)
+			    doors.push("closed");
+
+			  /*
+			    note that every closed door is stated as false
+			    and every opened door is stated as true in doors array
+			  */
+
+			  // initialize pass = 1
+			  let num_pass = 1;
+
+			  /*
+			    from this, we will toogle the doors.
+			    the rules is close the door if the door is opened
+			    and open the doors if the door is closed
+			  */
+			  while (num_pass <= numDoors) {
+			    for (let i = 1; i <= numDoors; i++) {
+			      if (i % num_pass == 0) {
+			        if (doors[i-1] == "open")
+			          doors[i-1] = "closed";
+			        else
+			          doors[i-1] = "open";
+			      }
+			    }
+			    
+			    // console.log(doors);
+
+			    num_pass += 1;
+			  }
+
+			  /*
+			    after toogle-ing the doors, we will show only the the door numbers which is open
+			  */
+			  let openedDoors = [];
+			  for (let i = 0; i < numDoors; i++) {
+			    if (doors[i] == "open")
+			      openedDoors.push(i+1);
+			  }
+
+			  // console.log(doors);
+			  // console.log(openedDoors);
+			  return openedDoors;
+			}
+
+			getFinalOpenedDoors(100);
+		</code>
+	</pre>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.0/highlight.min.js"></script>
+	<script>
+		document.addEventListener('DOMContentLoaded', (event) => {
+			document.querySelectorAll('pre code').forEach((block) => {
+				hljs.highlightBlock(block);
+			});
+		});
+	</script>
+</body>
+</html>
