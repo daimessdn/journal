@@ -5,3 +5,17 @@ body {
 code {
 	font-family: "Inconsolata";
 }
+
+#navbar {
+	background-color: #084177;
+	color: #fff;
+	margin: 0;
+	list-style: none;
+	position: fixed;
+	right: 5px;
+	bottom: 5px;
+}
+
+#navbar li {
+	padding: 5px;	
+}
