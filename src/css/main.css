@@ -6,7 +6,7 @@ pre {
 	font-family: "Inconsolata";
 	white-space: pre-wrap;
 	height: 162px;
-	overflow: scroll;
+	overflow-y: scroll;
 }
 
 #navbar {
