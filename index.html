@@ -4,7 +4,7 @@
   <meta charset=utf-8>
   <meta name=viewport content="width=device-width, initial-scale=1">
   <title></title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.0/styles/default.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.0/styles/github.min.css">
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Inconsolata|Major+Mono+Display&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" type="text/css" href="src/css/main.css">
@@ -13,14 +13,15 @@
   <ul id="navbar">
     <li><i class="fa fa-search"></i></li><li>B</li><li>C</li><li>D</li>
   </ul>
-  <p>24/4/2020</p>
-  <span>#rosetta #js #freecodecamp</span>
+  <div class="container">
+    <p>24/4/2020</p>
+    <span>#rosetta #js #freecodecamp</span>
 
-  <p>dear rosetta</p>
+    <p>dear rosetta</p>
 
-  <p>I've done your first homework of 100 doors challenge. Here's my work.</p>
+    <p>I've done your first homework of 100 doors challenge. Here's my work.</p>
 
-  <pre><code class="js">function getFinalOpenedDoors(numDoors) {
+    <pre><code class="js">function getFinalOpenedDoors(numDoors) {
   // initialize all closed doors
   let doors = []
   for (let i = 1; i <= numDoors; i++)
@@ -70,12 +71,12 @@
 
 getFinalOpenedDoors(100);</code></pre>
 
-  <p>25/4/2020</p>
-  <span>#rosetta #js #freecodecamp</span>
+    <p>25/4/2020</p>
+    <span>#rosetta #js #freecodecamp</span>
 
-  <p>dear Rosetta again...</p>
-  <p>I have accomplished another quest again about mean root square</p>
-<pre><code class="js">function rms(arr) {
+    <p>dear Rosetta again...</p>
+    <p>I have accomplished another quest again about mean root square</p>
+  <pre><code class="js">function rms(arr) {
   let sq_sum = 0;
 
   arr.forEach (i => sq_sum += i * i);
@@ -86,8 +87,8 @@ getFinalOpenedDoors(100);</code></pre>
 }
 
 console.log(rms([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));</code></pre>
-<p>and I almost got one perfect point for DPA classification if the complicated machine error ruins my code. ah, man. that one penny should be mine... >:v</p>
-<pre><code class="js">function getDPA(num) {
+  <p>and I almost got one perfect point for DPA classification if the complicated machine error ruins my code. ah, man. that one penny should be mine... >:v</p>
+  <pre><code class="js">function getDPA(num) {
   // Good luck!
 
   let numstep = 1;
@@ -125,6 +126,7 @@ console.log(rms([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));</code></pre>
 
   return DPA_array;
 }</code></pre>
+  </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.0/highlight.min.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', (event) => {
