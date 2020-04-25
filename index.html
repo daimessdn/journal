@@ -86,6 +86,45 @@ getFinalOpenedDoors(100);</code></pre>
 }
 
 console.log(rms([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));</code></pre>
+<p>and I almost got one perfect point for DPA classification if the complicated machine error ruins my code. ah, man. that one penny should be mine... >:v</p>
+<pre><code class="js">function getDPA(num) {
+  // Good luck!
+
+  let numstep = 1;
+  let DPA_array = [0, 0, 0];
+
+  while (numstep <= num) {    
+    let numset = [];
+
+    for (let i = 1; i < numstep; i++) {
+      if (numstep % i == 0) {
+        numset.push(i);
+      }
+    }
+
+    let sum = function(arr) {
+    return arr.reduce(function(a,b) {
+      return a + b
+    }, 0);
+  };
+    
+    sum_result = sum(numset);
+    // console.log(sum(numset));
+
+    if (sum_result < num)
+      DPA_array[0] += 1;
+    else if (sum_result === num)
+      DPA_array[1] += 1;
+    else
+      DPA_array[2] += 1;
+
+    // console.log(numset, sum)
+
+    numstep++;
+  }
+
+  return DPA_array;
+}</code></pre>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.0/highlight.min.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', (event) => {
@@ -93,46 +132,6 @@ console.log(rms([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));</code></pre>
         hljs.highlightBlock(block);
       });
     });
-  </script>
-  <script>
-    function getDPA(num) {
-      // Good luck!
-
-      let numstep = 1;
-      let DPA_array = [0, 0, 0];
-
-      while (numstep <= num) {    
-        let numset = [];
-
-        for (let i = 1; i < numstep; i++) {
-          if (numstep % i == 0) {
-            numset.push(i);
-          }
-        }
-
-        let sum = function(arr) {
-        return arr.reduce(function(a,b) {
-          return a + b
-        }, 0);
-      };
-        
-        sum_result = sum(numset);
-        // console.log(sum(numset));
-
-        if (sum_result < num)
-          DPA_array[0] += 1;
-        else if (sum_result === num)
-          DPA_array[1] += 1;
-        else
-          DPA_array[2] += 1;
-
-        // console.log(numset, sum)
-
-        numstep++;
-      }
-
-      return DPA_array;
-    }
   </script>
 </body>
 </html>
