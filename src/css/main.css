@@ -39,6 +39,10 @@ pre code {
 	margin-bottom: 0;
 }
 
+.date::before {
+	content: "•";
+}
+
 .tags {
 	font-family: "Major Mono Display";
 	font-size: 14px;
