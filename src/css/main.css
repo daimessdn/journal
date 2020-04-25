@@ -20,6 +20,18 @@ pre code {
 	overflow-y: scroll;
 }
 
+.date {
+	font-family: "Major Mono Display";
+	font-style: 24px;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+.tags {
+	font-family: "Major Mono Display";
+	font-style: 10px;
+}
+
 #navbar {
 	background-color: #084177;
 	color: #fff;
@@ -42,6 +54,6 @@ pre code {
 
 @media screen and ((max-width: 450px) or (max-height: 361px)) {
 	.container {
-		width: 100%;
+		width: 98%;
 	}
 }
