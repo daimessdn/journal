@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.0/styles/default.min.css">
-	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css?family=Inconsolata|Major+Mono+Display&display=swap" rel="stylesheet"> 
-	<link rel="stylesheet" type="text/css" href="src/css/main.css">
+  <meta charset=utf-8>
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.0/styles/default.min.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata|Major+Mono+Display&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" type="text/css" href="src/css/main.css">
 </head>
 <body>
-	<ul id="navbar">
-		<li><i class="fa fa-search"></i></li><li>B</li><li>C</li><li>D</li>
-	</ul>
-	<p>24/4/2020<p>
+  <ul id="navbar">
+    <li><i class="fa fa-search"></i></li><li>B</li><li>C</li><li>D</li>
+  </ul>
+  <p>24/4/2020<p>
+  <span>#rosetta #js #freecodecamp</span>
 
-	<p>dear rosetta</p>
+  <p>dear rosetta</p>
 
-	<p>I've done your first homework of 100 doors challenge. Here's my work.</p>
+  <p>I've done your first homework of 100 doors challenge. Here's my work.</p>
 
-	<pre>
-		<code class="js">
-function getFinalOpenedDoors(numDoors) {
+  <pre><code class="js">function getFinalOpenedDoors(numDoors) {
   // initialize all closed doors
   let doors = []
   for (let i = 1; i <= numDoors; i++)
@@ -67,16 +68,71 @@ function getFinalOpenedDoors(numDoors) {
   return openedDoors;
 }
 
-getFinalOpenedDoors(100);
-		</code>
-	</pre>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.0/highlight.min.js"></script>
-	<script>
-		document.addEventListener('DOMContentLoaded', (event) => {
-			document.querySelectorAll('pre code').forEach((block) => {
-				hljs.highlightBlock(block);
-			});
-		});
-	</script>
+getFinalOpenedDoors(100);</code></pre>
+
+  <p>25/4/2020</p>
+  <span>#rosetta #js #freecodecamp</span>
+
+  <p>dear Rosetta again...</p>
+  <p>I have accomplished another quest again about mean root square</p>
+<pre><code class="js">function rms(arr) {
+  let sq_sum = 0;
+
+  arr.forEach (i => sq_sum += i * i);
+
+  sq_sum /= arr.length;
+
+  return Math.sqrt(sq_sum);
+}
+
+console.log(rms([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));</code></pre>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.0/highlight.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+      document.querySelectorAll('pre code').forEach((block) => {
+        hljs.highlightBlock(block);
+      });
+    });
+  </script>
+  <script>
+    function getDPA(num) {
+      // Good luck!
+
+      let numstep = 1;
+      let DPA_array = [0, 0, 0];
+
+      while (numstep <= num) {    
+        let numset = [];
+
+        for (let i = 1; i < numstep; i++) {
+          if (numstep % i == 0) {
+            numset.push(i);
+          }
+        }
+
+        let sum = function(arr) {
+        return arr.reduce(function(a,b) {
+          return a + b
+        }, 0);
+      };
+        
+        sum_result = sum(numset);
+        // console.log(sum(numset));
+
+        if (sum_result < num)
+          DPA_array[0] += 1;
+        else if (sum_result === num)
+          DPA_array[1] += 1;
+        else
+          DPA_array[2] += 1;
+
+        // console.log(numset, sum)
+
+        numstep++;
+      }
+
+      return DPA_array;
+    }
+  </script>
 </body>
 </html>

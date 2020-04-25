@@ -2,8 +2,9 @@ body {
 	font-family: "Helvetica";
 }
 
-code {
+pre {
 	font-family: "Inconsolata";
+	white-space: pre-wrap;
 }
 
 #navbar {
