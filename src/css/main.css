@@ -1,3 +1,15 @@
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 @font-face {
 	font-family: "Akkurat Mono";
 	src: url("Akkurat-Mono.OTF");
@@ -29,7 +41,13 @@ pre code {
 
 .tags {
 	font-family: "Major Mono Display";
-	font-style: 10px;
+	font-size: 14px;
+}
+
+.date::after, .tags::after {
+	content: "|";
+	font-weight: normal;
+	animation: blink 1s infinite;
 }
 
 #navbar {
