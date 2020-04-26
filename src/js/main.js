@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 /* Set the width of the side navigation to 250px */
 function openNav() {
-  if (window.innerWidth <= 500) {
+  if (window.innerWidth <= 500 or window.innerHeight <= 400) {
     document.getElementById("mySidenav").style.width = "100%";
   } else {
     document.getElementById("mySidenav").style.width = "30%";

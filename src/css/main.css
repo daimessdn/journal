@@ -97,7 +97,7 @@ ul {
   right: 0;
   background-color: #084177;
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
+  padding-top: 12px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
 
@@ -109,6 +109,15 @@ ul {
   color: #999999;
   display: block;
   transition: 0.3s;
+}
+
+.sidenav input {
+  font: bold 20px "Major Mono Display";
+  margin-left: 5%;
+  width: 23.5rem;
+  background-color: #fff;
+  padding: 8px;
+  border: none;
 }
 
 /* When you mouse over the navigation links, change their color */
