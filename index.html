@@ -19,56 +19,55 @@
     <span class="tags">#rosetta #js #freecodecamp</span>
     <p>dear Rosetta,</p>
     <p>I've done your first homework of 100 doors challenge. Here's my work.</p>
-    <pre><code class="js">
-      function getFinalOpenedDoors(numDoors) {
-        // initialize all closed doors
-        let doors = []
-        for (let i = 1; i <= numDoors; i++)
-          doors.push("closed");
+    <pre><code class="js">function getFinalOpenedDoors(numDoors) {
+  // initialize all closed doors
+  let doors = []
+  for (let i = 1; i <= numDoors; i++)
+    doors.push("closed");
 
-        /*
-          note that every closed door is stated as false
-          and every opened door is stated as true in doors array
-        */
+  /*
+    note that every closed door is stated as false
+    and every opened door is stated as true in doors array
+  */
 
-        // initialize pass = 1
-        let num_pass = 1;
+  // initialize pass = 1
+  let num_pass = 1;
 
-        /*
-          from this, we will toogle the doors.
-          the rules is close the door if the door is opened
-          and open the doors if the door is closed
-        */
-        while (num_pass <= numDoors) {
-          for (let i = 1; i <= numDoors; i++) {
-            if (i % num_pass == 0) {
-              if (doors[i-1] == "open")
-                doors[i-1] = "closed";
-              else
-                doors[i-1] = "open";
-            }
-          }
-          
-          // console.log(doors);
-
-          num_pass += 1;
-        }
-
-        /*
-          after toogle-ing the doors, we will show only the the door numbers which is open
-        */
-        let openedDoors = [];
-        for (let i = 0; i < numDoors; i++) {
-          if (doors[i] == "open")
-            openedDoors.push(i+1);
-        }
-
-        // console.log(doors);
-        // console.log(openedDoors);
-        return openedDoors;
+  /*
+    from this, we will toogle the doors.
+    the rules is close the door if the door is opened
+    and open the doors if the door is closed
+  */
+  while (num_pass <= numDoors) {
+    for (let i = 1; i <= numDoors; i++) {
+      if (i % num_pass == 0) {
+        if (doors[i-1] == "open")
+          doors[i-1] = "closed";
+        else
+          doors[i-1] = "open";
       }
+    }
+    
+    // console.log(doors);
 
-      getFinalOpenedDoors(100);
+    num_pass += 1;
+  }
+
+  /*
+    after toogle-ing the doors, we will show only the the door numbers which is open
+  */
+  let openedDoors = [];
+  for (let i = 0; i < numDoors; i++) {
+    if (doors[i] == "open")
+      openedDoors.push(i+1);
+  }
+
+  // console.log(doors);
+  // console.log(openedDoors);
+  return openedDoors;
+}
+
+getFinalOpenedDoors(100);
     </code></pre>
 
     <hr/>
@@ -76,60 +75,56 @@
     <span class="tags">#rosetta #js #freecodecamp</span>
     <p>dear Rosetta again...</p>
     <p>I have accomplished another quest again about mean root square</p>
-    <pre><code class="js">
-      function rms(arr) {
-        let sq_sum = 0;
+    <pre><code class="js">function rms(arr) {
+  let sq_sum = 0;
 
-        arr.forEach (i => sq_sum += i * i);
+  arr.forEach (i => sq_sum += i * i);
 
-        sq_sum /= arr.length;
+  sq_sum /= arr.length;
 
-        return Math.sqrt(sq_sum);
-      }
+  return Math.sqrt(sq_sum);
+}
 
-      console.log(rms([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
-    </code></pre>
+console.log(rms([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])); </code></pre>
     <p>and I almost got one perfect point for DPA classification if the complicated machine error ruins my code. ah, man. that one penny should be mine... >:v</p>
-    <pre><code class="js">
-      function getDPA(num) {
-        // Good luck!
+    <pre><code class="js">function getDPA(num) {
+  // Good luck!
 
-        let numstep = 1;
-        let DPA_array = [0, 0, 0];
+  let numstep = 1;
+  let DPA_array = [0, 0, 0];
 
-        while (numstep <= num) {    
-          let numset = [];
+  while (numstep <= num) {    
+    let numset = [];
 
-          for (let i = 1; i < numstep; i++) {
-            if (numstep % i == 0) {
-              numset.push(i);
-            }
-          }
-
-          let sum = function(arr) {
-          return arr.reduce(function(a,b) {
-            return a + b
-          }, 0);
-        };
-          
-          sum_result = sum(numset);
-          // console.log(sum(numset));
-
-          if (sum_result < num)
-            DPA_array[0] += 1;
-          else if (sum_result === num)
-            DPA_array[1] += 1;
-          else
-            DPA_array[2] += 1;
-
-          // console.log(numset, sum)
-
-          numstep++;
-        }
-
-        return DPA_array;
+    for (let i = 1; i < numstep; i++) {
+      if (numstep % i == 0) {
+        numset.push(i);
       }
-    </code></pre>
+    }
+
+    let sum = function(arr) {
+    return arr.reduce(function(a,b) {
+      return a + b
+    }, 0);
+  };
+    
+    sum_result = sum(numset);
+    // console.log(sum(numset));
+
+    if (sum_result < num)
+      DPA_array[0] += 1;
+    else if (sum_result === num)
+      DPA_array[1] += 1;
+    else
+      DPA_array[2] += 1;
+
+    // console.log(numset, sum)
+
+    numstep++;
+  }
+
+  return DPA_array;
+}</code></pre>
     <hr>
 
     <p class="date">25/4/2020</p>
@@ -175,38 +170,34 @@
     <p>
       I've re-learned some <code>random</code> library on Python. Here is less thing about what kind of <code>random</code> is.
     </p>
-    <pre><code class="py">
-      # using random library
-      # firstly, import 'random' module
-      import random
+    <pre><code class="py"># using random library
+# firstly, import 'random' module
+import random
 
-      # print some random number in range()
-      print(random.randint(0, 5))
+# print some random number in range()
+print(random.randint(0, 5))
 
-      # print some random number in range, but in interval chance.
-      print(random.randrange(0,101,10)) 
+# print some random number in range, but in interval chance.
+print(random.randrange(0,101,10)) 
 
-      # multiply the random number to get larger value
-      print(random.random() * 100)
-    </code></pre>
+# multiply the random number to get larger value
+print(random.random() * 100)</code></pre>
     <p>
       for the list value, we can use <code>.choice(list)</code> method to select the value of list randomly.
     </p>
-    <pre><code class="py">
-      # select list value randomly
-      # same, import 'random' module again first
-      import random
+    <pre><code class="py"># select list value randomly
+# same, import 'random' module again first
+import random
 
-      # init'd list
-      color = ['red', 'yellow', 'green', 'blue', 'teal', 'magenta']
+# init'd list
+color = ['red', 'yellow', 'green', 'blue', 'teal', 'magenta']
 
-      # use .choice() method to get the random value of color
-      print(random.choice(color))
+# use .choice() method to get the random value of color
+print(random.choice(color))
 
-      # re-shuffle the color list orders
-      random.shuffle(color)
-      print(color)
-    </code></pre>
+# re-shuffle the color list orders
+random.shuffle(color)
+print(color)</code></pre>
     <p>maybe that's several of code I've learned and more. I hope this is enough for my mini project. wish me luck~~~
     <p class="source"><strong>source:</strong><br />
     <ul>
