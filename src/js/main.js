@@ -5,6 +5,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
   });
 });
 
+const search_phrases = ["what are you looking for?", "search something, huh?", "found what you need?", "looking for something?", "found some words?", "searched any useful stuffs?"]
+
 /* Set the width of the side navigation to 250px */
 function openNav() {
   if (window.innerWidth <= 500) {
@@ -16,6 +18,8 @@ function openNav() {
   else {
     document.getElementById("mySidenav").style.width = "30%";
   }
+
+  document.getElementsByTagName("input")[0].placeholder = search_phrases[Math.floor(Math.random() * search_phrases.length)]
 }
 
 /* Set the width of the side navigation to 0 */
