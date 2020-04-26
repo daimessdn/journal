@@ -8,4 +8,7 @@
 	.container {
 		width: calc(100% - 8px);
 	}
+
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
 }

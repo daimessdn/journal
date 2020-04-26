@@ -11,78 +11,122 @@
 }
 
 @font-face {
-	font-family: "Akkurat Mono";
-	src: url("Akkurat-Mono.OTF");
+  font-family: "Akkurat Mono";
+  src: url("Akkurat-Mono.OTF");
 }
 
 body {
-	font-family: "Helvetica";
-	line-height: 1.3;
+  font-family: "Helvetica";
+  line-height: 1.3;
 }
 
 .container {
-	width: 70%;
+  width: 70%;
 }
 
 pre code {
-	font-family: "Akkurat Mono";
-	font-size: 14px;
-	white-space: pre-wrap;
-	height: 162px;
-	overflow-y: scroll;
+  font-family: "Akkurat Mono";
+  font-size: 14px;
+  white-space: pre-wrap;
+  height: 162px;
+  overflow-y: scroll;
 }
 
 code {
-	font-family: "Akkurat Mono";
+  font-family: "Akkurat Mono";
 }
 
 .date {
-	font-family: "Major Mono Display";
-	font-style: 24px;
-	font-weight: bold;
-	margin-bottom: 0;
+  font-family: "Major Mono Display";
+  font-style: 24px;
+  font-weight: bold;
+  margin-bottom: 0;
 }
 
 .date::before {
-	content: "•";
+  content: "•";
 }
 
 .source {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .tags, .source strong {
-	font-family: "Major Mono Display";
-	font-size: 14px;
+  font-family: "Major Mono Display";
+  font-size: 14px;
 }
 
 ul {
-	padding-left: 1rem;
-	margin: 0;
+  padding-left: 1rem;
+  margin: 0;
 }
 
 .date::after, .tags::after {
-	content: "|";
-	font-weight: normal;
-	animation: blink 1s infinite;
+  content: "|";
+  font-weight: normal;
+  animation: blink 1s infinite;
 }
 
 #navbar {
-	background-color: #084177;
-	color: #fff;
-	font-family: "Major Mono Display";
-	font-size: 30px;
-	font-weight: bold;
-	margin: 0;
-	list-style: none;
-	padding: 0;
-	position: fixed;
-	right: 5px;
-	bottom: 5px;
-	overflow: hidden;
+  background-color: #084177;
+  color: #fff;
+  font: bold 30px "Major Mono Display";
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  overflow: hidden;
+  z-index: 10;
 }
 
 #navbar li {
-	padding: 5px;
-	display: inline;
+  padding: 5px;
+  display: inline;
+}
+
+ /* The side navigation menu */
+.sidenav {
+  font-family: "Major Mono Display";
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  right: 0;
+  background-color: #084177;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #999999;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
 }
