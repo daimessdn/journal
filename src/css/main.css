@@ -112,9 +112,9 @@ ul {
 }
 
 .sidenav input {
-  font: bold 20px "Major Mono Display";
+  font: bold 14px "Major Mono Display";
   margin-left: 5%;
-  width: 23.5rem;
+  width: 80%;
   background-color: #fff;
   padding: 8px;
   border: none;

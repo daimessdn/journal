@@ -5,7 +5,7 @@
 
 	.sidenav {padding-top: 15px;}
 	.sidenav a {font-size: 18px;}
-	.sidenav input {width: 16.5rem;}
+	.sidenav input {width: 80%;}
 }
 
 @media screen and (max-height: 400px) and (min-height: 50px) {
