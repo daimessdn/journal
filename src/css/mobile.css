@@ -1,4 +1,10 @@
-@media screen and ((max-width: 600px) or (max-height: 400px)) {
+@media screen and (max-width: 500px) {
+	.container {
+		width: calc(100% - 8px);
+	}
+}
+
+@media screen and (max-height: 400px) {
 	.container {
 		width: calc(100% - 8px);
 	}
