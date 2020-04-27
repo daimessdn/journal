@@ -8,7 +8,7 @@ document.getElementById("loading").innerHTML = loading_phrases[Math.floor(Math.r
 document.addEventListener('DOMContentLoaded', (event) => {
   let content = "";
 
-  data.forEach(post => {
+  data.reverse().forEach(post => {
     console.log(post.id);
 
     content += "<div class='post' id='" + post.id + "'><p class='date'>" + post.date + "</p><span class='tags'>" + post.tags + "</span>" + post.content; 
