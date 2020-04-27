@@ -14,9 +14,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
     content += "<div class='post' id='" + post.id + "'><p class='date'>" + post.date + "</p><span class='tags'>" + post.tags + "</span>" + post.content; 
   });
 
-  setTimeOut(function() {
+  setTimeout(function() {
     document.getElementById("container").innerHTML = content;
-  }, 3000)
+  }, 3000);
 
   document.querySelectorAll('pre code').forEach((block) => {
     hljs.highlightBlock(block);
