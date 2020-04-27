@@ -4,18 +4,19 @@ const loading_phrases = ["getting your journal ready...", "please wait for a mom
 
 document.getElementById("loading").innerHTML = loading_phrases[Math.floor(Math.random() * loading_phrases.length)]
 
-let content = "";
-
-data.forEach(post => {
-  console.log(post.id);
-
-  content += "<div class='post' id='" + post.id + "'><p class='date'>" + post.date + "</p><span class='tags'>" + post.tags + "</span>" + post.content; 
-});
-
-document.getElementById("container").innerHTML = content;
 
 // init'd highlight.js and begin highlighting all code related...
 document.addEventListener('DOMContentLoaded', (event) => {
+  let content = "";
+
+  data.forEach(post => {
+    console.log(post.id);
+
+    content += "<div class='post' id='" + post.id + "'><p class='date'>" + post.date + "</p><span class='tags'>" + post.tags + "</span>" + post.content; 
+  });
+
+  document.getElementById("container").innerHTML = content;
+
   document.querySelectorAll('pre code').forEach((block) => {
     hljs.highlightBlock(block);
   });
