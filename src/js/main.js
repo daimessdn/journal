@@ -4,7 +4,6 @@ const loading_phrases = ["getting your journal ready...", "please wait for a mom
 
 document.getElementById("loading").innerHTML = loading_phrases[Math.floor(Math.random() * loading_phrases.length)]
 
-
 // init'd highlight.js and begin highlighting all code related...
 document.addEventListener('DOMContentLoaded', (event) => {
   let content = "";
@@ -15,7 +14,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
     content += "<div class='post' id='" + post.id + "'><p class='date'>" + post.date + "</p><span class='tags'>" + post.tags + "</span>" + post.content; 
   });
 
-  document.getElementById("container").innerHTML = content;
+  setTimeOut(function() {
+    document.getElementById("container").innerHTML = content;
+  }, 3000)
 
   document.querySelectorAll('pre code').forEach((block) => {
     hljs.highlightBlock(block);
