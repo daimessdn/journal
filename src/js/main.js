@@ -1,6 +1,6 @@
 const search_phrases = ["what are you looking for?", "search something, huh?", "found what you need?", "looking for something?", "found some words?", "searched any useful stuffs?"]
 
-const loading_phrases = ["getting your journal ready...", "please wait for a moment once your journal is ready...", "can't wait for reading, eh?", "relax and we will make things done for you...", "rasdy for the reads?", "let see what we have for you...", "still be patient?"]
+const loading_phrases = ["getting your journal ready...", "please wait for a moment once your journal is ready...", "can't wait for reading, eh?", "relax and we will make things done for you...", "ready for the reads?", "let see what we have for you...", "still be patient?"]
 
 document.getElementById("loading").innerHTML = loading_phrases[Math.floor(Math.random() * loading_phrases.length)]
 
@@ -16,11 +16,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
   setTimeout(function() {
     document.getElementById("container").innerHTML = content;
+    document.querySelectorAll('pre code').forEach((block) => {
+      hljs.highlightBlock(block);
+    });
+
   }, 3000);
 
-  document.querySelectorAll('pre code').forEach((block) => {
-    hljs.highlightBlock(block);
-  });
 });
 
 /* Set the width of the side navigation to 250px */
