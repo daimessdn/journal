@@ -7,6 +7,10 @@
 		width: calc(100% - 8px);
 	}
 
+	body, pre code, #container input, #container textarea {
+		font-size: 14px;
+	}
+
 	.sidenav {padding-top: 15px;}
 	.sidenav a {font-size: 18px;}
 	.sidenav input {width: 80%;}
@@ -15,6 +19,10 @@
 @media screen and (max-height: 400px) and (min-height: 50px) {
 	body {
 		overflow-y: scroll;;
+	}
+
+	body, pre code, #container input, #container textarea {
+		font-size: 14px;
 	}
 
 	.container {

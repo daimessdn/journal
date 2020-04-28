@@ -24,9 +24,20 @@ body {
   width: 70%;
 }
 
+#container input {
+  font-family: "Major Mono Display";
+  border: none;
+}
+
+#container textarea {
+  font: 14px "Akkurat Mono";
+  border: none;
+  width: 100%;
+  height: 100px;
+}
+
 pre code {
-  font-family: "Akkurat Mono";
-  font-size: 14px;
+  font: 14px "Akkurat Mono";
   white-space: pre-wrap;
   height: 162px;
   overflow-y: scroll;

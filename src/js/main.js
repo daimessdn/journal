@@ -2,6 +2,8 @@ const search_phrases = ["what are you looking for?", "search something, huh?", "
 
 const loading_phrases = ["getting your journal ready...", "please wait for a moment once your journal is ready...", "can't wait for reading, eh?", "relax and we will make things done for you...", "ready for the reads?", "let see what we have for you...", "still be patient?"]
 
+const textarea_phrases = ["Dear, journal...", "Once upon a time...", "Hello, world!", "Tell me.", "Is there any interesting thing you want to tell?", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"]
+
 document.getElementById("loading").innerHTML = loading_phrases[Math.floor(Math.random() * loading_phrases.length)]
 
 // init'd highlight.js and begin highlighting all code related...
@@ -15,7 +17,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
   });
 
   setTimeout(function() {
-    document.getElementById("container").innerHTML = content;
+    const formHTML = "<form action=\"\" method=\"post\"><input type=\"date\" name=\"date\" /><input type=\"text\" name=\"tags\" placeholder=\"#tags\"/><textarea name=\"content\" placeholder=\"" + textarea_phrases[Math.floor(Math.random() * textarea_phrases.length)] + "\"></textarea></form>";
+   
+    document.getElementById("container").innerHTML = formHTML + "<hr />" + content;
     document.querySelectorAll('pre code').forEach((block) => {
       hljs.highlightBlock(block);
     });
