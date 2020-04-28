@@ -1,4 +1,8 @@
 @media screen and (max-width: 500px) and (min-width: 100px) {
+	body {
+		overflow-y: scroll;;
+	}
+	
 	.container {
 		width: calc(100% - 8px);
 	}
@@ -9,6 +13,10 @@
 }
 
 @media screen and (max-height: 400px) and (min-height: 50px) {
+	body {
+		overflow-y: scroll;;
+	}
+
 	.container {
 		width: calc(100% - 8px);
 	}
