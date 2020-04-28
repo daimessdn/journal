@@ -24,7 +24,7 @@ body {
   width: 70%;
 }
 
-#container input {
+#container input, #container button {
   font-family: "Major Mono Display";
   border: none;
 }
