@@ -21,7 +21,7 @@ function openNav() {
     document.getElementById("mySidenav").style.width = "30%";
   }
 
-  document.getElementsByTagName("input")[0].placeholder = search_phrases[Math.floor(Math.random() * search_phrases.length)]
+  document.getElementsByTagName("input")[0].placeholder = search_phrases[Math.floor(Math.random() * search_phrases.length)];
 }
 
 /* Set the width of the side navigation to 0 */
@@ -31,7 +31,7 @@ function closeNav() {
 
 function submitNotes(date, tags, content) {
   let preposted = {
-    id : Math.random().toString(36).replace(/[^a-z]+/g, '').substr(0, 10),
+    id : Math.random().toString(36).replace(/[^a-z]+/g, '').substr(0, 11),
     date : "",
     tags : tags,
     content : ""
@@ -52,7 +52,7 @@ function submitNotes(date, tags, content) {
   document.postJournal.tags.value = "";
   document.postJournal.content.value = "";
 
-  document.getElementById("container").innerHTML = "<p id='loading'>" + loading_phrases[Math.floor(Math.random() * loading_phrases.length)] + "</p>";
+  document.getElementById("container").innerHTML = "<p class='date' id='loading'>" + loading_phrases[Math.floor(Math.random() * loading_phrases.length)] + "</p>";
 
   reloadNotes();
 }
@@ -61,13 +61,11 @@ function reloadNotes(event) {
   let content = "";
 
   data.reverse().forEach(post => {
-    console.log(post.id);
-
     content += "<div class='post' id='" + post.id + "'><p class='date'>" + post.date + "</p><span class='tags'>" + post.tags + "</span>" + post.content; 
   });
 
   setTimeout(function() {
-    const formHTML = "<form name=\"postJournal\" onsubmit=\"submitNotes(document.postJournal.date.value, document.postJournal.tags.value, document.postJournal.content.value); return false\"><input type=\"date\" name=\"date\" /><input type=\"text\" name=\"tags\" placeholder=\"#tags\"/><textarea name=\"content\" placeholder=\"" + textarea_phrases[Math.floor(Math.random() * textarea_phrases.length)] + "\"></textarea><button type=\"submit\">POST</button></form>";
+    const formHTML = "<form name=\"postJournal\" onsubmit=\"submitNotes(document.postJournal.date.value, document.postJournal.tags.value, document.postJournal.content.value); return false\" method=\"POST\"><input type=\"date\" name=\"date\" /><input type=\"text\" name=\"tags\" placeholder=\"#tags\"/><textarea name=\"content\" placeholder=\"" + textarea_phrases[Math.floor(Math.random() * textarea_phrases.length)] + "\"></textarea><button type=\"submit\">POST</button></form>";
    
     document.getElementById("container").innerHTML = formHTML + "<hr />" + content;
     document.querySelectorAll('pre code').forEach((block) => {
