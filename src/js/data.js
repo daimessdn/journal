@@ -40,5 +40,11 @@ const data = [
 		tags: "#test",
 		id: "jpsyolrwa", 
 		content: "<p>dear journal…</p>\n<p>I have added several physical features for you. hope you like it… :)</p>" 
+	},
+	{ 
+		id: "yqjty2eS1k",
+		date: "29/3/2020",
+		tags: "#journal #ml #python",
+		content: "<p>dear, journal…</p>\n<p>Alhamdulillah, I've passed on IDCamp 2020 scholarship screening of Indosat Oreedoo (feat. dicoding) for machine learning dveloper learning and I've got chances for learning machine learning for basic level… :D</p>\n<p>wish me luck for the next level…</p><img src='https://drive.google.com/thumbnail?id=1ZVJ5jlwz7aO7dxIMWqynQBykVBceRLbm' alt='...' />"
 	}
 ];
