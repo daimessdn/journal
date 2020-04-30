@@ -36,6 +36,12 @@ body {
   height: 100px;
 }
 
+#container img {
+  max-width: 70%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 20px solid #eee;
+}
+
 pre code {
   font: 14px "Akkurat Mono";
   white-space: pre-wrap;
