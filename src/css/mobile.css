@@ -7,6 +7,10 @@
 		width: calc(100% - 8px);
 	}
 
+	.container img {
+		max-width: 98%;
+	}
+
 	body, pre code, #container input, #container textarea {
 		font-size: 14px;
 	}
@@ -27,6 +31,11 @@
 
 	.container {
 		width: calc(100% - 8px);
+	}
+
+	
+	.container img {
+		max-width: 98%;
 	}
 
 	.sidenav {padding-top: 15px;}
