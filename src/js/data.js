@@ -36,15 +36,21 @@ const data = [
 		content : "<p>dear, journal...</p><p>I've re-learned some <code>random</code> library on Python. Here is less thing about what kind of <code>random</code> is.</p><pre><code class=\"py\"># using random library\n# firstly, import 'random' module\nimport random\n\n# print some random number in range()\nprint(random.randint(0, 5))\n\n# print some random number in range, but in interval chance.\nprint(random.randrange(0,101,10))\n\n# multiply the random number to get larger value\nprint(random.random() * 100)</code></pre><p>for the list value, we can use <code>.choice(list)</code> method to select the value of list randomly.</p><pre><code class=\"py\"># select list value randomly\n# same, import 'random' module again first\nimport random\n\n# init'd list\ncolor = ['red', 'yellow', 'green', 'blue', 'teal', 'magenta']\n\n# use .choice() method to get the random value of color\nprint(random.choice(color))\n\n# re-shuffle the color list orders\nrandom.shuffle(color)\nprint(color)</code></pre>    <p>maybe that's several of codes I've learned and more. I hope this is enough for my mini project. wish me luck~~~<p class=\"source\"><strong>source:</strong><br /><ul><li><a href=\"https://www.pythonforbeginners.com/random/how-to-use-the-random-module-in-python\">https://www.pythonforbeginners.com/random/how-to-use-the-random-module-in-python</a>. Accessed in 2020, April 26th</li><li><a href=\"https://www.tutorialsteacher.com/python/random-module\">https://www.tutorialsteacher.com/python/random-module</a>. Accessed in 2020, April 26th</li></ul></p></div>"
 	},
 	{
-		date: "28/3/2020",
+		date: "28/4/2020",
 		tags: "#test",
 		id: "jpsyolrwa", 
 		content: "<p>dear journal…</p>\n<p>I have added several physical features for you. hope you like it… :)</p>" 
 	},
 	{ 
 		id: "yqjty2eS1k",
-		date: "29/3/2020",
+		date: "29/4/2020",
 		tags: "#journal #ml #python",
 		content: "<p>dear, journal…</p>\n<p>Alhamdulillah, I've passed on IDCamp 2020 scholarship screening of Indosat Oreedoo (feat. dicoding) for machine learning dveloper learning and I've got chances for learning machine learning for basic level… :D</p>\n<p>wish me luck for the next level…</p><img src='https://drive.google.com/thumbnail?id=1ZVJ5jlwz7aO7dxIMWqynQBykVBceRLbm' alt='...' />"
+	},
+	{ 
+		id: "ktadtig",
+		date: "30/4/2020",
+		tags: "#journal #learning #finally",
+		content: "<p>dear, journal…</p>\n<p>Alhamdulillah, I've done all of my certifications on Coursera. one of them is \"Data Engineering with Google Cloud Professional Certificate\". needs a lot of time to accomplish all of them. BTW, tomorrow #JuaraGCP is open for the <a href=\"https://goo.gle/JuaraGCP\">3rd time</a> and I can't wait for accomplish all of 12 quests for challenge myself and of course - <a href=\"https://twitter.com/googledevsid/status/1255671210517475328?s=20\">amazing swags</a>!!!</p>\n<p>and I also can't wait for data science class and machine learning from dicoding and accomplish data science course from IBM and also on Coursera…</p>\n<p>wish me luck~~</p>\n<p><img src=\"https://coursera-certificate-images.s3.amazonaws.com/ZZZW2UU4Z7WK\" alt=\"keep spirit\" /></p>"
 	}
 ];
