@@ -44,7 +44,7 @@ body {
 
 pre code {
   font: 14px "Akkurat Mono";
-  white-space: pre-wrap;
+  /*white-space: pre-wrap;*/
   line-height: 1.3;
   height: 162px;
   overflow: scroll;
