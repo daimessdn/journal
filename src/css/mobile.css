@@ -9,6 +9,7 @@
 
 	.container img {
 		max-width: 98%;
+		border: 3px solid #eee;
 	}
 
 	body, pre code, #container input, #container textarea {
