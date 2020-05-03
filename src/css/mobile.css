@@ -8,7 +8,7 @@
 	}
 
 	.container img {
-		max-width: 98%;
+		max-width: 90%;
 		border: 3px solid #eee;
 	}
 
@@ -36,7 +36,8 @@
 
 	
 	.container img {
-		max-width: 98%;
+		max-width: 90%;
+		border: 3px solid #eee;
 	}
 
 	.sidenav {padding-top: 15px;}
