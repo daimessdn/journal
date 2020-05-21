@@ -1,8 +1,30 @@
-const search_phrases = ["what are you looking for?", "search something, huh?", "found what you need?", "looking for something?", "found some words?", "searched any useful stuffs?"];
+const search_phrases = [
+  "what are you looking for?",
+  "search something, huh?",
+  "found what you need?",
+  "looking for something?",
+  "found some words?",
+  "searched any useful stuffs?"
+];
 
-const loading_phrases = ["getting your journal ready...", "please wait for a moment once your journal is ready...", "can't wait for reading, eh?", "relax and we will make things done for you...", "ready for the reads?", "let see what we have for you...", "still be patient?"];
+const loading_phrases = [
+  "getting your journal ready...",
+  "please wait for a moment once your journal is ready...",
+  "can't wait for reading, eh?",
+  "relax and we will make things done for you...",
+  "ready for the reads?",
+  "let see what we have for you...",
+  "still be patient?"
+];
 
-const textarea_phrases = ["Dear, journal...", "Once upon a time...", "Hello, world!", "Tell me.", "Is there any interesting thing you want to tell?", "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"];
+const textarea_phrases = [
+  "Dear, journal...",
+  "Once upon a time...",
+  "Hello, world!",
+  "Tell me.",
+  "Is there any interesting thing you want to tell?",
+  "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
+];
 
 document.getElementById("loading").innerHTML = loading_phrases[Math.floor(Math.random() * loading_phrases.length)];
 
@@ -10,23 +32,23 @@ document.getElementById("loading").innerHTML = loading_phrases[Math.floor(Math.r
 document.addEventListener('DOMContentLoaded', reloadNotes());
 
 /* Set the width of the side navigation to 250px */
+const nav = document.getElementById("mySidenav");
+const search_bar = document.getElementsByTagName("input")[0];
+
 function openNav() {
   if (window.innerWidth <= 500) {
-    document.getElementById("mySidenav").style.width = "100%" ;
+    nav.style.width = "100%" ;
   } else if (window.innerHeight <= 400) {
-    document.getElementById("mySidenav").style.width = "100%" ;
+    nav.style.width = "100%" ;
+  } else {
+    nav.style.width = "30%";
   }
-
-  else {
-    document.getElementById("mySidenav").style.width = "30%";
-  }
-
-  document.getElementsByTagName("input")[0].placeholder = search_phrases[Math.floor(Math.random() * search_phrases.length)];
+  search_bar.placeholder = search_phrases[Math.floor(Math.random() * search_phrases.length)];
 }
 
 /* Set the width of the side navigation to 0 */
 function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
+  nav.style.width = "0";
 } 
 
 function submitNotes(date, tags, content) {
@@ -38,7 +60,7 @@ function submitNotes(date, tags, content) {
   };
 
   const currdate = new Date(date);
-  preposted.date = currdate.getDate() + "/" + currdate.getMonth() + "/" + currdate.getFullYear();
+  preposted.date = currdate.getDate() + "/" + (currdate.getMonth() + 1) + "/" + currdate.getFullYear();
 
   var converter = new showdown.Converter();
 
