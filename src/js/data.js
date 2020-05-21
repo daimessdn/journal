@@ -70,5 +70,11 @@ const data = [
     "date": "16/5/2020",
     "tags": "#journal #dicoding #ml #finally",
     "content": "<p>dear, journal…</p>\n<p>it's been a long time I didn't begin to write.</p>\n<p>and finally, I've got my third certificate of dicoding: <strong>Machine Learning for Beginners</strong> after accomplished the module. there's still 2 months left for the announcement of intermediate level of scholarship…</p>\n<p>wish me luck~~</p>\n<p><img src=\"https://lh3.google.com/u/0/d/1FP42bDZ0jQyvG2peTN_IjahWK7_RMRSz=w1600-h801-iv2\" alt=\"my ml cert on dicoding\" /></p>\n<p>** <em>you can join to learn by <a href=\"https://idcamp.indosatooredoo.com/\">clicking here</a>.wish u luck~~~</em>*</p>"
-}
+  },
+  {
+    "id": "yd09ejaire",
+    "date": "21/5/2020",
+    "tags": "#journal",
+    "content": "<p>dear, journal…</p>\n<p>seems a long time not writing again…</p>\n<p>finnaly, the bootcamp of sanbercode is done completely, but the data science career is just start to be begun. I still need to learn more about data science and machine learning and also programming skills and Alhamdulillah, there is so many chances and scholarships (I mean, free courses) that I can try to learn more and hone programming skills and I have been starting my first competition of data science and analytics from Shopee. wish us luck…</p>\n<p>*2 more days is Eid feast day. Ied Mubarak, all!~~~</p>"
+  }
 ];
