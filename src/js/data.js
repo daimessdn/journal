@@ -76,5 +76,11 @@ const data = [
     "date": "21/5/2020",
     "tags": "#journal",
     "content": "<p>dear, journal…</p>\n<p>seems a long time not writing again…</p>\n<p>finnaly, the bootcamp of sanbercode is done completely, but the data science career is just start to be begun. I still need to learn more about data science and machine learning and also programming skills and Alhamdulillah, there is so many chances and scholarships (I mean, free courses) that I can try to learn more and hone programming skills and I have been starting my first competition of data science and analytics from Shopee. wish us luck…</p>\n<p>*2 more days is Eid feast day. Ied Mubarak, all!~~~</p>"
+  },
+  {
+  "id": "jysmkxmn",
+  "date": "22/5/2020",
+  "tags": "#journal",
+  "content": "<p>dear, journal…</p>\n<p>1 more day for my chance to learn many stuffs from Datacamp and today we just started to learn all stuffs about machine learning and data science for Shopee data science competitions. it might be rough, but we sure that we can prepared it all we can…</p>\n<p>wish us luck~~</p>"
   }
 ];

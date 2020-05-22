@@ -34,15 +34,13 @@ document.addEventListener('DOMContentLoaded', reloadNotes());
 /* Set the width of the side navigation to 250px */
 const nav = document.getElementById("mySidenav");
 const search_bar = document.getElementsByTagName("input")[0];
+const container = document.getElementById("container");
 
 function openNav() {
-  if (window.innerWidth <= 500) {
-    nav.style.width = "100%" ;
-  } else if (window.innerHeight <= 400) {
-    nav.style.width = "100%" ;
-  } else {
-    nav.style.width = "30%";
-  }
+  if (window.innerWidth <= 500) { nav.style.width = "100%"; }
+  else if (window.innerHeight <= 400) { nav.style.width = "100%"; }
+  else { nav.style.width = "30%"; }
+
   search_bar.placeholder = search_phrases[Math.floor(Math.random() * search_phrases.length)];
 }
 
@@ -74,7 +72,7 @@ function submitNotes(date, tags, content) {
   document.postJournal.tags.value = "";
   document.postJournal.content.value = "";
 
-  document.getElementById("container").innerHTML = "<p class='date' id='loading'>" + loading_phrases[Math.floor(Math.random() * loading_phrases.length)] + "</p>";
+  container.innerHTML = "<p class='date' id='loading'>" + loading_phrases[Math.floor(Math.random() * loading_phrases.length)] + "</p>";
 
   reloadNotes();
 }
@@ -89,7 +87,7 @@ function reloadNotes(event) {
   setTimeout(function() {
     const formHTML = "<form name=\"postJournal\" onsubmit=\"submitNotes(document.postJournal.date.value, document.postJournal.tags.value, document.postJournal.content.value); return false\" method=\"POST\"><input type=\"date\" name=\"date\" /><input type=\"text\" name=\"tags\" placeholder=\"#tags\"/><textarea name=\"content\" placeholder=\"" + textarea_phrases[Math.floor(Math.random() * textarea_phrases.length)] + "\"></textarea><button type=\"submit\">POST</button></form>";
    
-    document.getElementById("container").innerHTML = formHTML + "<hr />" + content;
+    container.innerHTML = formHTML + "<hr />" + content;
     document.querySelectorAll('pre code').forEach((block) => {
       hljs.highlightBlock(block);
     });
