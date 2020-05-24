@@ -19,6 +19,10 @@
 	.sidenav {padding-top: 15px;}
 	.sidenav a {font-size: 18px;}
 	.sidenav input {width: 80%;}
+	
+	#navbar li a {
+		font-size: 14px;
+	}
 }
 
 @media screen and (max-height: 400px) and (min-height: 50px) {
@@ -43,4 +47,8 @@
 	.sidenav {padding-top: 15px;}
 	.sidenav a {font-size: 18px;}
 	.sidenav input {width: 80%;}
+
+	#navbar li a {
+		font-size: 14px;
+	}
 }
