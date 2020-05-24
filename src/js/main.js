@@ -30,6 +30,16 @@ const textarea_phrases = [
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
 ];
 
+const not_found_phrases = [
+  "uh oh. seems you are lost, little bro. let me get you into the right direction.",
+  "one more arrow button to find your little story...",
+  "did I say that you've got the little treasure?",
+  "one more arrow button or create one. there's nothing here.",
+  "nothing...",
+  "have tried the search button yet? just look at the magnifying glass icon and type something you look for there. it should be worked. good luck... :)",
+  "nothing's here. any place, maybe?"
+];
+
 const got_notes_phrases = [
   "I've got your notes on " + curr_date_str,
   "Here are some notes you recorded on" + curr_date_str,
@@ -39,16 +49,6 @@ const got_notes_phrases = [
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
   "BREAKING NEWS!!!"
 ];
-
-// const got_notes_phrases = [
-//   "I've got your notes on " + curr_date_str,
-//   "Here are some notes you recorded on" + curr_date_str,
-//   curr_date_str + ", such a little history worths...",
-//   "Once upon a time in " + a little history worths,
-//   "Since " + curr_date_str + ",",
-//   "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-//   "BREAKING NEWS!!!"
-// ];
 
 document.getElementById("loading").innerHTML = loading_phrases[Math.floor(Math.random() * loading_phrases.length)];
 
@@ -134,7 +134,7 @@ function getNotes(content) {
   if (content.length > 0) {
     content = content;
   } else {
-    content = ""
+    content = "<p class='date'>" + not_found_phrases[Math.floor(Math.random() * not_found_phrases.length)] + "</p>"
   }
 
   container.innerHTML = formHTML + "<hr />" + content;
