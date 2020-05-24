@@ -42,11 +42,11 @@ const not_found_phrases = [
 ];
 
 const got_notes_phrases = [
-  "I've got your notes on " + curr_date_str,
-  "Here are some notes you recorded on " + curr_date_str,
-  curr_date_str + ", such a little history worths...",
-  "Once upon a time in " + curr_date_str,
-  "Since " + curr_date_str + ",",
+  "I've got your notes on " + get_date_str(curr_date_),
+  "Here are some notes you recorded on " + get_date_str(curr_date_),
+  get_date_str(curr_date_) + ", such a little history worths...",
+  "Once upon a time in " + get_date_str(curr_date_),
+  "Since " + get_date_str(curr_date_) + ",",
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
   "Breaking News!!!"
 ];
@@ -104,11 +104,11 @@ function submitNotes(date, tags, content) {
   reloadNotes();
 }
 
-function reloadNotes(event) {
+function reloadNotes(event, date) {
   let content = "";
 
   data.reverse().forEach(post => {
-    curr_date_str = curr_date_.getDate() + "/" + (curr_date_.getMonth() + 1) + "/" + curr_date_.getFullYear();
+    curr_date_str = get_date_str(curr_date_);
 
     if (curr_date_str == post.date) {
       content += "<div class='post' id='" + post.id + "'> \
@@ -152,7 +152,7 @@ function previousNotes() {
   curr_date_str = get_date_str(curr_date_);
 
   date_ribbon.innerHTML = curr_date_str;
-  reloadNotes()
+  reloadNotes(curr_date_str)
 }
 
 function nextNotes() {
@@ -160,7 +160,7 @@ function nextNotes() {
   curr_date_str = get_date_str(curr_date_);
 
   date_ribbon.innerHTML = curr_date_str;
-  reloadNotes()
+  reloadNotes(curr_date_str)
 }
 
 function get_date_str(date) {
