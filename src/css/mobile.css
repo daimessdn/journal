@@ -11,10 +11,17 @@
 	.container img {
 		max-width: 90%;
 		border: 3px solid #eee;
+		position: sticky;
 	}
 
 	body, pre code, #container input, #container textarea {
 		font-size: 14px;
+	}
+
+	form {
+		top: 8px;
+		position: sticky;
+
 	}
 
 	.sidenav {padding-top: 15px;}
@@ -47,9 +54,15 @@
 		padding-bottom: 35px;
 	}
 
+	form {
+		position: sticky;
+		top: 8px;
+	}
+
 	.container img {
 		max-width: 90%;
 		border: 3px solid #eee;
+		
 	}
 
 	.sidenav {padding-top: 15px;}

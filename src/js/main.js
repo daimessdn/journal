@@ -123,7 +123,8 @@ function getNotes(content) {
                                    onsubmit=\"submitNotes(document.postJournal.date.value, \
                                                           document.postJournal.tags.value, \
                                                           document.postJournal.content.value); return false\" \
-                                   method=\"POST\">\
+                                   method=\"POST\" \
+                                   style='position: sticky;'> \
                         <input type=\"date\" name=\"date\" /> \
                         <input type=\"text\" name=\"tags\" placeholder=\"#tags\"/> \
                         <textarea name=\"content\" placeholder=\"" + textarea_phrases[Math.floor(Math.random() * textarea_phrases.length)] + "\"></textarea> \
@@ -165,10 +166,10 @@ function nextNotes() {
 function get_date_str(date) {
   let str_date;
 
-  if (date.getMonth() < 10) {
+  if (date.getDate() >= 10 && date.getMonth() < 10) {
     str_date = date.getDate() + "/" + ("0" + (date.getMonth() + 1)) + "/" + date.getFullYear();
   }
-  else if (date.getDate() < 10) {
+  else if (date.getDate() < 10 && date.getMonth() >= 10) {
     str_date = ("0" + date.getDate()) + "/" + (date.getMonth() + 1) + "/" + date.getFullYear();
   }
   else if (date.getDate() < 10 && date.getMonth() < 10) {

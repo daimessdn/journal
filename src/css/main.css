@@ -162,3 +162,9 @@ ul {
   transition: margin-left .5s;
   padding: 20px;
 }
+
+form {
+  background-color: #fff;
+  padding: 5px 3px;
+  z-index: 5;
+}
