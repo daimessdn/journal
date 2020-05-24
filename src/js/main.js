@@ -81,23 +81,37 @@ function submitNotes(date, tags, content) {
 
 function reloadNotes(event) {
   let content = "";
-  let cirr_date_str;
+  let curr_date_str;
 
   data.reverse().forEach(post => {
     curr_date_str = curr_date_.getDate() + "/" + (curr_date_.getMonth() + 1) + "/" + curr_date_.getFullYear()
 
     if (curr_date_str == post.date) {
-      content += "<div class='post' id='" + post.id + "'><p class='date'>" + post.date + "</p><span class='tags'>" + post.tags + "</span>" + post.content; 
+      content += "<div class='post' id='" + post.id + "'> \
+                    <p class='date'>" + post.date + "</p> \
+                    <span class='tags'>" + post.tags + "</span>" + post.content; 
     }
   });
 
-  setTimeout(function() {
-    const formHTML = "<form name=\"postJournal\" onsubmit=\"submitNotes(document.postJournal.date.value, document.postJournal.tags.value, document.postJournal.content.value); return false\" method=\"POST\"><input type=\"date\" name=\"date\" /><input type=\"text\" name=\"tags\" placeholder=\"#tags\"/><textarea name=\"content\" placeholder=\"" + textarea_phrases[Math.floor(Math.random() * textarea_phrases.length)] + "\"></textarea><button type=\"submit\">POST</button></form>";
-   
-    container.innerHTML = formHTML + "<hr />" + content;
-    document.querySelectorAll('pre code').forEach((block) => {
-      hljs.highlightBlock(block);
-    });
+  setTimeout(getNotes(content), 3000);
+}
 
-  }, 3000);
+function getNotes(content) {
+  let formHTML = "<form name=\"postJournal\" \
+                                   onsubmit=\"submitNotes(document.postJournal.date.value, \
+                                                          document.postJournal.tags.value, \
+                                                          document.postJournal.content.value); return false\" \
+                                   method=\"POST\">\
+                        <input type=\"date\" name=\"date\" /> \
+                        <input type=\"text\" name=\"tags\" placeholder=\"#tags\"/> \
+                        <textarea name=\"content\" placeholder=\"" + textarea_phrases[Math.floor(Math.random() * textarea_phrases.length)] + "\"></textarea> \
+                        <button type=\"submit\">POST</button> \
+                      </form>";
+  
+  const container = document.getElementById("container");
+  container.innerHTML = formHTML + "<hr />" + content;
+
+  document.querySelectorAll('pre code').forEach((block) => {
+    hljs.highlightBlock(block);
+  });
 }
