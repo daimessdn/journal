@@ -82,5 +82,11 @@ const data = [
   "date": "22/5/2020",
   "tags": "#journal",
   "content": "<p>dear, journal…</p>\n<p>1 more day for my chance to learn many stuffs from Datacamp and today we just started to learn all stuffs about machine learning and data science for Shopee data science competitions. it might be rough, but we sure that we can prepared it all we can…</p>\n<p>wish us luck~~</p>"
-  }
+  },
+  {
+  "id": "knxufdurgk",
+  "date": "24/5/2020",
+  "tags": "#journal",
+  "content": "<p>dear, journal…</p>\n<p>finnaly, I've accomplished two course in Data Science Professional Certificate on IBM Coursera: <strong>Data Analysis with Python</strong> and <strong>Databases and SQL for Data Science</strong>. there's still 4 courses left to get <strong>Certificate of Data Science Professional Certificate</strong>…</p>\n<p>wish me luck~~</p>"
+  },
 ];
