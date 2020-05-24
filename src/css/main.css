@@ -87,8 +87,6 @@ ul {
 
 #navbar {
   background-color: #084177;
-  color: #fff;
-  font: bold 30px "Major Mono Display";
   margin: 0;
   padding: 0;
   list-style: none;
@@ -102,6 +100,12 @@ ul {
 #navbar li {
   padding: 5px;
   display: inline;
+}
+
+#navbar li a {
+  font: bold 30px "Major Mono Display";
+  text-decoration: none;
+  color: #fff;
 }
 
  /* The side navigation menu */

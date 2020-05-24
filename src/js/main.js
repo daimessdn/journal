@@ -1,5 +1,5 @@
 // get current date
-let curr_date_ = new Date("24/5'2022");
+let curr_date_ = new Date("5/24/2020");
 let curr_date_str = curr_date_.getDate() + "/" + (curr_date_.getMonth() + 1) + "/" + curr_date_.getFullYear();
 
 const search_phrases = [
@@ -42,12 +42,12 @@ const not_found_phrases = [
 
 const got_notes_phrases = [
   "I've got your notes on " + curr_date_str,
-  "Here are some notes you recorded on" + curr_date_str,
+  "Here are some notes you recorded on " + curr_date_str,
   curr_date_str + ", such a little history worths...",
   "Once upon a time in " + curr_date_str,
   "Since " + curr_date_str + ",",
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-  "BREAKING NEWS!!!"
+  "Breaking News!!!"
 ];
 
 document.getElementById("loading").innerHTML = loading_phrases[Math.floor(Math.random() * loading_phrases.length)];
@@ -132,7 +132,7 @@ function getNotes(content) {
   const container = document.getElementById("container");
 
   if (content.length > 0) {
-    content = content;
+    content = "<p class='date'>" + got_notes_phrases[Math.floor(Math.random() * not_found_phrases.length)] + "</p>" + content;
   } else {
     content = "<p class='date'>" + not_found_phrases[Math.floor(Math.random() * not_found_phrases.length)] + "</p>"
   }
