@@ -60,7 +60,7 @@ const nav = document.getElementById("mySidenav");
 const search_bar = document.getElementsByTagName("input")[0];
 const container = document.getElementById("container");
 const date_ribbon = document.getElementById("date_ribbon");
-date_ribbon.innerHTML = get_date_str(curr_date_);
+date_ribbon.innerHTML = get_date_str(curr_date_); 
 
 function openNav() {
   if (window.innerWidth <= 500) { nav.style.width = "100%"; }
@@ -163,20 +163,20 @@ function nextNotes() {
 }
 
 function get_date_str(date) {
-  let day, month;
-
-  console.log(date.getDate())
+  let str_date;
 
   if (date.getMonth() < 10) {
-    return date.getDate() + "/" + ("0" + (date.getMonth() + 1)) + "/" + date.getFullYear();
+    str_date = date.getDate() + "/" + ("0" + (date.getMonth() + 1)) + "/" + date.getFullYear();
   }
   else if (date.getDate() < 10) {
-    return ("0" + date.getDate()) + "/" + (date.getMonth() + 1) + "/" + date.getFullYear();
+    str_date = ("0" + date.getDate()) + "/" + (date.getMonth() + 1) + "/" + date.getFullYear();
   }
   else if (date.getDate() < 10 && date.getMonth() < 10) {
-    return ("0" + date.getDate()) + "/" + ("0" + (date.getMonth() + 1)) + "/" + date.getFullYear();
+    str_date = ("0" + date.getDate()) + "/" + ("0" + (date.getMonth() + 1)) + "/" + date.getFullYear();
   }
   else {
-    return date.getDate() + "/" + (date.getMonth() + 1) + "/" + date.getFullYear();
+    str_date = date.getDate() + "/" + (date.getMonth() + 1) + "/" + date.getFullYear();
   }
+
+  return str_date;
 }
