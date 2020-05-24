@@ -37,7 +37,8 @@ const not_found_phrases = [
   "one more arrow button or create one. there's nothing here.",
   "nothing...",
   "have tried the search button yet? just look at the magnifying glass icon and type something you look for there. it should be worked. good luck... :)",
-  "nothing's here. any place, maybe?"
+  "nothing's here. any place, maybe?",
+  "right or left?"
 ];
 
 const got_notes_phrases = [
