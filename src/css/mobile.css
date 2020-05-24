@@ -21,7 +21,7 @@
 	.sidenav input {width: 80%;}
 	
 	#navbar li a {
-	  font: bold 18px "Major Mono Display";
+	  font: bold 20px "Major Mono Display";
 	  text-decoration: none;
 	  color: #fff;
 	}
@@ -37,7 +37,7 @@
 	}
 
 	#navbar li a {
-	  font: bold 18px "Major Mono Display";
+	  font: bold 20px "Major Mono Display";
 	  text-decoration: none;
 	  color: #fff;
 	}
@@ -51,8 +51,4 @@
 	.sidenav {padding-top: 15px;}
 	.sidenav a {font-size: 18px;}
 	.sidenav input {width: 80%;}
-
-	#navbar li a {
-		font-size: 14px;
-	}
 }

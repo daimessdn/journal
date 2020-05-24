@@ -63,13 +63,13 @@ const data = [
     id: "djqezwiq",
       date: "3/5/2020",
       tags: "#journal #gcp",
-      content: "<p>dear, journal…</p>\n<p>finally, I've accomplished #JuaraGCP challenge by completing 12 quests in Qwiklabs.</p>\n<p><img src=\"https://pbs.twimg.com/media/EXCRyd9VcAADeAD?format=jpg&name=large\" alt=\"image\" /></p>\n<p>you can join the challenge by <a href=\"https://goo.gle/JuaraGCP\">one click here</a>. learn some technology concepts on Google Cloud, complete the quests, and get the exclusive swags…</p>\n<p>stay safe, happy learning, and wish u luck~~~\n<strong>*the quests are pretty tough enough. it will be a lot fun...</p>"
+      content: "<p>dear, journal…</p>\n<p>finally, I've accomplished #JuaraGCP challenge by completing 12 quests in Qwiklabs.</p>\n<p><img src=\"https://pbs.twimg.com/media/EXCRyd9VcAADeAD?format=jpg&name=large\" alt=\"image\" /></p>\n<p>you can join the challenge by <a href=\"https://goo.gle/JuaraGCP\">one click here</a>. learn some technology concepts on Google Cloud, complete the quests, and get the exclusive swags…</p>\n<p>stay safe, happy learning, and wish u luck~~~\n<strong>*the quests are pretty tough enough. it will be a lot fun...</strong></p>"
   },
   {
     "id": "bpfgyaonuu",
     "date": "16/5/2020",
     "tags": "#journal #dicoding #ml #finally",
-    "content": "<p>dear, journal…</p>\n<p>it's been a long time I didn't begin to write.</p>\n<p>and finally, I've got my third certificate of dicoding: <strong>Machine Learning for Beginners</strong> after accomplished the module. there's still 2 months left for the announcement of intermediate level of scholarship…</p>\n<p>wish me luck~~</p>\n<p><img src=\"https://lh3.google.com/u/0/d/1FP42bDZ0jQyvG2peTN_IjahWK7_RMRSz=w1600-h801-iv2\" alt=\"my ml cert on dicoding\" /></p>\n<p>** <em>you can join to learn by <a href=\"https://idcamp.indosatooredoo.com/\">clicking here</a>.wish u luck~~~</em>*</p>"
+    "content": "<p>dear, journal…</p>\n<p>it's been a long time I didn't begin to write.</p>\n<p>and finally, I've got my third certificate of dicoding: <strong>Machine Learning for Beginners</strong> after accomplished the module. there's still 2 months left for the announcement of intermediate level of scholarship…</p>\n<p>wish me luck~~</p>\n<p><img src=\"https://lh3.google.com/u/0/d/1FP42bDZ0jQyvG2peTN_IjahWK7_RMRSz=w1600-h801-iv2\" alt=\"my ml cert on dicoding\" /></p>\n<p>**<em>you can join to learn by <a href=\"https://idcamp.indosatooredoo.com/\">clicking here</a>.wish u luck~~~</em></p>"
   },
   {
     "id": "yd09ejaire",
