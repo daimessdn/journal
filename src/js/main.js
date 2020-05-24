@@ -1,6 +1,6 @@
 // get current date
 let curr_date_ = new Date();
-let curr_date_str = curr_date_.getDate() + "/" + (curr_date_.getMonth() + 1) + "/" + curr_date_.getFullYear();
+let curr_date_str = get_date_str(curr_date_);
 
 const search_phrases = [
   "what are you looking for?",
@@ -60,6 +60,7 @@ const nav = document.getElementById("mySidenav");
 const search_bar = document.getElementsByTagName("input")[0];
 const container = document.getElementById("container");
 const date_ribbon = document.getElementById("date_ribbon");
+date_ribbon.innerHTML = get_date_str(curr_date_);
 
 function openNav() {
   if (window.innerWidth <= 500) { nav.style.width = "100%"; }
@@ -147,7 +148,7 @@ function getNotes(content) {
 
 function previousNotes() {
   curr_date_.setDate(curr_date_.getDate() - 1);
-  curr_date_str = curr_date_.getDate() + "/" + (curr_date_.getMonth() + 1) + "/" + curr_date_.getFullYear();
+  curr_date_str = get_date_str(curr_date_);
 
   date_ribbon.innerHTML = curr_date_str;
   reloadNotes()
@@ -155,8 +156,27 @@ function previousNotes() {
 
 function nextNotes() {
   curr_date_.setDate(curr_date_.getDate() + 1);
-  curr_date_str = curr_date_.getDate() + "/" + (curr_date_.getMonth() + 1) + "/" + curr_date_.getFullYear();
+  curr_date_str = get_date_str(curr_date_);
 
   date_ribbon.innerHTML = curr_date_str;
   reloadNotes()
+}
+
+function get_date_str(date) {
+  let day, month;
+
+  console.log(date.getDate())
+
+  if (date.getMonth() < 10) {
+    return date.getDate() + "/" + ("0" + (date.getMonth() + 1)) + "/" + date.getFullYear();
+  }
+  else if (date.getDate() < 10) {
+    return ("0" + date.getDate()) + "/" + (date.getMonth() + 1) + "/" + date.getFullYear();
+  }
+  else if (date.getDate() < 10 && date.getMonth() < 10) {
+    return ("0" + date.getDate()) + "/" + ("0" + (date.getMonth() + 1)) + "/" + date.getFullYear();
+  }
+  else {
+    return date.getDate() + "/" + (date.getMonth() + 1) + "/" + date.getFullYear();
+  }
 }
