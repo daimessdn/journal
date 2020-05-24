@@ -1,6 +1,5 @@
 // get current date
 let curr_date_ = new Date();
-let curr_date_str = get_date_str(curr_date_);
 
 const search_phrases = [
   "what are you looking for?",
@@ -42,11 +41,10 @@ const not_found_phrases = [
 ];
 
 const got_notes_phrases = [
-  "I've got your notes on " + get_date_str(curr_date_),
-  "Here are some notes you recorded on " + get_date_str(curr_date_),
-  get_date_str(curr_date_) + ", such a little history worths...",
-  "Once upon a time in " + get_date_str(curr_date_),
-  "Since " + get_date_str(curr_date_) + ",",
+  "I've got your notes!",
+  "Here are some notes you recorded!",
+  "Once upon a time..."
+  "Since that date,",
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
   "Breaking News!!!"
 ];
@@ -133,6 +131,7 @@ function getNotes(content) {
                       </form>";
   
   const container = document.getElementById("container");
+
 
   if (content.length > 0) {
     content = "<p class='date'>" + got_notes_phrases[Math.floor(Math.random() * not_found_phrases.length)] + "</p>" + content;
