@@ -1,5 +1,5 @@
 // get current date
-let curr_date_ = new Date("5/24/2020");
+let curr_date_ = new Date();
 let curr_date_str = curr_date_.getDate() + "/" + (curr_date_.getMonth() + 1) + "/" + curr_date_.getFullYear();
 
 const search_phrases = [
@@ -59,6 +59,7 @@ document.addEventListener('DOMContentLoaded', reloadNotes());
 const nav = document.getElementById("mySidenav");
 const search_bar = document.getElementsByTagName("input")[0];
 const container = document.getElementById("container");
+const date_ribbon = document.getElementById("date_ribbon");
 
 function openNav() {
   if (window.innerWidth <= 500) { nav.style.width = "100%"; }
@@ -105,7 +106,7 @@ function reloadNotes(event) {
   let content = "";
 
   data.reverse().forEach(post => {
-    curr_date_str = curr_date_.getDate() + "/" + (curr_date_.getMonth() + 1) + "/" + curr_date_.getFullYear()
+    curr_date_str = curr_date_.getDate() + "/" + (curr_date_.getMonth() + 1) + "/" + curr_date_.getFullYear();
 
     if (curr_date_str == post.date) {
       content += "<div class='post' id='" + post.id + "'> \
@@ -142,4 +143,20 @@ function getNotes(content) {
   document.querySelectorAll('pre code').forEach((block) => {
     hljs.highlightBlock(block);
   });
+}
+
+function previousNotes() {
+  curr_date_.setDate(curr_date_.getDate() - 1);
+  curr_date_str = curr_date_.getDate() + "/" + (curr_date_.getMonth() + 1) + "/" + curr_date_.getFullYear();
+
+  date_ribbon.innerHTML = curr_date_str;
+  reloadNotes()
+}
+
+function nextNotes() {
+  curr_date_.setDate(curr_date_.getDate() + 1);
+  curr_date_str = curr_date_.getDate() + "/" + (curr_date_.getMonth() + 1) + "/" + curr_date_.getFullYear();
+
+  date_ribbon.innerHTML = curr_date_str;
+  reloadNotes()
 }

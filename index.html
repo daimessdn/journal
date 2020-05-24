@@ -20,14 +20,16 @@
     <input type="text" name="search_query" placeholder="SEARCH HERE..." />
   </div>
   <ul id="navbar">
-    <li onclick="openNav()"><a href="#"><i class="fa fa-search"></i></a></li>
-    <li>
+    <li onclick="openNav()">
+      <a href="#"><i class="fa fa-search"></i></a>
+    </li>
+    <li onclick="previousNotes()">
       <a href="#"><i class="fa fa-arrow-left"></i></a>
     </li>
-    <li>
+    <li onclick="nextNotes()">
       <a href="#"><i class="fa fa-arrow-right"></i></a>
     </li>
-    <li><a href="#">D</a></li>
+    <li><a href="#"id="date_ribbon">DATE</a></li>
   </ul>
   <div class="container" id="container">
     <p class="date" id="loading">...</p>
