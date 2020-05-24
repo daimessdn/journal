@@ -26,6 +26,8 @@ const textarea_phrases = [
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
 ];
 
+let curr_date_ = new Date();
+
 document.getElementById("loading").innerHTML = loading_phrases[Math.floor(Math.random() * loading_phrases.length)];
 
 // init'd highlight.js and begin highlighting all code related...
@@ -39,7 +41,7 @@ const container = document.getElementById("container");
 function openNav() {
   if (window.innerWidth <= 500) { nav.style.width = "100%"; }
   else if (window.innerHeight <= 400) { nav.style.width = "100%"; }
-  else { nav.style.width = "30%"; }
+  else { nav.style.width = "27%"; }
 
   search_bar.placeholder = search_phrases[Math.floor(Math.random() * search_phrases.length)];
 }
@@ -79,9 +81,14 @@ function submitNotes(date, tags, content) {
 
 function reloadNotes(event) {
   let content = "";
+  let cirr_date_str;
 
   data.reverse().forEach(post => {
-    content += "<div class='post' id='" + post.id + "'><p class='date'>" + post.date + "</p><span class='tags'>" + post.tags + "</span>" + post.content; 
+    curr_date_str = curr_date_.getDate() + "/" + (curr_date_.getMonth() + 1) + "/" + curr_date_.getFullYear()
+
+    if (curr_date_str == post.date) {
+      content += "<div class='post' id='" + post.id + "'><p class='date'>" + post.date + "</p><span class='tags'>" + post.tags + "</span>" + post.content; 
+    }
   });
 
   setTimeout(function() {
