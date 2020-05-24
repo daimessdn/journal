@@ -1,3 +1,7 @@
+// get current date
+let curr_date_ = new Date("24/5'2022");
+let curr_date_str = curr_date_.getDate() + "/" + (curr_date_.getMonth() + 1) + "/" + curr_date_.getFullYear();
+
 const search_phrases = [
   "what are you looking for?",
   "search something, huh?",
@@ -26,7 +30,25 @@ const textarea_phrases = [
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
 ];
 
-let curr_date_ = new Date();
+const got_notes_phrases = [
+  "I've got your notes on " + curr_date_str,
+  "Here are some notes you recorded on" + curr_date_str,
+  curr_date_str + ", such a little history worths...",
+  "Once upon a time in " + curr_date_str,
+  "Since " + curr_date_str + ",",
+  "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+  "BREAKING NEWS!!!"
+];
+
+// const got_notes_phrases = [
+//   "I've got your notes on " + curr_date_str,
+//   "Here are some notes you recorded on" + curr_date_str,
+//   curr_date_str + ", such a little history worths...",
+//   "Once upon a time in " + a little history worths,
+//   "Since " + curr_date_str + ",",
+//   "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+//   "BREAKING NEWS!!!"
+// ];
 
 document.getElementById("loading").innerHTML = loading_phrases[Math.floor(Math.random() * loading_phrases.length)];
 
@@ -81,7 +103,6 @@ function submitNotes(date, tags, content) {
 
 function reloadNotes(event) {
   let content = "";
-  let curr_date_str;
 
   data.reverse().forEach(post => {
     curr_date_str = curr_date_.getDate() + "/" + (curr_date_.getMonth() + 1) + "/" + curr_date_.getFullYear()
@@ -109,6 +130,13 @@ function getNotes(content) {
                       </form>";
   
   const container = document.getElementById("container");
+
+  if (content.length > 0) {
+    content = content;
+  } else {
+    content = ""
+  }
+
   container.innerHTML = formHTML + "<hr />" + content;
 
   document.querySelectorAll('pre code').forEach((block) => {
