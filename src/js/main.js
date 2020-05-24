@@ -134,7 +134,7 @@ function getNotes(content) {
 
 
   if (content.length > 0) {
-    content = "<p class='date'>" + got_notes_phrases[Math.floor(Math.random() * not_found_phrases.length)] + "</p>" + content;
+    content = "<p class='date'>" + got_notes_phrases[Math.floor(Math.random() * got_notes_phrases.length)] + "</p>" + content;
   } else {
     content = "<p class='date'>" + not_found_phrases[Math.floor(Math.random() * not_found_phrases.length)] + "</p>"
   }
