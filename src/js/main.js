@@ -43,7 +43,7 @@ const not_found_phrases = [
 const got_notes_phrases = [
   "I've got your notes!",
   "Here are some notes you recorded!",
-  "Once upon a time..."
+  "Once upon a time...",
   "Since that date,",
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
   "Breaking News!!!"
