@@ -102,7 +102,7 @@ function submitNotes(date, tags, content) {
   reloadNotes();
 }
 
-function reloadNotes(event, date) {
+function reloadNotes(event) {
   let content = "";
 
   data.reverse().forEach(post => {
@@ -123,8 +123,7 @@ function getNotes(content) {
                                    onsubmit=\"submitNotes(document.postJournal.date.value, \
                                                           document.postJournal.tags.value, \
                                                           document.postJournal.content.value); return false\" \
-                                   method=\"POST\" \
-                                   style='position: sticky;'> \
+                                   method=\"POST\"> \
                         <input type=\"date\" name=\"date\" /> \
                         <input type=\"text\" name=\"tags\" placeholder=\"#tags\"/> \
                         <textarea name=\"content\" placeholder=\"" + textarea_phrases[Math.floor(Math.random() * textarea_phrases.length)] + "\"></textarea> \
