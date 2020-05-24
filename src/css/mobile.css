@@ -21,7 +21,9 @@
 	.sidenav input {width: 80%;}
 	
 	#navbar li a {
-		font-size: 14px;
+	  font: bold 18px "Major Mono Display";
+	  text-decoration: none;
+	  color: #fff;
 	}
 }
 
@@ -34,8 +36,10 @@
 		font-size: 14px;
 	}
 
-	.container {
-		width: calc(100% - 8px);
+	#navbar li a {
+	  font: bold 18px "Major Mono Display";
+	  text-decoration: none;
+	  color: #fff;
 	}
 
 	
