@@ -83,7 +83,7 @@ function submitNotes(date, tags, content) {
   };
 
   const currdate = new Date(date);
-  preposted.date = currdate.getDate() + "/" + (currdate.getMonth() + 1) + "/" + currdate.getFullYear();
+  preposted.date = get_date_str(currdate);
 
   var converter = new showdown.Converter();
 
