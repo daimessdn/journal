@@ -89,4 +89,10 @@ const data = [
   "tags": "#journal",
   "content": "<p>dear, journal…</p>\n<p>finnaly, I've accomplished two course in Data Science Professional Certificate on IBM Coursera: <strong>Data Analysis with Python</strong> and <strong>Databases and SQL for Data Science</strong>. there's still 4 courses left to get <strong>Certificate of Data Science Professional Certificate</strong>…</p>\n<p>wish me luck~~</p>"
   },
+    {
+    "id": "pxigoxp",
+    "date": "25/05/2020",
+    "tags": "#journal #learning_exp #aws #ml",
+    "content": "<p>dear, journal…</p>\n<p>Alhamdulliah, several days ago (maybe a week ago), I've got free course of <strong>AWS Machine Learning Fundamentals</strong> as a first step to get a <strong>AWS Machine Learning Nanodegree Scholarships Program</strong> and today is the beginning of the course I've started. you can join too via <a href=\"https://www.udacity.com/scholarships/aws-machine-learning-scholarship-program\">this url</a>. according to the AWS <strong>Google-hosted website</strong>, there will be a second step (I mean, advanced course such as dicoding has maybe). wish me luck for get it and learn a lot…</p>\n<p>*tommorow is Syawal 3rd and ready for the second fasting… wish me luck~~~</p>\n<p><img src=\"https://lh3.google.com/u/0/d/1xduKERO_RJx-TIJpE2uxvrxxAbAzMMij=w1600-h801-iv1\" alt=\"aws scholarship image\" />\n<img src=\"https://lh3.google.com/u/0/d/1b9T5CyPsHt4XoazAHku4sI08uV7GX330=w1600-h547-iv1\" alt=\"first step on AWS ML\" /></p>"
+  }
 ];
