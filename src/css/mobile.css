@@ -9,9 +9,8 @@
 	}
 
 	.container img {
-		max-width: 90%;
+		min-width: 90%;
 		border: 3px solid #eee;
-		position: sticky;
 	}
 
 	body, pre code, #container input, #container textarea {
@@ -21,7 +20,6 @@
 	form {
 		top: 8px;
 		position: sticky;
-
 	}
 
 	.sidenav {padding-top: 15px;}
@@ -60,9 +58,8 @@
 	}
 
 	.container img {
-		max-width: 90%;
-		border: 3px solid #eee;
-		
+		min-width: 87%;
+		border: 3px solid #eee;		
 	}
 
 	.sidenav {padding-top: 15px;}
