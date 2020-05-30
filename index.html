@@ -20,13 +20,24 @@
     <input type="text" name="search_query" placeholder="SEARCH HERE..." />
   </div>
   <ul id="navbar">
-    <li onclick="openNav()">
+    <li
+      onclick="openNav()">
       <a href="#"><i class="fa fa-search"></i></a>
     </li>
-    <li onclick="previousNotes()">
+    <li
+      onclick="previousNotes()"
+      onkeyup="
+                if (event.keyCode == 37) {
+                  previousNotes();
+                }">
       <a href="#"><i class="fa fa-arrow-left"></i></a>
     </li>
-    <li onclick="nextNotes()">
+    <li
+      onclick="nextNotes()"
+      onkeyup="
+                if (event.keyCode == 39) {
+                  nextNotes();
+                }">
       <a href="#"><i class="fa fa-arrow-right"></i></a>
     </li>
     <li><a href="#"id="date_ribbon">DATE</a></li>
