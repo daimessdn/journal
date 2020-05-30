@@ -180,3 +180,14 @@ function get_date_str(date) {
 
   return str_date;
 }
+document.addEventListener("keydown", function(event) {
+  if (event.key == "ArrowRight") {
+    event.preventDefault();
+    document.getElementById('navbar').children[2].click();
+    console.log('next clicked');
+  } else if (event.key == "ArrowLeft") {
+    event.preventDefault();
+    document.getElementById('navbar').children[1].click();
+    console.log('prev clicked');
+  }
+});
