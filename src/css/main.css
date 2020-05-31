@@ -86,7 +86,7 @@ ul {
   animation: blink 1s infinite;
 }
 
-#navbar {
+#navbar, #back-trigger {
   background-color: #084177;
   margin: 0;
   padding: 0;
@@ -98,15 +98,27 @@ ul {
   z-index: 10;
 }
 
+#back-trigger {
+  z-index: 2;
+  white-space: nowrap;
+  transition: all 1s ease;
+  width: 0;
+  overflow: hidden;
+}
+
 #navbar li {
   padding: 5px;
   display: inline;
 }
 
-#navbar li a {
-  font: bold 30px "Major Mono Display";
+#navbar li a, #back-trigger a {
+  font: bold 25px "Major Mono Display";
   text-decoration: none;
   color: #fff;
+}
+
+#back-trigger a {
+  font-size: 20px;
 }
 
  /* The side navigation menu */

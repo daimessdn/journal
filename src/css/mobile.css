@@ -5,7 +5,7 @@
 	
 	.container {
 		width: calc(100% - 8px);
-		padding-bottom: 35px;
+		padding-bottom: 60px;
 	}
 
 	.container img {
@@ -27,9 +27,13 @@
 	.sidenav input {width: 80%;}
 	
 	#navbar li a {
-	  font: bold 20px "Major Mono Display";
+	  font: bold 25px "Major Mono Display";
 	  text-decoration: none;
 	  color: #fff;
+	}
+
+	#back-trigger a {
+	  font-size: 20px;
 	}
 }
 
@@ -43,13 +47,17 @@
 	}
 
 	#navbar li a {
-	  font: bold 20px "Major Mono Display";
+	  font: bold 25px "Major Mono Display";
 	  text-decoration: none;
 	  color: #fff;
 	}
+
+	#back-trigger a {
+	  font-size: 20px;
+	}
 	
 	#container {
-		padding-bottom: 35px;
+		padding-bottom: 6px;
 	}
 
 	form {
