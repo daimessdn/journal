@@ -150,16 +150,43 @@ function previousNotes() {
   curr_date_.setDate(curr_date_.getDate() - 1);
   curr_date_str = get_date_str(curr_date_);
 
+  if (curr_date_str != get_date_str(new Date)) {
+    document.getElementById("back-trigger").style.bottom = "40px";
+    document.getElementById("back-trigger").style.width = "200px";
+  } else {
+    document.getElementById("back-trigger").style.bottom = "8px";
+    document.getElementById("back-trigger").style.width = "0";
+  }
+
   date_ribbon.innerHTML = curr_date_str;
-  reloadNotes(curr_date_str)
+  reloadNotes(curr_date_str);
 }
 
 function nextNotes() {
   curr_date_.setDate(curr_date_.getDate() + 1);
   curr_date_str = get_date_str(curr_date_);
 
+  if (curr_date_str != get_date_str(new Date)) {
+    document.getElementById("back-trigger").style.bottom = "40px";
+    document.getElementById("back-trigger").style.width = "200px";
+  } else {
+    document.getElementById("back-trigger").style.bottom = "8px";
+    document.getElementById("back-trigger").style.width = "0";
+  }
+
   date_ribbon.innerHTML = curr_date_str;
-  reloadNotes(curr_date_str)
+  reloadNotes(curr_date_str);
+}
+
+function toToday() {
+  curr_date_ = new Date();
+  curr_date_str = get_date_str(curr_date_);
+
+  document.getElementById("back-trigger").style.bottom = "8px";
+  document.getElementById("back-trigger").style.width = "0";
+
+  date_ribbon.innerHTML = curr_date_str;
+  reloadNotes(curr_date_str);
 }
 
 function get_date_str(date) {
@@ -180,14 +207,17 @@ function get_date_str(date) {
 
   return str_date;
 }
+
+const navbar = document.getElementById('navbar');
+
 document.addEventListener("keydown", function(event) {
   if (event.key == "ArrowRight") {
     event.preventDefault();
-    document.getElementById('navbar').children[2].click();
+    navbar.children[2].click();
     console.log('next clicked');
   } else if (event.key == "ArrowLeft") {
     event.preventDefault();
-    document.getElementById('navbar').children[1].click();
+    navbar.children[1].click();
     console.log('prev clicked');
   }
 });
