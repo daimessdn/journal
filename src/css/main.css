@@ -99,7 +99,7 @@ ul {
 }
 
 #back-trigger {
-  z-index: 2;
+  z-index: 7;
   white-space: nowrap;
   transition: all 1s ease;
   width: 0;
