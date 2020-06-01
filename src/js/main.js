@@ -152,10 +152,10 @@ function previousNotes() {
 
   if (curr_date_str != get_date_str(new Date)) {
     document.getElementById("back-trigger").style.bottom = "40px";
-    document.getElementById("back-trigger").style.width = "200px";
+    document.getElementById("back-trigger").style.opacity = "1";
   } else {
     document.getElementById("back-trigger").style.bottom = "8px";
-    document.getElementById("back-trigger").style.width = "0";
+    document.getElementById("back-trigger").style.opacity = "0";
   }
 
   date_ribbon.innerHTML = curr_date_str;
@@ -168,10 +168,10 @@ function nextNotes() {
 
   if (curr_date_str != get_date_str(new Date)) {
     document.getElementById("back-trigger").style.bottom = "40px";
-    document.getElementById("back-trigger").style.width = "200px";
+    document.getElementById("back-trigger").style.opacity = "1";
   } else {
     document.getElementById("back-trigger").style.bottom = "8px";
-    document.getElementById("back-trigger").style.width = "0";
+    document.getElementById("back-trigger").style.opacity = "0";
   }
 
   date_ribbon.innerHTML = curr_date_str;
@@ -183,7 +183,7 @@ function toToday() {
   curr_date_str = get_date_str(curr_date_);
 
   document.getElementById("back-trigger").style.bottom = "8px";
-  document.getElementById("back-trigger").style.width = "0";
+  document.getElementById("back-trigger").style.opacity = "0";
 
   date_ribbon.innerHTML = curr_date_str;
   reloadNotes(curr_date_str);

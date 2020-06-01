@@ -102,7 +102,7 @@ ul {
   z-index: 7;
   white-space: nowrap;
   transition: all 1s ease;
-  width: 0;
+  opacity: 0;
   overflow: hidden;
 }
 
