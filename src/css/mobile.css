@@ -3,12 +3,12 @@
 		overflow-y: scroll;;
 	}
 	
-	.container {
-		width: calc(100% - 8px);
+	#container {
+		width: calc(100% - 18px);
 		padding-bottom: 60px;
 	}
 
-	.container img {
+	#container img {
 		min-width: 90%;
 		border: 3px solid #eee;
 	}
