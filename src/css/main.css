@@ -15,14 +15,19 @@
   src: url("Akkurat-Mono.OTF");
 }
 
+html {
+  height: 100%;
+  overflow-y: scroll;
+}
+
 body {
   font-family: "Helvetica";
-  line-height: 1.3;
 }
 
 #container {
   width: 70%;
   padding-bottom: 35px;
+  line-height: 1.3;
 }
 
 #container input, #container button {
