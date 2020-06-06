@@ -107,4 +107,11 @@ const data = [
     "tags": "#journal",
     "content": "<p>dear, journal…</p>\n<p>finally, I've got email from <strong>sanbercode</strong> staff about my completion certification of <em>data science</em> course.</p>\n<p>thank you for <strong>sanbercode</strong> for the best learning experiences of data science with <em>relaxed</em>, but <em>qualified</em> way (in indo: <strong>san</strong>tai dan <strong>ber</strong>kualitas). I've learned so many concepts and codings about <strong>basic Python</strong>, <strong>using Pandas with Python</strong>, using matplotlib for <strong>data visualiation</strong>, and basic <strong>machine learning</strong>.</p>\n<p><strong>what's next?</strong> learning is still not stopped until here. there so many things I need to learn to really understand the concepts about data science and machine learning. I don't know where the learning leads to the end, but I've got reminded by these two quote which I've got from <strong>freecodecamp</strong> website…</p>\n<blockquote>\n  <p><em>\"Do not go where the path may lead, go instead where there is no path and leave a trail.\"</em><br />\n-<strong>Ralph Waldo Emerson</strong></p></blockquote><blockquote><p><em>\"If you can't fly then run, if you can't run then walk, if you can't walk then crawl, but whatever you do you have to keep moving forward.\"</em><br />\n  -<strong>Martin Luther King Jr.</strong></p>\n</blockquote>"
   },
+  {
+    "id": "qxxdxh",
+    "date": "04/06/2020",
+    "tags": "#journal #alibabacloud #learning_exp",
+    "content": "<p>dear, journal…</p>\n<p>I watched Alibaba Cloud Indonesia Cloud Native Day 2020 webinar and learned many things about DevOps, Monoloth and Microservices, and more there. Thanks for Alibaba Cloud for the webinar. I learned a lot.</p>\n<p>and I also accomplished 8 clouder certifications from this webinar. the test was hard so much, but finally I accomplished it…</p>\n<p><img src=\"https://lh3.google.com/u/0/d/1v-u0WNtvQ6zaY-vzTft6_d23c9GeP57V=w1600-h547-iv1\" alt=\"8 certificates\" /></p>\n<p>after this webinar, there are many interesting thing from Alibaba Cloud…</p>\n<p>coming soon~~~</p>\n<p><img src=\"https://lh3.google.com/u/0/d/1Ci10mzLaS2ejWWbbKykwro7ojvP_IwlL=w1600-h547-iv1\" alt=\"coming soon\" /></p>"
+  },
+  
 ];
