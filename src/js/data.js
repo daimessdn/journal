@@ -113,5 +113,10 @@ const data = [
     "tags": "#journal #alibabacloud #learning_exp",
     "content": "<p>dear, journal…</p>\n<p>I watched Alibaba Cloud Indonesia Cloud Native Day 2020 webinar and learned many things about DevOps, Monoloth and Microservices, and more there. Thanks for Alibaba Cloud for the webinar. I learned a lot.</p>\n<p>and I also accomplished 8 clouder certifications from this webinar. the test was hard so much, but finally I accomplished it…</p>\n<p><img src=\"https://lh3.google.com/u/0/d/1v-u0WNtvQ6zaY-vzTft6_d23c9GeP57V=w1600-h547-iv1\" alt=\"8 certificates\" /></p>\n<p>after this webinar, there are many interesting thing from Alibaba Cloud…</p>\n<p>coming soon~~~</p>\n<p><img src=\"https://lh3.google.com/u/0/d/1Ci10mzLaS2ejWWbbKykwro7ojvP_IwlL=w1600-h547-iv1\" alt=\"coming soon\" /></p>"
   },
-  
+  {
+    "id": "wcbzbsjbon",
+    "date": "05/06/2020",
+    "tags": "#journal #blender3d #learning_exp",
+    "content": "<p>dear, journal…</p>\n<p>I've created virus model with Blender 2.82. thanks for <a href=\"https://www.youtube.com/watch?v=s1NEEM8FPZ0\">CGI DEAL</a> for the YouTube video which helps me create this amazing (but still ugly) virus model. maybe I can create better than I was made today.</p>\n<p><img src=\"https://lh3.google.com/u/0/d/196-4GunuRTJDJYKErMLDrKa5-KFKHLJs=w1600-h547-iv1\" alt=\"virus model\" /></p>\n<p>unfortunately, I can't export whole model along with color modelling for my Augmented Reality testing on the web (<a href=\"https://ar-js-org.github.io\">AR.js</a> and <a href=\"https://a-frame.io\">A-FRAME</a>). I will find out how to solve this and make my model visible in AR.js…</p>\n<p>wish me luck~~~</p>"
+  }
 ];
