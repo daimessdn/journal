@@ -131,4 +131,10 @@ const data = [
     "tags": "#journal",
     "content": "<p>dear, journal…</p>\n<p>since 4 days ago, I've accepted Awla's little commitment job for creating website forum for college major and I'm still being stuck on how to make the scrollable behavior on each columns. this challenge is so stressful by today so I need to do so one-hour-rest for today before I begin to continue again…</p>\n<p><em>Bismillah…</em></p>"
   },
+  {
+    "id": "hpxiaece",
+    "date": "16/06/2020",
+    "tags": "#journal",
+    "content": "<p>dear, journal…</p>\n<p>it's been 2 day ago since I've joined Mongga project by Awla and friends and I've made a big improvements of web template made. you can see what it's like by <a href=\"https://daimessdn.github.io/mongga-template\">clicking here</a>.</p>\n<p>OK, maybe that's all until I begin to continue this project tomorrow…</p>\n<p>wish me luck~~~</p>"
+  },
 ];
