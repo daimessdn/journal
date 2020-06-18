@@ -111,7 +111,7 @@ function reloadNotes(event) {
     if (curr_date_str == post.date) {
       content += "<div class='post' id='" + post.id + "'> \
                     <p class='date'>" + post.date + "</p> \
-                    <span class='tags'>" + post.tags + "</span>" + post.content; 
+                    <span class='tags'>" + post.tags + "</span>" + post.content + "</div>";
     }
   });
 
