@@ -52,7 +52,7 @@ body {
 }
 
 .post {
-  border-left: 10px solid #ff938a;
+  border-left: 10px solid #d7686d;
   padding: 5px;
   margin-top: 15px;
 }
@@ -75,6 +75,7 @@ blockquote {
   border-left: 10px solid #222222;
   padding-left: 10px;
 }
+
 .date {
   font-family: "Major Mono Display";
   font-style: 24px;
