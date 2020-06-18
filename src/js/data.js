@@ -125,4 +125,10 @@ const data = [
     "tags": "#journal",
     "content": "<p>dear, journal…</p>\n<p>I was so excited to attend the <a href=\"https://www.youtube.com/watch?v=Fcf0-VrGzig\">Virtual Graduation Day 2019</a> from Indosat Ooredoo Digital Camp (IDCamp) and meet the <em>cum laude</em> fresh graduate of IDCamp 2019 Awardee. I was also excited to hear the motivated messages and materials from speakers there. thanks for this webinar. hope will be the next fresh graduates…</p>\n<p>wish me luck~~~</p>\n<p>*wish u a happy birthday for my elder brother…</p>"
   },
+  {
+    "id": "tcydnouqmxe",
+    "date": "18/06/2020",
+    "tags": "#journal",
+    "content": "<p>dear, journal…</p>\n<p>since 4 days ago, I've accepted Awla's little commitment job for creating website forum for college major and I'm still being stuck on how to make the scrollable behavior on each columns. this challenge is so stressful by today so I need to do so one-hour-rest for today before I begin to continue again…</p>\n<p><em>Bismillah…</em></p>"
+  },
 ];
