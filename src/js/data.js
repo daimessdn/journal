@@ -118,5 +118,11 @@ const data = [
     "date": "05/06/2020",
     "tags": "#journal #blender3d #learning_exp",
     "content": "<p>dear, journal…</p>\n<p>I've created virus model with Blender 2.82. thanks for <a href=\"https://www.youtube.com/watch?v=s1NEEM8FPZ0\">CGI DEAL</a> for the YouTube video which helps me create this amazing (but still ugly) virus model. maybe I can create better than I was made today.</p>\n<p><img src=\"https://lh3.google.com/u/0/d/196-4GunuRTJDJYKErMLDrKa5-KFKHLJs=w1600-h547-iv1\" alt=\"virus model\" /></p>\n<p>unfortunately, I can't export whole model along with color modelling for my Augmented Reality testing on the web (<a href=\"https://ar-js-org.github.io\">AR.js</a> and <a href=\"https://a-frame.io\">A-FRAME</a>). I will find out how to solve this and make my model visible in AR.js…</p>\n<p>wish me luck~~~</p>"
-  }
+  },
+  {
+    "id": "tlrcxwk",
+    "date": "18/06/2020",
+    "tags": "#journal",
+    "content": "<p>dear, journal…</p>\n<p>I was so excited to attend the <a href=\"https://www.youtube.com/watch?v=Fcf0-VrGzig\">Virtual Graduation Day 2019</a> from Indosat Ooredoo Digital Camp (IDCamp) and meet the <em>cum laude</em> fresh graduate of IDCamp 2019 Awardee. I was also excited to hear the motivated messages and materials from speakers there. thanks for this webinar. hope will be the next fresh graduates…</p>\n<p>wish me luck~~~</p>\n<p>*wish u a happy birthday for my elder brother…</p>"
+  },
 ];
