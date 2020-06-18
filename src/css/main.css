@@ -54,6 +54,7 @@ body {
 .post {
   border-left: 10px solid #ff938a;
   padding: 5px;
+  margin-top: 15px;
 }
 
 pre code {
@@ -78,7 +79,7 @@ blockquote {
   font-family: "Major Mono Display";
   font-style: 24px;
   font-weight: bold;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .date::before {
