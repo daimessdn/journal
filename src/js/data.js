@@ -137,4 +137,10 @@ const data = [
     "tags": "#journal",
     "content": "<p>dear, journal…</p>\n<p>it's been 2 day ago since I've joined Mongga project by Awla and friends and I've made a big improvements of web template made. you can see what it's like by <a href=\"https://daimessdn.github.io/mongga-template\">clicking here</a>.</p>\n<p>OK, maybe that's all until I begin to continue this project tomorrow…</p>\n<p>wish me luck~~~</p>"
   },
+  {
+    "id": "nmonh",
+    "date": "19/06/2020",
+    "tags": "#journal",
+    "content": "<p>dear, journal…</p>\n<p>I didn't know what I want to do so that I decided to write this random note. I also have done several homeworks on Udemy about Python hands-on, which I got it free.</p>\n<p>okay,that's all~~</p>\n<p>*by the way, I've got chat with Kak Laura, one of Google Indonesia Staff and she will send me something outside of #JuaraGCP swags, which I will know what kind of something she will give me. can't wait!!!</p>"
+  },
 ];
