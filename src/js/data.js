@@ -153,6 +153,6 @@ const data = [
     "id": "ryyaqrt",
     "date": "21/06/2020",
     "tags": "#journal #JuaraGCP",
-    "content": "<p>dear, journal…</p>\n<p>2 days ago, Kak Laura Viloma chatted me about something the she will give to me, and today, she chatted me again and also emailed me about the same thing~~~</p>\n<p>thanks, Kak Laura for the email. and I know why I and several people of #JuaraGCP received that email. it was great to oin with #JuaraGCP and learning together~</p>\n<p>OK, what's next then?</p>"
+    "content": "<p>dear, journal…</p>\n<p>2 days ago, Kak Laura Viloma chatted me about something that she will give to me, and today, she chatted me again and also emailed me about the same thing~~~</p>\n<p>thanks, Kak Laura for the email. and I know why I and several people of #JuaraGCP received that email. it was great to join with #JuaraGCP and learning together~</p>\n<img src='https://lh3.google.com/u/0/d/1wJZHvdn2oa3rZ0D7VNdn4352OaJkk1Ge=w1600-h801-iv1'>\n<p>OK, what's next then?</p>"
   },
 ];
