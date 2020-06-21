@@ -143,4 +143,10 @@ const data = [
     "tags": "#journal",
     "content": "<p>dear, journal…</p>\n<p>I didn't know what I want to do so that I decided to write this random note. I also have done several homeworks on Udemy about Python hands-on, which I got it free.</p>\n<p>okay,that's all~~</p>\n<p>*by the way, I've got chat with Kak Laura, one of Google Indonesia Staff and she will send me something outside of #JuaraGCP swags, which I will know what kind of something she will give me. can't wait!!!</p>"
   },
+  {
+    "id": "cqrrewb",
+    "date": "20/06/2020",
+    "tags": "#journal #shopeeodeleague #competition",
+    "content": "<p>dear, journal…</p>\n<p>the second competition of Shopee Code League was just begun. in this competition, our team are asked to classify (or categorized) so huge of product image of data!!! can't be easy, but it must be wonderful to solve…</p>\n<p>unfortunately, for this time, we cannot download the data since there are so many participants who had downloaded the data. we just focus on algorithm strategy how to detect an image and classify them.</p>\n<p>luckily, I've learned a little about image recognition from <strong>dicoding</strong> 'Machine Learning for Beginners' class. and thanks for our leader, Ronny Fahrudin for another material he shared to us. we shared our notebooks each other for our learning.</p>\n<p>good luck for us (<em>Bismillah</em>)~~~</p>"
+  },
 ];
