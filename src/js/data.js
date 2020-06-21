@@ -155,4 +155,10 @@ const data = [
     "tags": "#journal #JuaraGCP",
     "content": "<p>dear, journal…</p>\n<p>2 days ago, Kak Laura Vieloma chatted me about something that she will give to me, and today, she chatted me again and also emailed me about the same thing~~~</p>\n<p>thanks, Kak Laura for the email. and I know why I and several people of #JuaraGCP received that email. it was great to join with #JuaraGCP and learning together~</p>\n<img src='https://lh3.google.com/u/0/d/1wJZHvdn2oa3rZ0D7VNdn4352OaJkk1Ge=w1600-h801-iv1'>\n<p>OK, what's next then?</p>"
   },
+  {
+    "id": "tkhlayivo",
+    "date": "21/06/2020",
+    "tags": "#journal #googlecloud",
+    "content": "<p>dear, journal…</p>\n<p>since last night (actually 11 PM), I watch the webinar about how to prepare the Google Cloud Certification Exam with the special speaker, Mr. Dan Sullivan on (Youtube)[https://www.youtube.com/watch?v=QOJGZqZdRS8&amp;feature=youtu.be]. unfortunately, I cannot join the webinar on Google Meet since my laptop don't have qualified connection and specs enough 😅 to join.</p>\n<p>Thanks for Google Developers Groups (GDG) Capital Region and other GDG communities for the webinar. I've learned a lot and got refreshed about GCP I've learned before…</p>"
+  },
 ];
