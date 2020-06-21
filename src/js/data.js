@@ -159,6 +159,6 @@ const data = [
     "id": "tkhlayivo",
     "date": "21/06/2020",
     "tags": "#journal #googlecloud",
-    "content": "<p>dear, journal…</p>\n<p>since last night (actually 11 PM), I watch the webinar about how to prepare the Google Cloud Certification Exam with the special speaker, Mr. Dan Sullivan on (Youtube)[https://www.youtube.com/watch?v=QOJGZqZdRS8&amp;feature=youtu.be]. unfortunately, I cannot join the webinar on Google Meet since my laptop don't have qualified connection and specs enough 😅 to join.</p>\n<p>Thanks for Google Developers Groups (GDG) Capital Region and other GDG communities for the webinar. I've learned a lot and got refreshed about GCP I've learned before…</p>"
+    "content": "<p>dear, journal…</p>\n<p>since last night (actually 11 PM), I watch the webinar about how to prepare the Google Cloud Certification Exam with the special speaker, Mr. Dan Sullivan on <a href='https://www.youtube.com/watch?v=QOJGZqZdRS8&amp;feature=youtu.be'>Youtube</a>. unfortunately, I cannot join the webinar on Google Meet since my laptop don't have qualified connection and specs enough 😅 to join.</p>\n<p>Thanks for Google Developers Groups (GDG) Capital Region and other GDG communities for the webinar. I've learned a lot and got refreshed about GCP I've learned before…</p>"
   },
 ];
