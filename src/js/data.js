@@ -167,4 +167,10 @@ const data = [
     "tags": "#journal",
     "content": "<p>dear, journal…</p>\n<p>the 'small gift' that Kak Laura told to me has finally arrive on my boarding house (<strong><em>indekos</em></strong>) and I can't believe that the gift was a bluetooth speaker. so cute!!!</p>\n<p><img src=\"https://lh3.google.com/u/0/d/1nVdDcKn5ND8IvceSi2QvN_f6anBmnLMi=w1600-h801-iv1\" alt=\"small gift from Google Cloud\" /></p>"
   },
+  {
+    "id": "nnfgsd",
+    "date": "26/06/2020",
+    "tags": "#python #algorithm #hackerearth",
+    "content": "<h3 id=\"jadoovskobahttpswwwhackerearthcompracticepythongettingstartedinputandoutputpracticeproblemsgolfjadoovskobadescription\"><a href=\"https://www.hackerearth.com/practice/python/getting-started/input-and-output/practice-problems/golf/jadoo-vs-koba/description/\">Jadoo vs Koba</a></h3>\n<h4 id=\"qualification\">Qualification:</h4>\n<ul>\n<li>Not using integer in the program</li>\n<li>Program doesn't exceed 100 characters</li>\n</ul>\n<pre><code class=\"py language-py\"># Prints the value in interval 70 - 80\n## Using *ord('char')* method to get the integer value\n## based on Unicode character\nfor i in range(ord('F'), ord('Q')):\n    print(i)\n</code></pre>"
+  },
 ];
