@@ -174,6 +174,12 @@ const data = [
     "content": "<h3 id=\"jadoovskobahttpswwwhackerearthcompracticepythongettingstartedinputandoutputpracticeproblemsgolfjadoovskobadescription\"><a href=\"https://www.hackerearth.com/practice/python/getting-started/input-and-output/practice-problems/golf/jadoo-vs-koba/description/\">Jadoo vs Koba</a></h3>\n<ul>\n<li>Not using integer in the program</li>\n<li>Program doesn't exceed 100 characters</li>\n</ul>\n<pre><code class=\"py language-py\"># Prints the value in interval 70 - 80\n## Using *ord('char')* method to get the integer value\n## based on Unicode character\nfor i in range(ord('F'), ord('Q')):\n    print(i)\n</code></pre>"
   },
     {
+    "id": "eylpamf",
+    "date": "26/06/2020",
+    "tags": "#journal",
+    "content": "<p>dear, journal…</p>\n<p>I want to post my algorithm code somewhere to get everything get organized. but I don't know where. should I put it on this journal, or let me just put them on one repository? hmm, so confused &gt;o&lt;…</p>"
+  },
+  {
     "id": "lopxc",
     "date": "27/06/2020",
     "tags": "#journal",
