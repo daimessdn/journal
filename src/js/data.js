@@ -184,5 +184,11 @@ const data = [
     "date": "27/06/2020",
     "tags": "#journal",
     "content": "<p>dear journal…</p>\n<p>we joined the 3rd (I guess…) Shopee Code League competition about the mini programming contest. unfortunately, we've only be able to solve 2 of 5 challenges out there. the challenges was very hard &gt;.&lt;, but that was fun.</p>\n<p>hmm… I we should get more exercise, then…</p>"
+  },
+  {
+    "id": "pobuccvq",
+    "date": "28/06/2020",
+    "tags": "#journal",
+    "content": "<p>dear, journal…</p>\n<p>last night, I have been learning <strong>Swift</strong> courses from dicoding.</p>\n<p>still 20% of my progress recorded today, but I think I can complete it if I have no busy of any webinar and another courses…</p>\n<p>keep fighting ✊✊✊</p>"
   }
 ];
