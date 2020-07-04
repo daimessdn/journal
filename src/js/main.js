@@ -188,7 +188,7 @@ function previousNotes() {
 
   if (curr_date_str != get_date_str(new Date)) {
     document.getElementById("back-trigger").style.bottom = "40px";
-    document.getElementById("push-trigger").style.bottom = "70px";
+    document.getElementById("push-trigger").style.bottom = "68px";
     document.getElementById("back-trigger").style.opacity = "1";
   } else {
     document.getElementById("back-trigger").style.bottom = "8px";
@@ -206,7 +206,7 @@ function nextNotes() {
 
   if (curr_date_str != get_date_str(new Date)) {
     document.getElementById("back-trigger").style.bottom = "40px";
-    document.getElementById("push-trigger").style.bottom = "70px";
+    document.getElementById("push-trigger").style.bottom = "68px";
     document.getElementById("back-trigger").style.opacity = "1";
   } else {
     document.getElementById("back-trigger").style.bottom = "8px";
