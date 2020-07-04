@@ -270,5 +270,5 @@ function closePushTrigger() {
   push_trigger.bottom = "8px";
   push_trigger.opacity = 0;
 
-  setTimeout(push_trigger.display = "none", 1000);
+  // setTimeout(push_trigger.display = "none", 1000);
 }
