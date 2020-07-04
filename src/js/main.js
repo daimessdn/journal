@@ -1,5 +1,6 @@
 // get current date
 let curr_date_ = new Date();
+let hour = curr_date_.getHours();
 
 const search_phrases = [
   "what are you looking for?",
@@ -79,9 +80,9 @@ const evening = push_phrases.evening;
 
 document.getElementById("loading").innerHTML = loading_phrases[Math.floor(Math.random() * loading_phrases.length)];
 
-if (curr_date_.getHours() >= 6 && curr_date_.getHours() < 12) {
+if (hour >= 6 && hour < 12) {
   document.getElementById("push-message").innerHTML = morning[Math.floor(Math.random() * morning.length)];
-} else if (curr_date_.getHours() >= 12 && curr_date_.getHours() < 19) {
+} else if (hour >= 12 && hour < 19) {
   document.getElementById("push-message").innerHTML = afternoon[Math.floor(Math.random() * afternoon.length)];
 } else {
   document.getElementById("push-message").innerHTML = evening[Math.floor(Math.random() * evening.length)];
@@ -223,6 +224,7 @@ function toToday() {
   curr_date_str = get_date_str(curr_date_);
 
   document.getElementById("back-trigger").style.bottom = "8px";
+  document.getElementById("push-trigger").style.bottom = "40px";
   document.getElementById("back-trigger").style.opacity = "0";
 
   date_ribbon.innerHTML = curr_date_str;
