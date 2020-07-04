@@ -10,6 +10,17 @@
   }
 }
 
+@keyframes push-appear {
+  from {
+    opacity: 0;
+    bottom: 8px;
+  }
+  to {
+    opacity: 1;
+    bottom: 40px;
+  }
+}
+
 @font-face {
   font-family: "Akkurat Mono";
   src: url("Akkurat-Mono.OTF");
@@ -111,7 +122,7 @@ ul {
   animation: blink 1s infinite;
 }
 
-#navbar, #back-trigger {
+#navbar, #back-trigger, #push-trigger {
   background-color: #084177;
   margin: 0;
   padding: 0;
@@ -136,10 +147,32 @@ ul {
   display: inline;
 }
 
+#next {
+  width: 3px;
+  transition: all 1s ease;
+}
+
 #navbar li a, #back-trigger a {
   font: bold 25px "Major Mono Display";
   text-decoration: none;
   color: #fff;
+}
+
+#push-trigger {
+  font: bolder 16px "Major Mono Display";
+  width: 300px;
+  padding: 8px;
+  bottom: 40px;
+  text-decoration: none;
+  color: #fff;
+  z-index: 5;
+  transition: all 0.5s ease;
+  animation: push-appear 0.5s ease;
+}
+
+#close-push-trigger {
+  float: right;
+  font-weight: bolder;
 }
 
 #back-trigger a {

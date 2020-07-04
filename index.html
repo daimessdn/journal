@@ -25,20 +25,32 @@
       <a href="#"><i class="fa fa-search"></i></a>
     </li>
     <li
-      onclick="previousNotes()">
+      onclick="previousNotes()"
+      id="previous">
       <a href="#"><i class="fa fa-arrow-left"></i></a>
     </li>
     <li
-      onclick="nextNotes()">
+      onclick="nextNotes()"
+      id="next">
       <a href="#"><i class="fa fa-arrow-right"></i></a>
     </li>
     <li>
-      <a href="#"id="date_ribbon">DATE</a>
+      <a href="#" id="date_ribbon">DATE</a>
     </li>
   </ul>
 
   <div id="back-trigger">
     <a href="#" onclick="toToday()">BACK TO TODAY</a>
+  </div>
+
+  <div id="push-trigger">
+    <span
+      id="close-push-trigger"
+      onclick="closePushTrigger()">&times;</span>
+    <span id="push-message">
+      This is a message.<br />
+      Hello, world!
+    </span>
   </div>
 
   <div class="container" id="container">

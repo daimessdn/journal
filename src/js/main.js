@@ -49,7 +49,43 @@ const got_notes_phrases = [
   "Breaking News!!!"
 ];
 
+const push_phrases = {
+  morning: [
+    "good morninig <br />OK, only that.",
+    "slept well last night?",
+    "have something to write?<br/>we have a writing space top there.",
+    "got your breakfast and your coffee ready yet?",
+    "rise and shine...",
+  ],
+  afternoon: [
+    "do you have prepared your sunblock already?",
+    "wait. is it still morning?<br />why the people said it's afternoon?",
+    "don't forget to have some few rest.<br />it's lunch time I think.",
+    "(stretch)",
+    "...",
+  ],
+  evening: [
+    "alreaddy have dinner?",
+    "good night...",
+    "zzz...",
+    "can't sleep?",
+    "need a bedtime story?",
+  ],
+}
+
+const morning = push_phrases.morning;
+const afternoon = push_phrases.afternoon;
+const evening = push_phrases.evening;
+
 document.getElementById("loading").innerHTML = loading_phrases[Math.floor(Math.random() * loading_phrases.length)];
+
+if (curr_date_.getHours() >= 6 && curr_date_.getHours() < 12) {
+  document.getElementById("push-message").innerHTML = morning[Math.floor(Math.random() * morning.length)];
+} else if (curr_date_.getHours() >= 12 && curr_date_.getHours() < 19) {
+  document.getElementById("push-message").innerHTML = afternoon[Math.floor(Math.random() * afternoon.length)];
+} else {
+  document.getElementById("push-message").innerHTML = evening[Math.floor(Math.random() * evening.length)];
+}
 
 // init'd highlight.js and begin highlighting all code related...
 document.addEventListener('DOMContentLoaded', reloadNotes());
@@ -152,9 +188,11 @@ function previousNotes() {
 
   if (curr_date_str != get_date_str(new Date)) {
     document.getElementById("back-trigger").style.bottom = "40px";
+    document.getElementById("push-trigger").style.bottom = "70px";
     document.getElementById("back-trigger").style.opacity = "1";
   } else {
     document.getElementById("back-trigger").style.bottom = "8px";
+    document.getElementById("push-trigger").style.bottom = "40px";
     document.getElementById("back-trigger").style.opacity = "0";
   }
 
@@ -168,9 +206,11 @@ function nextNotes() {
 
   if (curr_date_str != get_date_str(new Date)) {
     document.getElementById("back-trigger").style.bottom = "40px";
+    document.getElementById("push-trigger").style.bottom = "70px";
     document.getElementById("back-trigger").style.opacity = "1";
   } else {
     document.getElementById("back-trigger").style.bottom = "8px";
+    document.getElementById("push-trigger").style.bottom = "40px";
     document.getElementById("back-trigger").style.opacity = "0";
   }
 
@@ -187,6 +227,8 @@ function toToday() {
 
   date_ribbon.innerHTML = curr_date_str;
   reloadNotes(curr_date_str);
+
+  document.getElementById("next").style.width = 0;
 }
 
 function get_date_str(date) {
@@ -214,10 +256,19 @@ document.addEventListener("keydown", function(event) {
   if (event.key == "ArrowRight") {
     event.preventDefault();
     navbar.children[2].click();
-    console.log('next clicked');
+    // console.log('next clicked');
   } else if (event.key == "ArrowLeft") {
     event.preventDefault();
     navbar.children[1].click();
-    console.log('prev clicked');
+    // console.log('prev clicked');
   }
 });
+
+function closePushTrigger() {
+  const push_trigger = document.getElementById("push-trigger").style;
+
+  push_trigger.bottom = "8px";
+  push_trigger.opacity = 0;
+
+  setTimeout(push_trigger.display = "none", 1000);
+}
