@@ -190,5 +190,11 @@ const data = [
     "date": "28/06/2020",
     "tags": "#journal",
     "content": "<p>dear, journal…</p>\n<p>last night, I have been learning <strong>Swift</strong> courses from dicoding.</p>\n<p>still 20% of my progress recorded today, but I think I can complete it if I have no busy of any webinar and another courses…</p>\n<p>keep fighting ✊✊✊</p>"
-  }
+  },
+  {
+    "id": "qnxrlitv",
+    "date": "27/07/2020",
+    "tags": "#mongodb #learning",
+    "content": "<p>dear journal…</p>\n<p>I've been learning some basic <code>MongoDB</code> after several times failed to install it and finally succeeded. here are some basic syntaxes did I learned so far.</p>\n<ul>\n<li>let's see what database do we use currently: <br /></li>\n</ul>\n<pre><code>&gt; db\ntest\n</code></pre>\n<ul>\n<li>let's show our databases there: <br /></li>\n</ul>\n<pre><code>&gt; show dbs\nadmin     0.000GB\nconfig    0.000GB\nlocal     0.000GB\ntokobuku  0.000GB\n</code></pre>"
+  },
 ];
