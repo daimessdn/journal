@@ -78,18 +78,27 @@ const push_phrases = {
   ],
 }
 
-const morning = push_phrases.morning;
-const afternoon = push_phrases.afternoon;
-const evening = push_phrases.evening;
+const search = search_phrases[Math.floor(Math.random() * search_phrases.length)];
+const loading = loading_phrases[Math.floor(Math.random() * loading_phrases.length)];
 
-document.getElementById("loading").innerHTML = loading_phrases[Math.floor(Math.random() * loading_phrases.length)];
+const morning = push_phrases.morning[
+                  Math.floor(Math.random() * push_phrases.morning.length)
+                ];
+const afternoon = push_phrases.afternoon[
+                  Math.floor(Math.random() * push_phrases.afternoon.length)
+                ];
+const evening = push_phrases.evening[
+                  Math.floor(Math.random() * push_phrases.evening.length)
+                ];
+
+document.getElementById("loading").innerHTML = loading;
 
 if (hour >= 6 && hour < 12) {
-  document.getElementById("push-message").innerHTML = morning[Math.floor(Math.random() * morning.length)];
+  document.getElementById("push-message").innerHTML = morning;
 } else if (hour >= 12 && hour < 19) {
-  document.getElementById("push-message").innerHTML = afternoon[Math.floor(Math.random() * afternoon.length)];
+  document.getElementById("push-message").innerHTML = afternoon;
 } else {
-  document.getElementById("push-message").innerHTML = evening[Math.floor(Math.random() * evening.length)];
+  document.getElementById("push-message").innerHTML = evening;
 }
 
 // init'd highlight.js and begin highlighting all code related...
@@ -100,14 +109,14 @@ const nav = document.getElementById("mySidenav");
 const search_bar = document.getElementsByTagName("input")[0];
 const container = document.getElementById("container");
 const date_ribbon = document.getElementById("date_ribbon");
-date_ribbon.innerHTML = get_date_str(curr_date_); 
+date_ribbon.innerHTML = get_date_str(curr_date_);
 
 function openNav() {
   if (window.innerWidth <= 500) { nav.style.width = "100%"; }
   else if (window.innerHeight <= 400) { nav.style.width = "100%"; }
   else { nav.style.width = "27%"; }
 
-  search_bar.placeholder = search_phrases[Math.floor(Math.random() * search_phrases.length)];
+  search_bar.placeholder = search;
 }
 
 /* Set the width of the side navigation to 0 */
@@ -126,19 +135,17 @@ function submitNotes(date, tags, content) {
   const currdate = new Date(date);
   preposted.date = get_date_str(currdate);
 
-  var converter = new showdown.Converter();
-
+  const converter = new showdown.Converter();
   preposted.content = converter.makeHtml(content);
 
   console.log(preposted);
-
   data.push(preposted);
 
   document.postJournal.date.value = "";
   document.postJournal.tags.value = "";
   document.postJournal.content.value = "";
 
-  container.innerHTML = "<p class='date' id='loading'>" + loading_phrases[Math.floor(Math.random() * loading_phrases.length)] + "</p>";
+  container.innerHTML = `<p class="date" id="loading">${loading}</p>`;;
 
   reloadNotes();
 }
@@ -150,9 +157,11 @@ function reloadNotes(event) {
     curr_date_str = get_date_str(curr_date_);
 
     if (curr_date_str == post.date) {
-      content += "<div class='post' id='" + post.id + "'> \
-                    <p class='date'>" + post.date + "</p> \
-                    <span class='tags'>" + post.tags + "</span>" + post.content + "</div>";
+      content += `<div class="post" id="${post.id}">
+                    <p class="date">${post.date}</p>
+                    <span class="tags">${post.tags}</span>
+                    ${post.content}
+                  </div>`;
     }
   });
 
@@ -160,19 +169,21 @@ function reloadNotes(event) {
 }
 
 function getNotes(content) {
-  let formHTML = "<form name=\"postJournal\" \
-                                   onsubmit=\"submitNotes(document.postJournal.date.value, \
-                                                          document.postJournal.tags.value, \
-                                                          document.postJournal.content.value); return false\" \
-                                   method=\"POST\"> \
-                        <input type=\"date\" name=\"date\" /> \
-                        <input type=\"text\" name=\"tags\" placeholder=\"#tags\"/> \
-                        <textarea name=\"content\" placeholder=\"" + textarea_phrases[Math.floor(Math.random() * textarea_phrases.length)] + "\"></textarea> \
-                        <button type=\"submit\">POST</button> \
-                      </form>";
+  let formHTML = `<form name="postJournal"
+                        onsubmit="submitNotes(document.postJournal.date.value,
+                                              document.postJournal.tags.value,
+                                              document.postJournal.content.value);"
+                        method="POST">
+                          <input type="date" name="date" />
+                          <input type="text" name="tags" placeholder="#tags"/>
+                          <textarea name="content"
+                                    placeholder="${textarea_phrases[
+                                                    Math.floor(Math.random() * textarea_phrases.length)]
+                                                  }"></textarea>
+                          <button type="submit">POST</button>
+                      </form>`;
   
   const container = document.getElementById("container");
-
 
   if (content.length > 0) {
     content = "<p class='date'>" + got_notes_phrases[Math.floor(Math.random() * got_notes_phrases.length)] + "</p>" + content;
