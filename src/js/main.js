@@ -266,7 +266,7 @@ function get_date_str(date) {
     str_date = `0${day}/0${month}/${year}`;
   }
   else {
-    str_date = `${day}/${month} /${year}`;
+    str_date = `${day}/${month}/${year}`;
   }
 
   return str_date;
