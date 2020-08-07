@@ -250,18 +250,23 @@ function toToday() {
 
 function get_date_str(date) {
   let str_date;
+  let day = date.getDate();
+  let month = date.getMonth() + 1;
+  let year = date.getFullYear();
 
-  if (date.getDate() >= 10 && date.getMonth() < 10) {
-    str_date = date.getDate() + "/" + ("0" + (date.getMonth() + 1)) + "/" + date.getFullYear();
+  console.log(day, month);
+
+  if (day >= 10 && month < 10) {
+    str_date =  `${day}/0${month}/${year}`;
   }
-  else if (date.getDate() < 10 && date.getMonth() >= 10) {
-    str_date = ("0" + date.getDate()) + "/" + (date.getMonth() + 1) + "/" + date.getFullYear();
+  else if (day < 10 && month >= 10) {
+    str_date = `0${day}/${month}/${year}`;
   }
-  else if (date.getDate() < 10 && date.getMonth() < 10) {
-    str_date = ("0" + date.getDate()) + "/" + ("0" + (date.getMonth() + 1)) + "/" + date.getFullYear();
+  else if (day < 10 && month < 10) {
+    str_date = `0${day}/0${month}/${year}`;
   }
   else {
-    str_date = date.getDate() + "/" + (date.getMonth() + 1) + "/" + date.getFullYear();
+    str_date = `${day}/${month} /${year}`;
   }
 
   return str_date;
