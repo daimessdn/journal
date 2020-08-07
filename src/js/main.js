@@ -2,84 +2,11 @@
 let curr_date_ = new Date();
 let hour = curr_date_.getHours();
 
-const search_phrases = [
-  "what are you looking for?",
-  "search something, huh?",
-  "found what you need?",
-  "looking for something?",
-  "found some words?",
-  "searched any useful stuffs?"
-];
-
-const loading_phrases = [
-  "getting your journal ready...",
-  "please wait for a moment once your journal is ready...",
-  "can't wait for reading, eh?",
-  "relax and we will make things done for you...",
-  "ready for the reads?",
-  "let see what we have for you...",
-  "still be patient?"
-];
-
-const textarea_phrases = [
-  "Dear, journal...",
-  "Once upon a time...",
-  "Hello, world!",
-  "Tell me.",
-  "Is there any interesting thing you want to tell?",
-  "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
-];
-
-const not_found_phrases = [
-  "uh oh. seems you are lost, little bro. let me get you into the right direction.",
-  "one more arrow button to find your little story...",
-  "did I say that you've got the little treasure?",
-  "one more arrow button or create one. there's nothing here.",
-  "nothing...",
-  "have tried the search button yet? just look at the magnifying glass icon and type something you look for there. it should be worked. good luck... :)",
-  "nothing's here. any place, maybe?",
-  "right or left?"
-];
-
-const got_notes_phrases = [
-  "I've got your notes!",
-  "Here are some notes you recorded!",
-  "Once upon a time...",
-  "Since that date,",
-  "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-  "Breaking News!!!"
-];
-
-const push_phrases = {
-  morning: [
-    "good morninig <br />OK, only that.",
-    "slept well last night?",
-    "have something to write?<br/>we have a writing space top there.",
-    "got your breakfast and your coffee ready yet?",
-    "rise and shine...",
-  ],
-  afternoon: [
-    "have prepared your sunblock already?",
-    "wait. is it still morning?<br />why the people said it's afternoon?",
-    "don't forget to have some few rest.<br />it's lunch time I think.",
-    "lunch time, honey...",
-    "how was your nap?",
-    "don't forget to eat",
-    "have you taken a nap?",
-  ],
-  evening: [
-    "already have dinner?",
-    "good night...",
-    "zzz...",
-    "can't sleep?",
-    "need a bedtime story?",
-    "have prepared your lotion?",
-    "sleep is good for health.<br /> don't forget to sleep.",
-  ],
-}
-
 const search = search_phrases[Math.floor(Math.random() * search_phrases.length)];
 const loading = loading_phrases[Math.floor(Math.random() * loading_phrases.length)];
+const textarea = textarea_phrases[
+                   Math.floor(Math.random() * textarea_phrases.length)
+                 ];
 
 const morning = push_phrases.morning[
                   Math.floor(Math.random() * push_phrases.morning.length)
@@ -177,9 +104,7 @@ function getNotes(content) {
                           <input type="date" name="date" />
                           <input type="text" name="tags" placeholder="#tags"/>
                           <textarea name="content"
-                                    placeholder="${textarea_phrases[
-                                                    Math.floor(Math.random() * textarea_phrases.length)]
-                                                  }"></textarea>
+                                    placeholder="${textarea}"></textarea>
                           <button type="submit">POST</button>
                       </form>`;
   
@@ -254,7 +179,7 @@ function get_date_str(date) {
   let month = date.getMonth() + 1;
   let year = date.getFullYear();
 
-  console.log(day, month);
+  // console.log(day, month);
 
   if (day >= 10 && month < 10) {
     str_date =  `${day}/0${month}/${year}`;
