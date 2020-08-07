@@ -59,18 +59,22 @@ const push_phrases = {
     "rise and shine...",
   ],
   afternoon: [
-    "do you have prepared your sunblock already?",
+    "have prepared your sunblock already?",
     "wait. is it still morning?<br />why the people said it's afternoon?",
     "don't forget to have some few rest.<br />it's lunch time I think.",
-    "(stretch)",
-    "...",
+    "lunch time, honey...",
+    "how was your nap?",
+    "don't forget to eat",
+    "have you taken a nap?",
   ],
   evening: [
-    "alreaddy have dinner?",
+    "already have dinner?",
     "good night...",
     "zzz...",
     "can't sleep?",
     "need a bedtime story?",
+    "have prepared your lotion?",
+    "sleep is good for health.<br /> don't forget to sleep.",
   ],
 }
 
