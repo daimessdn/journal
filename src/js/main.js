@@ -3,6 +3,9 @@ let curr_date_ = new Date();
 let hour = curr_date_.getHours();
 
 const search = search_phrases[Math.floor(Math.random() * search_phrases.length)];
+const tag_search = tag_phrases[
+                   Math.floor(Math.random() * tag_phrases.length)
+                 ];
 const loading = loading_phrases[Math.floor(Math.random() * loading_phrases.length)];
 const textarea = textarea_phrases[
                    Math.floor(Math.random() * textarea_phrases.length)
@@ -17,6 +20,26 @@ const afternoon = push_phrases.afternoon[
 const evening = push_phrases.evening[
                   Math.floor(Math.random() * push_phrases.evening.length)
                 ];
+
+let uniqueTags = [];
+
+data.forEach((post) => {
+  post.tags.forEach((tag) => {
+    if (uniqueTags.includes(tag) !== true) {
+      uniqueTags.push(tag);
+    }
+  })
+})
+
+console.log(uniqueTags);
+
+let tagresults = "";
+
+uniqueTags.forEach((tag) => {
+  tagresults += `<span class="tag-search" id="${tag}">${tag}</span>`
+})
+
+document.getElementById("query").innerHTML = tag_search + "<br >" + tagresults;
 
 document.getElementById("loading").innerHTML = loading;
 
@@ -218,4 +241,20 @@ function closePushTrigger() {
   push_trigger.opacity = 0;
 
   // setTimeout(push_trigger.display = "none", 1000);
+}
+
+function reloadNotesBasedOnTags(event, tag) {
+  let content = "";
+
+  data.reverse().forEach(post => {
+    if (post.tags.includes(tag) === true) {
+      content += `<div class="post" id="${post.id}">
+                    <p class="date">${post.date}</p>
+                    <span class="tags">${post.tags.join(" ")}</span>
+                    ${post.content}
+                  </div>`;
+    }
+  });
+
+  setTimeout(getNotes(content), 3000);
 }

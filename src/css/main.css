@@ -213,6 +213,20 @@ ul {
   border: none;
 }
 
+#query {
+  margin: 10px 0 0 5%;
+  color: #fff;
+}
+
+.tag-search {
+  padding: 5px;
+  margin: 2px;
+  border-radius: 5px;
+  display: inline-block;
+  background-color: #fff;
+  color: #000;
+}
+
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
   color: #f1f1f1;

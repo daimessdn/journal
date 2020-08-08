@@ -73,3 +73,8 @@ const push_phrases = {
     "sleep is good for health.<br /> don't forget to sleep.",
   ],
 };
+
+const tag_phrases = [
+  "BASED ON TAGS...",
+  "TAG ME IN..."
+];
