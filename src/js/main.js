@@ -55,7 +55,7 @@ function submitNotes(date, tags, content) {
   let preposted = {
     id : Math.random().toString(36).replace(/[^a-z]+/g, '').substr(0, 11),
     date : "",
-    tags : tags,
+    tags : tags.split(" "),
     content : ""
   };
 
@@ -86,7 +86,7 @@ function reloadNotes(event) {
     if (curr_date_str == post.date) {
       content += `<div class="post" id="${post.id}">
                     <p class="date">${post.date}</p>
-                    <span class="tags">${post.tags}</span>
+                    <span class="tags">${post.tags.join(" ")}</span>
                     ${post.content}
                   </div>`;
     }
