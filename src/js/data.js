@@ -204,6 +204,12 @@ const data = [
     "content": "<p>dear, journal…</p>\n<p>I just started to join <strong>Career Exploration Program batch 5</strong> from <strong>Glints Academy</strong>. the welcome session was great with introduction of <strong>Progate</strong> and <strong>Piazza</strong>. thanks, Wanda for the funny introduction, Kak Jefri Divanli and Kak Jeffry Vincent for the nice and fun introduction.</p>\n<p>OK, to be continued once I have get rid with terrible toothache…</p>"
   },
   {
+    "id": "qnsdihlj",
+    "date": "08/08/2020",
+    "tags": "#journal",
+    "content": "<p>dear, journal…</p>\n<p>this terrible toothache are getting worse and worse and I have been feeling hurt and chubby on my right cheek. feels that my tooth is being drilled and will be blown out.</p>\n<p>😖😖🦷</p>"
+  },
+  {
     "id": "pghottvc",
     "date": "09/08/2020",
     "tags": "#journal",
