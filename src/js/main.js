@@ -225,11 +225,11 @@ function get_date_str(date) {
 const navbar = document.getElementById('navbar');
 
 document.addEventListener("keydown", function(event) {
-  if (event.key == "ArrowRight") {
+  if (event.key == "PageUp") {
     event.preventDefault();
     navbar.children[2].click();
     // console.log('next clicked');
-  } else if (event.key == "ArrowLeft") {
+  } else if (event.key == "PageDown") {
     event.preventDefault();
     navbar.children[1].click();
     // console.log('prev clicked');
