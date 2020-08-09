@@ -36,7 +36,9 @@ console.log(uniqueTags);
 let tagresults = "";
 
 uniqueTags.forEach((tag) => {
-  tagresults += `<span class="tag-search" id="${tag}">${tag}</span>`
+  tagresults += `<span class="tag-search"
+                       onclick="reloadNotesBasedOnTags(this.textContent);"
+                       >${tag}</span>`
 })
 
 document.getElementById("query").innerHTML = tag_search + "<br >" + tagresults;
@@ -243,12 +245,12 @@ function closePushTrigger() {
   // setTimeout(push_trigger.display = "none", 1000);
 }
 
-function reloadNotesBasedOnTags(event, tag) {
-  let content = "";
+function reloadNotesBasedOnTags(tag) {
+  let tagcontent = "";
 
   data.reverse().forEach(post => {
     if (post.tags.includes(tag) === true) {
-      content += `<div class="post" id="${post.id}">
+      tagcontent += `<div class="post" id="${post.id}">
                     <p class="date">${post.date}</p>
                     <span class="tags">${post.tags.join(" ")}</span>
                     ${post.content}
@@ -256,5 +258,5 @@ function reloadNotesBasedOnTags(event, tag) {
     }
   });
 
-  setTimeout(getNotes(content), 3000);
+  setTimeout(getNotes(tagcontent), 3000);
 }

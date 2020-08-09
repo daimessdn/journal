@@ -22,7 +22,6 @@ const data = [
   {
     "date": "25/04/2020",
     "tags": [
-      "#web",
       "#journal"
     ],
     "id": "GSo3d9cpw1",
@@ -79,7 +78,6 @@ const data = [
     "tags": [
       "#journal",
       "#learning",
-      "#finally"
     ],
     "content": "<p>dear, journal…</p>\n<p>Alhamdulillah, I've done all of my certifications on Coursera. one of them is \"Data Engineering with Google Cloud Professional Certificate\". needs a lot of time to accomplish all of them. BTW, tomorrow #JuaraGCP is open for the <a href=\"https://goo.gle/JuaraGCP\">3rd time</a> and I can't wait for accomplish all of 12 quests for challenge myself and of course - <a href=\"https://twitter.com/googledevsid/status/1255671210517475328?s=20\">amazing swags</a>!!!</p>\n<p>and I also can't wait for data science class and machine learning from dicoding and accomplish data science course from IBM and also on Coursera…</p>\n<p>wish me luck~~</p>\n<p><img src=\"https://coursera-certificate-images.s3.amazonaws.com/ZZZW2UU4Z7WK\" alt=\"keep spirit\" /></p>"
   },
@@ -98,7 +96,7 @@ const data = [
     "date": "03/05/2020",
     "tags": [
       "#journal",
-      "#gcp"
+      "#googlecloud"
     ],
     "content": "<p>dear, journal…</p>\n<p>finally, I've accomplished #JuaraGCP challenge by completing 12 quests in Qwiklabs.</p>\n<p><img src=\"https://pbs.twimg.com/media/EXCRyd9VcAADeAD?format=jpg&name=large\" alt=\"image\" /></p>\n<p>you can join the challenge by <a href=\"https://goo.gle/JuaraGCP\">one click here</a>. learn some technology concepts on Google Cloud, complete the quests, and get the exclusive swags…</p>\n<p>stay safe, happy learning, and wish u luck~~~\n<strong>*the quests are pretty tough enough. it will be a lot fun...</strong></p>"
   },
@@ -109,7 +107,6 @@ const data = [
       "#journal",
       "#dicoding",
       "#ml",
-      "#finally"
     ],
     "content": "<p>dear, journal…</p>\n<p>it's been a long time I didn't begin to write.</p>\n<p>and finally, I've got my third certificate of dicoding: <strong>Machine Learning for Beginners</strong> after accomplished the module. there's still 2 months left for the announcement of intermediate level of scholarship…</p>\n<p>wish me luck~~</p>\n<p><img src=\"https://lh3.google.com/u/0/d/1FP42bDZ0jQyvG2peTN_IjahWK7_RMRSz=w1600-h801-iv2\" alt=\"my ml cert on dicoding\" /></p>\n<p>**<em>you can join to learn by <a href=\"https://idcamp.indosatooredoo.com/\">clicking here</a>.wish u luck~~~</em></p>"
   },
@@ -142,7 +139,7 @@ const data = [
     "date": "25/05/2020",
     "tags": [
       "#journal",
-      "#learning_exp",
+      "#learning",
       "#aws",
       "#ml"
     ],
@@ -170,7 +167,7 @@ const data = [
     "tags": [
       "#journal",
       "#alibabacloud",
-      "#learning_exp"
+      "#learning"
     ],
     "content": "<p>dear, journal…</p>\n<p>I watched Alibaba Cloud Indonesia Cloud Native Day 2020 webinar and learned many things about DevOps, Monoloth and Microservices, and more there. Thanks for Alibaba Cloud for the webinar. I learned a lot.</p>\n<p>and I also accomplished 8 clouder certifications from this webinar. the test was hard so much, but finally I accomplished it…</p>\n<p><img src=\"https://lh3.google.com/u/0/d/1v-u0WNtvQ6zaY-vzTft6_d23c9GeP57V=w1600-h547-iv1\" alt=\"8 certificates\" /></p>\n<p>after this webinar, there are many interesting thing from Alibaba Cloud…</p>\n<p>coming soon~~~</p>\n<p><img src=\"https://lh3.google.com/u/0/d/1Ci10mzLaS2ejWWbbKykwro7ojvP_IwlL=w1600-h547-iv1\" alt=\"coming soon\" /></p>"
   },
@@ -180,7 +177,7 @@ const data = [
     "tags": [
       "#journal",
       "#blender3d",
-      "#learning_exp"
+      "#learning"
     ],
     "content": "<p>dear, journal…</p>\n<p>I've created virus model with Blender 2.82. thanks for <a href=\"https://www.youtube.com/watch?v=s1NEEM8FPZ0\">CGI DEAL</a> for the YouTube video which helps me create this amazing (but still ugly) virus model. maybe I can create better than I was made today.</p>\n<p><img src=\"https://lh3.google.com/u/0/d/196-4GunuRTJDJYKErMLDrKa5-KFKHLJs=w1600-h547-iv1\" alt=\"virus model\" /></p>\n<p>unfortunately, I can't export whole model along with color modelling for my Augmented Reality testing on the web (<a href=\"https://ar-js-org.github.io\">AR.js</a> and <a href=\"https://a-frame.io\">A-FRAME</a>). I will find out how to solve this and make my model visible in AR.js…</p>\n<p>wish me luck~~~</p>"
   },
@@ -231,7 +228,6 @@ const data = [
     "date": "21/06/2020",
     "tags": [
       "#journal",
-      "#JuaraGCP"
     ],
     "content": "<p>dear, journal…</p>\n<p>2 days ago, Kak Laura Vieloma chatted me about something that she will give to me, and today, she chatted me again and also emailed me about the same thing~~~</p>\n<p>thanks, Kak Laura for the email. and I know why I and several people of #JuaraGCP received that email. it was great to join with #JuaraGCP and learning together~</p>\n<img src='https://lh3.google.com/u/0/d/1wJZHvdn2oa3rZ0D7VNdn4352OaJkk1Ge=w1600-h801-iv1'>\n<p>OK, what's next then?</p>"
   },
