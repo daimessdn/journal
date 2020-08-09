@@ -31,17 +31,15 @@ data.forEach((post) => {
   })
 })
 
-console.log(uniqueTags);
-
-let tagresults = "";
-
-uniqueTags.forEach((tag) => {
-  tagresults += `<span class="tag-search"
-                       onclick="reloadNotesBasedOnTags(this.textContent);"
-                       >${tag}</span>`
-})
-
-document.getElementById("query").innerHTML = tag_search + "<br >" + tagresults;
+const getTagSearch = (tags) => {
+  let tagresults = "";
+  tags.forEach((tag) => {
+    tagresults += `<span class="tag-search"
+                         onclick="reloadNotesBasedOnTags(this.textContent);"
+                         >${tag}</span>`
+  });
+  return tagresults;
+};
 
 document.getElementById("loading").innerHTML = loading;
 
@@ -141,7 +139,13 @@ function getNotes(content) {
     content = "<p class='date'>" + not_found_phrases[Math.floor(Math.random() * not_found_phrases.length)] + "</p>"
   }
 
-  container.innerHTML = formHTML + "<hr />" + content;
+  container.innerHTML = `${formHTML}
+                         <p>based on tags</p>
+                         <div class="tag-results">
+                           ${getTagSearch(uniqueTags)}
+                         </div>
+                         <hr />
+                         ${content}`;
 
   document.querySelectorAll('pre code').forEach((block) => {
     hljs.highlightBlock(block);

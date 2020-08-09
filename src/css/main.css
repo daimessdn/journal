@@ -218,14 +218,14 @@ ul {
   color: #fff;
 }
 
-.tag-search {
+/*.tag-search {
   padding: 5px;
   margin: 2px;
   border-radius: 5px;
   display: inline-block;
   background-color: #fff;
   color: #000;
-}
+}*/
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
@@ -251,4 +251,21 @@ form {
   background-color: #fff;
   padding: 5px 3px;
   z-index: 5;
+}
+
+.tag-results {
+  overflow-y: auto;
+  overflow-x: auto;
+  height: 40px;
+  width: 100%;
+  /*transform: rotate(90deg);*/
+  /*transform-origin: right top;*/
+  font-family: "Major Mono Display";
+}
+
+.tag-search {
+  /*transform: rotate(90deg);*/
+  transform-origin: right top;
+  margin: 5px;
+  border-radius: 5px;
 }
