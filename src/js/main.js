@@ -267,5 +267,7 @@ function reloadNotesBasedOnTags(tag) {
     }
   });
 
+  pushTriggerUp();
+
   setTimeout(getNotes(tagcontent), 3000);
 }

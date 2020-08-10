@@ -317,11 +317,11 @@ const data = [
     "content": "<p>dear journal…</p>\n<p>approximately since 6 days ago I've got terrible toothache and I can't do anything except sleeping. now, I don't feel my tooth hurts so bad (now it still) and I'm hungry in the midnight. luckily I have bread I've bought yesterday. hope it will hold the hunger for hours until the dawn.</p>\n<p>hmm…</p>"
   },
   {
-  "id": "xjvrwtws",
-  "date": "10/08/2020",
-  "tags": [
-    "#journal"
-  ],
-  "content": "<p>dear, journal…</p>\n<p>my tooth still feel bad (although it's feels not too bad). after finishing several online course, I'm currently confused about what kind of college lessons I will take meanwhile, online college will start 2 weeks from now.</p>\n  <p>&gt;o&lt;~~~</p>"
-}
+    "id": "xjvrwtws",
+    "date": "10/08/2020",
+    "tags": [
+      "#journal"
+    ],
+    "content": "<p>dear, journal…</p>\n<p>my tooth still feel bad (although it's feels not too bad). after finishing several online course, I'm currently confused about what kind of college lessons I will take meanwhile, online college will start 2 weeks from now.</p>\n  <p>&gt;o&lt;~~~</p>"
+  }
 ]
