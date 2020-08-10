@@ -70,6 +70,9 @@ h1, h2, h3, h4, h5, h6 {
   border-left: 10px solid #d7686d;
   padding: 5px;
   margin-top: 15px;
+  max-height: 30rem;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 pre code {
