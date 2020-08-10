@@ -1,4 +1,4 @@
-@media screen and (max-width: 500px) and (min-width: 100px) {
+@media screen and (max-width: 500px) {
   body {
     overflow-y: scroll;;
   }
@@ -35,9 +35,13 @@
   #back-trigger a {
     font-size: 20px;
   }
+
+  form[name="postJournal"] {
+    display: none;
+  }
 }
 
-@media screen and (max-height: 400px) and (min-height: 50px) {
+@media screen and (max-height: 500px) {
   body {
     overflow-y: scroll;;
   }
@@ -68,6 +72,10 @@
   .container img {
     min-width: 87%;
     border: 3px solid #eee;   
+  }
+
+  form[name="postJournal"] {
+    display: none;
   }
 
   .sidenav {padding-top: 15px;}
