@@ -23,6 +23,8 @@ const evening = push_phrases.evening[
 
 let uniqueTags = [];
 
+// get unique tags only
+//// in every notes
 data.forEach((post) => {
   post.tags.forEach((tag) => {
     if (uniqueTags.includes(tag) !== true) {
@@ -157,13 +159,9 @@ function previousNotes() {
   curr_date_str = get_date_str(curr_date_);
 
   if (curr_date_str != get_date_str(new Date)) {
-    document.getElementById("back-trigger").style.bottom = "40px";
-    document.getElementById("push-trigger").style.bottom = "68px";
-    document.getElementById("back-trigger").style.opacity = "1";
+    pushTriggerUp();
   } else {
-    document.getElementById("back-trigger").style.bottom = "8px";
-    document.getElementById("push-trigger").style.bottom = "40px";
-    document.getElementById("back-trigger").style.opacity = "0";
+    pushTriggerDown();
   }
 
   date_ribbon.innerHTML = curr_date_str;
@@ -175,31 +173,38 @@ function nextNotes() {
   curr_date_str = get_date_str(curr_date_);
 
   if (curr_date_str != get_date_str(new Date)) {
-    document.getElementById("back-trigger").style.bottom = "40px";
-    document.getElementById("push-trigger").style.bottom = "68px";
-    document.getElementById("back-trigger").style.opacity = "1";
+    pushTriggerUp();
   } else {
-    document.getElementById("back-trigger").style.bottom = "8px";
-    document.getElementById("push-trigger").style.bottom = "40px";
-    document.getElementById("back-trigger").style.opacity = "0";
+    pushTriggerDown();
   }
 
   date_ribbon.innerHTML = curr_date_str;
   reloadNotes(curr_date_str);
 }
 
+
 function toToday() {
   curr_date_ = new Date();
   curr_date_str = get_date_str(curr_date_);
 
-  document.getElementById("back-trigger").style.bottom = "8px";
-  document.getElementById("push-trigger").style.bottom = "40px";
-  document.getElementById("back-trigger").style.opacity = "0";
+  pushTriggerDown();
 
   date_ribbon.innerHTML = curr_date_str;
   reloadNotes(curr_date_str);
 
   document.getElementById("next").style.width = 0;
+}
+
+function pushTriggerUp() {
+  document.getElementById("back-trigger").style.bottom = "40px";
+  document.getElementById("push-trigger").style.bottom = "68px";
+  document.getElementById("back-trigger").style.opacity = "1";
+}
+
+function pushTriggerDown() {
+  document.getElementById("back-trigger").style.bottom = "8px";
+  document.getElementById("push-trigger").style.bottom = "40px";
+  document.getElementById("back-trigger").style.opacity = "0";
 }
 
 function get_date_str(date) {
