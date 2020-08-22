@@ -323,5 +323,13 @@ const data = [
       "#journal"
     ],
     "content": "<p>dear, journal…</p>\n<p>my tooth still feel bad (although it's feels not too bad). after finishing several online course, I'm currently confused about what kind of college lessons I will take meanwhile, online college will start 2 weeks from now.</p>\n  <p>&gt;o&lt;~~~</p>"
+  },
+  {
+    "id": "qahfopzweh",
+    "date": "22/08/2020",
+    "tags": [
+      "#ar"
+    ],
+    "content": "<p>dear, journal…</p>\n<p>since a long time ago I didn't have written some notes because of my not fit health (and Alhamdulillah I'm good for now) - until now then - I've got some email for learning <strong>Augmented Reality</strong> from <strong>dicoding</strong> and <strong>DTS bank</strong>. I will learn it well for the competition of AR Instagram filter while I continue finishing web class and my college.</p>\n<p>wish me luck~~</p>"
   }
 ]
