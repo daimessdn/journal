@@ -2,6 +2,7 @@
 let curr_date_ = new Date();
 let hour = curr_date_.getHours();
 
+// init'd random phrases
 const search = search_phrases[Math.floor(Math.random() * search_phrases.length)];
 const tag_search = tag_phrases[
                    Math.floor(Math.random() * tag_phrases.length)
@@ -21,18 +22,23 @@ const evening = push_phrases.evening[
                   Math.floor(Math.random() * push_phrases.evening.length)
                 ];
 
+// init'd empty array
+//// for storing unique tags
 let uniqueTags = [];
 
 // get unique tags only
 //// in every notes
 data.forEach((post) => {
   post.tags.forEach((tag) => {
+    // fill the tag
+    //// if it is not in uniqueTags
     if (uniqueTags.includes(tag) !== true) {
       uniqueTags.push(tag);
     }
   })
 })
 
+// display unique tags results function
 const getTagSearch = (tags) => {
   let tagresults = "";
   tags.forEach((tag) => {
@@ -43,8 +49,11 @@ const getTagSearch = (tags) => {
   return tagresults;
 };
 
+// loading interfaces
 document.getElementById("loading").innerHTML = loading;
 
+// get random push message
+//// based on hours
 if (hour >= 6 && hour < 12) {
   document.getElementById("push-message").innerHTML = morning;
 } else if (hour >= 12 && hour < 19) {
@@ -76,7 +85,9 @@ function closeNav() {
   nav.style.width = "0";
 } 
 
-function submitNotes(date, tags, content) {
+// function trigger
+//// for submit notes
+const submitNotes = (date, tags, content) => {
   let preposted = {
     id : Math.random().toString(36).replace(/[^a-z]+/g, '').substr(0, 11),
     date : "",
@@ -102,6 +113,7 @@ function submitNotes(date, tags, content) {
   reloadNotes();
 }
 
+// reload notes function
 function reloadNotes(event) {
   let content = "";
 
@@ -121,24 +133,25 @@ function reloadNotes(event) {
 }
 
 function getNotes(content) {
-  let formHTML = `<form name="postJournal"
-                        onsubmit="submitNotes(document.postJournal.date.value,
-                                              document.postJournal.tags.value,
-                                              document.postJournal.content.value);"
-                        method="POST">
-                          <input type="date" name="date" />
-                          <input type="text" name="tags" placeholder="#tags"/>
-                          <textarea name="content"
-                                    placeholder="${textarea}"></textarea>
-                          <button type="submit">POST</button>
-                      </form>`;
+  let formHTML = `
+                    <form name="postJournal"
+                          onsubmit="submitNotes(document.postJournal.date.value,
+                                                document.postJournal.tags.value,
+                                                document.postJournal.content.value);"
+                          method="POST">
+                            <input type="date" name="date" />
+                            <input type="text" name="tags" placeholder="#tags"/>
+                            <textarea name="content"
+                                      placeholder="${textarea}"></textarea>
+                            <button type="submit">POST</button>
+                    </form>`;
   
   const container = document.getElementById("container");
 
   if (content.length > 0) {
-    content = "<p class='date'>" + got_notes_phrases[Math.floor(Math.random() * got_notes_phrases.length)] + "</p>" + content;
+    content = `<p class='date'>${got_notes_phrases[Math.floor(Math.random() * got_notes_phrases.length)]}</p>${content}`;
   } else {
-    content = "<p class='date'>" + not_found_phrases[Math.floor(Math.random() * not_found_phrases.length)] + "</p>"
+    content = `<p class='date'>${not_found_phrases[Math.floor(Math.random() * not_found_phrases.length)]}</p>`;
   }
 
   container.innerHTML = `${formHTML}
@@ -154,6 +167,7 @@ function getNotes(content) {
   });
 }
 
+// previous notes function
 function previousNotes() {
   curr_date_.setDate(curr_date_.getDate() - 1);
   curr_date_str = get_date_str(curr_date_);
@@ -168,6 +182,7 @@ function previousNotes() {
   reloadNotes(curr_date_str);
 }
 
+// next notes function
 function nextNotes() {
   curr_date_.setDate(curr_date_.getDate() + 1);
   curr_date_str = get_date_str(curr_date_);
@@ -182,7 +197,7 @@ function nextNotes() {
   reloadNotes(curr_date_str);
 }
 
-
+// back to today function
 function toToday() {
   curr_date_ = new Date();
   curr_date_str = get_date_str(curr_date_);
@@ -207,24 +222,21 @@ function pushTriggerDown() {
   document.getElementById("back-trigger").style.opacity = "0";
 }
 
-function get_date_str(date) {
+// get date format
+//// DD/MM/YYYY
+const get_date_str = (date) => {
   let str_date;
   let day = date.getDate();
   let month = date.getMonth() + 1;
   let year = date.getFullYear();
 
-  // console.log(day, month);
-
   if (day >= 10 && month < 10) {
     str_date =  `${day}/0${month}/${year}`;
-  }
-  else if (day < 10 && month >= 10) {
+  } else if (day < 10 && month >= 10) {
     str_date = `0${day}/${month}/${year}`;
-  }
-  else if (day < 10 && month < 10) {
+  } else if (day < 10 && month < 10) {
     str_date = `0${day}/0${month}/${year}`;
-  }
-  else {
+  } else {
     str_date = `${day}/${month}/${year}`;
   }
 
@@ -233,25 +245,11 @@ function get_date_str(date) {
 
 const navbar = document.getElementById('navbar');
 
-document.addEventListener("keydown", function(event) {
-  if (event.key == "PageUp") {
-    event.preventDefault();
-    navbar.children[2].click();
-    // console.log('next clicked');
-  } else if (event.key == "PageDown") {
-    event.preventDefault();
-    navbar.children[1].click();
-    // console.log('prev clicked');
-  }
-});
-
 function closePushTrigger() {
   const push_trigger = document.getElementById("push-trigger").style;
 
   push_trigger.bottom = "8px";
   push_trigger.opacity = 0;
-
-  // setTimeout(push_trigger.display = "none", 1000);
 }
 
 function reloadNotesBasedOnTags(tag) {
@@ -259,15 +257,16 @@ function reloadNotesBasedOnTags(tag) {
 
   data.reverse().forEach(post => {
     if (post.tags.includes(tag) === true) {
-      tagcontent += `<div class="post" id="${post.id}">
-                    <p class="date">${post.date}</p>
-                    <span class="tags">${post.tags.join(" ")}</span>
-                    ${post.content}
-                  </div>`;
+      tagcontent += `
+        <div class="post" id="${post.id}">
+          <p class="date">${post.date}</p>
+          <span class="tags">${post.tags.join(" ")}</span>
+          ${post.content}
+        </div>
+      `;
     }
   });
 
   pushTriggerUp();
-
   setTimeout(getNotes(tagcontent), 3000);
 }
