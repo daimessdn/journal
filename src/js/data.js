@@ -331,5 +331,13 @@ const data = [
       "#ar"
     ],
     "content": "<p>dear, journal…</p>\n<p>since a long time ago I didn't have written some notes because of my not fit health (and Alhamdulillah I'm good for now) - until now then - I've got some email for learning <strong>Augmented Reality</strong> from <strong>dicoding</strong> and <strong>DTS bank</strong>. I will learn it well for the competition of AR Instagram filter while I continue finishing web class and my college.</p>\n<p>wish me luck~~</p>"
+  },
+  {
+    "id": "ifuejsoefd",
+    "date": "23/08/2020",
+    "tags": [
+      "#journal"
+    ],
+    "content": "<p>dear, journal…</p>\n<p>there was an Indonesia Independence Day festival in Cisitu Lama, where there were so many snacks to sell. I bought so many snacks such as lontong, gehu, and many sosis bakar (baked sausages). So delicious!!!</p>\n<p>OK, time for money saving, then~~</p>"
   }
 ]
