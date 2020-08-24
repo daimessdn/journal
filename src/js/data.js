@@ -339,5 +339,11 @@ const data = [
       "#journal"
     ],
     "content": "<p>dear, journal…</p>\n<p>there was an Indonesia Independence Day festival in Cisitu Lama, where there were so many snacks to sell. I bought so many snacks such as lontong, gehu, and many sosis bakar (baked sausages). So delicious!!!</p>\n<p>OK, time for money saving, then~~</p>"
+  },
+  {
+    "id": "omettnpc",
+    "date": "24/08/2020",
+    "tags": ["#journal"],
+    "content":  "<p>dear, journal…</p><p>this is the first day for my online college about reservoir characterization. since a long day ago I didn't review for petroleum class, I feel so stressful to learn for this first class for 2 hours (when it should be 3 hours). and tomorrow I have 2 petroleum class: well testing and unconventional hydrocarbon. I hope there will be interesting things.</p><p>wish me luck~~</p>"
   }
 ]
