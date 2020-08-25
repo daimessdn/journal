@@ -330,6 +330,7 @@ const data = [
     "tags": ["#journal"], 
     "content": "<p>dear, journal…</p><p>today is the second day of my college learning about <strong>well testing</strong> and <strong>unconventional hydrocarbon</strong>. Mr. Doddy taught us well in those two lessons. I've got slept at 1 pm and joined to unconventional hydrocarbon class 1 hour since the class have just started 1 hour ago (Alhamdulillah, I still have time for taking an absence online). ^_^\"</p>"
   },
+  {
     "id": "qahfopzweh",
     "date": "22/08/2020",
     "tags": [
@@ -348,7 +349,9 @@ const data = [
   {
     "id": "omettnpc",
     "date": "24/08/2020",
-    "tags": ["#journal"],
+    "tags": [
+      "#journal"
+    ],
     "content":  "<p>dear, journal…</p><p>this is the first day for my online college about reservoir characterization. since a long day ago I didn't review for petroleum class, I feel so stressful to learn for this first class for 2 hours (when it should be 3 hours). and tomorrow I have 2 petroleum class: well testing and unconventional hydrocarbon. I hope there will be interesting things.</p><p>wish me luck~~</p>"
   }
 ]
