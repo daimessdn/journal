@@ -22,6 +22,27 @@ const evening = push_phrases.evening[
                   Math.floor(Math.random() * push_phrases.evening.length)
                 ];
 
+// get date format
+//// DD/MM/YYYY
+const get_date_str = (date) => {
+  let str_date;
+  let day = date.getDate();
+  let month = date.getMonth() + 1;
+  let year = date.getFullYear();
+
+  if (day >= 10 && month < 10) {
+    str_date =  `${day}/0${month}/${year}`;
+  } else if (day < 10 && month >= 10) {
+    str_date = `0${day}/${month}/${year}`;
+  } else if (day < 10 && month < 10) {
+    str_date = `0${day}/0${month}/${year}`;
+  } else {
+    str_date = `${day}/${month}/${year}`;
+  }
+
+  return str_date;
+}
+
 // init'd empty array
 //// for storing unique tags
 let uniqueTags = [];
@@ -220,27 +241,6 @@ function pushTriggerDown() {
   document.getElementById("back-trigger").style.bottom = "8px";
   document.getElementById("push-trigger").style.bottom = "40px";
   document.getElementById("back-trigger").style.opacity = "0";
-}
-
-// get date format
-//// DD/MM/YYYY
-const get_date_str = (date) => {
-  let str_date;
-  let day = date.getDate();
-  let month = date.getMonth() + 1;
-  let year = date.getFullYear();
-
-  if (day >= 10 && month < 10) {
-    str_date =  `${day}/0${month}/${year}`;
-  } else if (day < 10 && month >= 10) {
-    str_date = `0${day}/${month}/${year}`;
-  } else if (day < 10 && month < 10) {
-    str_date = `0${day}/0${month}/${year}`;
-  } else {
-    str_date = `${day}/${month}/${year}`;
-  }
-
-  return str_date;
 }
 
 const navbar = document.getElementById('navbar');
