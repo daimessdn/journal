@@ -323,5 +323,10 @@ const data = [
       "#journal"
     ],
     "content": "<p>dear, journal…</p>\n<p>my tooth still feel bad (although it's feels not too bad). after finishing several online course, I'm currently confused about what kind of college lessons I will take meanwhile, online college will start 2 weeks from now.</p>\n  <p>&gt;o&lt;~~~</p>"
-  }
+  },
+  {
+    "id": "mhuytmd",
+    "date": "25/08/2020",
+    "tags": ["#journal"], 
+    "content": "<p>dear, journal…</p><p>today is the second day of my college learning about <strong>well testing</strong> and <strong>unconventional hydrocarbon</strong>. Mr. Doddy taught us well in those two lessons. I've got slept at 1 pm and joined to unconventional hydrocarbon class 1 hour since the class have just started 1 hour ago (Alhamdulillah, I still have time for taking an absence online). ^_^\"</p>"}
 ]
