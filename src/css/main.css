@@ -223,9 +223,9 @@ ul {
 
 .tag-search {
   padding: 5px;
-  margin: 2px;
+  cursor: pointer;
+  margin: 5px 2px;
   border-radius: 5px;
-  display: inline-block;
   background-color: #084177;
   color: #fff;
 }
@@ -259,16 +259,9 @@ form {
 .tag-results {
   overflow-y: auto;
   overflow-x: auto;
-  height: 40px;
+  display: flex;
   width: 100%;
   /*transform: rotate(90deg);*/
   /*transform-origin: right top;*/
   font-family: "Major Mono Display";
-}
-
-.tag-search {
-  /*transform: rotate(90deg);*/
-  transform-origin: right top;
-  margin: 5px;
-  border-radius: 5px;
 }
