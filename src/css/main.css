@@ -50,12 +50,15 @@ h1, h2, h3, h4, h5, h6 {
 
 #container input, #container button {
   font-family: "Major Mono Display";
-  border: none;
+  border: 1px solid #222222;
+  border-radius: 5px;
 }
 
 #container textarea {
+  margin-top: 5px;
   font: 14px "Akkurat Mono";
-  border: none;
+  border: 1px solid #222222;
+  border-radius: 5px;
   width: 100%;
   height: 100px;
 }
