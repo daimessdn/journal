@@ -2,7 +2,9 @@
 
 # program features
 - navigation shortcuts<br />
-  use <kbd></kbd>
+  - use <kbd>Page Up</kbd> to navigate notes next
+  - use <kbd>Page Down</kbd> to navigate notes previous
+  - in macOS, press <kbd>fn</kbd>-<kbd>&#8593;<kbd> for next navigation or <kbd>fn</kbd>-<kbd>&#8595;<kbd> for previous navigation.
 
 ## languages feature(s)
 - vanilla.js
