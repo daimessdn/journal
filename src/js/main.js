@@ -143,7 +143,10 @@ function reloadNotes(event) {
 
     if (curr_date_str == post.date) {
       content += `<div class="post" id="${post.id}">
-                    <p class="date-section">${post.date}</p>
+                    <p style="margin: 7px 0 0 0; font-size: 12px;">
+                      <span class="date-section">${post.date}</span>
+                    </p>
+
                     <p class="tag-results" style="margin: 0; font-size: 12px;">
                       ${getTagSearch(post.tags)}
                     </p>
@@ -261,7 +264,10 @@ function reloadNotesBasedOnTags(tag) {
     if (post.tags.includes(tag) === true) {
       tagcontent += `
         <div class="post" id="${post.id}">
-          <p class="date-section">${post.date}</p>
+          <p style="margin: 7px 0 0 0; font-size: 12px;">
+            <span class="date-section">${post.date}</span>
+          </p>
+
           <p class="tag-results" style="margin: 0; font-size: 12px;">
             ${getTagSearch(post.tags)}
           </p>
