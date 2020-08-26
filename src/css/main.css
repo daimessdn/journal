@@ -225,13 +225,21 @@ ul {
   color: #fff;
 }
 
-.tag-search {
+.tag-search, .date-section {
+  font-family: "Major Mono Display";
   padding: 5px;
   cursor: pointer;
   margin: 5px 2px;
   border-radius: 5px;
-  background-color: #084177;
   color: #fff;
+}
+
+.date-section {
+  background-color: #d7686d;
+}
+
+.tag-search {
+  background-color: #084177;
 }
 
 /* When you mouse over the navigation links, change their color */
