@@ -68,6 +68,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .post {
   border-left: 10px solid #d7686d;
+  border-top: 1px solid #222222;
+  border-right: 1px solid #222222;
+  border-bottom: 1px solid #222222;
+  border-radius: 5px;
   padding: 5px;
   margin-top: 15px;
   max-height: 30rem;
