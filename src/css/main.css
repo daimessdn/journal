@@ -183,6 +183,7 @@ ul {
 #close-push-trigger {
   float: right;
   font-weight: bolder;
+  cursor: pointer;
 }
 
 #back-trigger a {
