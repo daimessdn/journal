@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
   font: 14px "Akkurat Mono";
   border: 1px solid #222222;
   border-radius: 5px;
-  width: 100%;
+  width: 99%;
   height: 100px;
 }
 
@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5, h6 {
   border: 20px solid #eee;
 }
 
-.post {
+.post, form[name="postJournal"] {
   border: 1px solid #222222;
   border-left: 10px solid #d7686d;
   
@@ -88,6 +88,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .post:hover {
+  box-shadow: none;
+}
+
+form[name="postJournal"] {
   box-shadow: none;
 }
 
@@ -114,7 +118,6 @@ blockquote {
   font-family: "Major Mono Display";
   font-style: 24px;
   font-weight: bold;
-  margin: 0;
 }
 
 .date::before {
