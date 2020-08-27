@@ -54,6 +54,12 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 5px;
 }
 
+#container button[type="submit"] {
+  position: absolute;
+  bottom: 12px;
+  right: 1.2%;
+}
+
 #container textarea {
   font: 14px "Akkurat Mono";
   border: 1px solid #222222;
@@ -92,6 +98,8 @@ h1, h2, h3, h4, h5, h6 {
 
 form[name="postJournal"] {
   box-shadow: none;
+
+  position: relative;
 }
 
 form[name="postJournal"] p {
