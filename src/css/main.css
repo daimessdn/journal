@@ -70,16 +70,25 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .post {
+  border: 1px solid #222222;
   border-left: 10px solid #d7686d;
-  border-top: 1px solid #222222;
-  border-right: 1px solid #222222;
-  border-bottom: 1px solid #222222;
+  
   border-radius: 5px;
+  
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
   padding: 5px;
   margin-top: 15px;
   max-height: 30rem;
+
   overflow-y: auto;
   overflow-x: hidden;
+
+  transition: all 1s ease;
+}
+
+.post:hover {
+  box-shadow: none;
 }
 
 pre code {
