@@ -85,7 +85,7 @@ const push_phrases = {
     "need a bedtime story?",
     "have prepared your lotion?",
     "have prepared something before going to bed?",
-    "don't want to sleep alone?<br />"+character[Math.floor(Math.random() * character.length)]+" is here with you.",
+    `don't want to sleep alone?<br />${character[Math.floor(Math.random() * character.length)]} is here with you.`,
     "sleep is good for health.<br /> don't forget to sleep.",
   ],
 };
