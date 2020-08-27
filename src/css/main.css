@@ -55,7 +55,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #container textarea {
-  margin-top: 5px;
   font: 14px "Akkurat Mono";
   border: 1px solid #222222;
   border-radius: 5px;
@@ -76,14 +75,14 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 5px;
   
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-
+  
   padding: 5px;
   margin-top: 15px;
   max-height: 30rem;
-
+  
   overflow-y: auto;
   overflow-x: hidden;
-
+  
   transition: all 1s ease;
 }
 
@@ -93,6 +92,12 @@ h1, h2, h3, h4, h5, h6 {
 
 form[name="postJournal"] {
   box-shadow: none;
+}
+
+form[name="postJournal"] p {
+  font-family: "Major Mono Display";
+  font-size: 12px;
+  margin: 7px 0 0 0;
 }
 
 pre code {
@@ -118,6 +123,7 @@ blockquote {
   font-family: "Major Mono Display";
   font-style: 24px;
   font-weight: bold;
+  margin: 14px 0 0 0;
 }
 
 .date::before {

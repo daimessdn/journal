@@ -165,8 +165,19 @@ function getNotes(content) {
                                                 document.postJournal.tags.value,
                                                 document.postJournal.content.value);"
                           method="POST">
+                            <p>
+                              <label for="date">date</label>
+                            </p>
                             <input type="date" name="date" />
+
+                            <p>
+                              <label for="tags">tags (use spaces and then <span class="tag-search">#anothertags</span> for add another tags)</label>
+                            </p>
                             <input type="text" name="tags" placeholder="#tags"/>
+
+                            <p>
+                              <label for="content">text to be written</label>
+                            </p>
                             <textarea name="content"
                                       placeholder="${textarea}"></textarea>
                             <button type="submit">POST</button>
