@@ -1,6 +1,9 @@
 # journal
 
-# program features
+## overview
+**journal** is the web journal interfaces.
+
+## program features
 - navigation shortcuts<br />
   - use <kbd>Page Up</kbd> to navigate notes next
   - use <kbd>Page Down</kbd> to navigate notes previous
