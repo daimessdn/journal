@@ -182,11 +182,6 @@ ul {
   display: inline;
 }
 
-#next {
-  width: 3px;
-  transition: all 1s ease;
-}
-
 .nav-item {
   font: bold 25px "Major Mono Display";
   text-decoration: none;

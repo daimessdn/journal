@@ -89,6 +89,7 @@ const pushMessage = (hour) => {
 document.addEventListener('DOMContentLoaded', () => {
   reloadNotes();
   document.getElementById("push-message").innerHTML = pushMessage(hour);
+  document.getElementById("next").style.display = "none";
 });
 
 /* Set the width of the side navigation to 250px */
@@ -226,8 +227,10 @@ function previousNotes() {
 
   if (curr_date_str != get_date_str(new Date)) {
     pushTriggerUp();
+    document.getElementById("next").style.display = "inline";
   } else {
     pushTriggerDown();
+    document.getElementById("next").style.display = "none";
   }
 
   date_ribbon.innerHTML = curr_date_str;
@@ -241,8 +244,10 @@ function nextNotes() {
 
   if (curr_date_str != get_date_str(new Date)) {
     pushTriggerUp();
+    document.getElementById("next").style.display = "inline";
   } else {
     pushTriggerDown();
+    document.getElementById("next").style.display = "none";
   }
 
   date_ribbon.innerHTML = curr_date_str;
@@ -261,6 +266,7 @@ function toToday() {
 
   document.getElementById("next").style.width = 0;
   document.getElementById("push-message").innerHTML = pushMessage(hour);
+  document.getElementById("next").style.display = "none";
 }
 
 function pushTriggerUp() {
