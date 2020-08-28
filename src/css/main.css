@@ -187,10 +187,11 @@ ul {
   transition: all 1s ease;
 }
 
-#navbar li a, #back-trigger a {
+.nav-item {
   font: bold 25px "Major Mono Display";
   text-decoration: none;
   color: #fff;
+  cursor: pointer;
 }
 
 #push-trigger {

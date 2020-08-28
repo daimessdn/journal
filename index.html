@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset=utf-8>
-  <meta name=viewport content="width=device-width, initial-scale=1, user-scalable=no">
+  <meta name=viewport content="width=device-width, initial-scale=1.0">
   <meta name="description" content="simple prototype on my journal">
   <meta name="keywords" content="journal, miniblog">
   <title>my journal</title>
@@ -26,25 +26,25 @@
   <ul id="navbar">
     <li
       onclick="openNav()">
-      <a href="#"><i class="fa fa-search"></i></a>
+      <span class="nav-item"><i class="fa fa-search"></i></span>
     </li>
     <li
       onclick="previousNotes()"
       id="previous">
-      <a href="#"><i class="fa fa-arrow-left"></i></a>
+      <span class="nav-item"><i class="fa fa-arrow-left"></i></span>
     </li>
     <li
       onclick="nextNotes()"
       id="next">
-      <a href="#"><i class="fa fa-arrow-right"></i></a>
+      <span class="nav-item"><i class="fa fa-arrow-right"></i></span>
     </li>
     <li>
-      <a href="#" id="date_ribbon">DATE</a>
+      <span class="nav-item" id="date_ribbon">DATE</span>
     </li>
   </ul>
 
   <div id="back-trigger">
-    <a href="#" onclick="toToday()">BACK TO TODAY</a>
+    <span class="nav-item" onclick="toToday()">BACK TO TODAY</span>
   </div>
 
   <div id="push-trigger">
