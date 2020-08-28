@@ -374,7 +374,7 @@ const data = [
     "id": "lemphj",
     "date": "28/08/2020",
     "tags": [
-      "#journa;"
+      "#journal"
     ],
     "content": "<p>dear, journal…</p><p>it's friday and I didn't have college scheduled for today. it's time for finishing online courses, web projects, and get clean up the room after the mess…</p><p>~~~</p>"
   }
