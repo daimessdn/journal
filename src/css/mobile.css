@@ -85,4 +85,8 @@
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
   .sidenav input {width: 80%;}
+
+  .post {
+    margin-right: 50px;
+  }
 }
