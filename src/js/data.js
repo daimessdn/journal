@@ -358,7 +358,7 @@ const data = [
     "id": "ycbib",
     "date": "26/08/2020",
     "tags": [
-      "journal"
+      "#journal"
     ],
     "content": "<p>dear, journal…</p><p>this is my third day of my college learning <strong>reservoir data acquisition</strong>. there are so many homework and projects during this college.</p><p>OK, reviewing material, then…</p>"
   },
@@ -366,7 +366,7 @@ const data = [
     "id": "ystwbxstajd",
     "date": "27/08/2020",
     "tags": [
-      "journal"
+      "#journal"
     ],
     "content": "<p>dear, journal…</p><p>this is my fourth day and also last of my college in this week learning <strong>petroleum production engineering</strong>. I went outside of my boarding house because of blackout there and I need elecricity for this online college. I wonder why there are no homework in this college.</p><p>OK, finishing online courses and cleaning up house, then…</p>"
   }
