@@ -369,5 +369,13 @@ const data = [
       "#journal"
     ],
     "content": "<p>dear, journal…</p><p>this is my fourth day and also last of my college in this week learning <strong>petroleum production engineering</strong>. I went outside of my boarding house because of blackout there and I need elecricity for this online college. I wonder why there are no homework in this college.</p><p>OK, finishing online courses and cleaning up house, then…</p>"
+  },
+  {
+    "id": "lemphj",
+    "date": "28/08/2020",
+    "tags": [
+      "#journa;"
+    ],
+    "content": "<p>dear, journal…</p><p>it's friday and I didn't have college scheduled for today. it's time for finishing online courses, web projects, and get clean up the room after the mess…</p><p>~~~</p>"
   }
 ]

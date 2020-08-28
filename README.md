@@ -16,4 +16,4 @@
 - highlight.js (code highlighter)<br />
   useful in highlight code related notes.
 - showdown.js (markdown converter)<br />
-  use markdown-type input post and convert them into HTML syntaxes.
+  use markdown-type input post and congit push vert them into HTML syntaxes.
