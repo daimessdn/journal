@@ -47,13 +47,13 @@ const got_notes_phrases = [
 ];
 
 const character = [
-  "a glass of milk",
   "spiderman",
   "superhero",
   "cute bunny",
-  "journal",
   "pikachu",
-  "a cup of coffee",
+  "avatar aang",
+  "mr. bean",
+  "superman",
   "mr. gingerbread",
   "mr. hokage",
   "ms. stella"
