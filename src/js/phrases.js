@@ -63,6 +63,7 @@ const push_phrases = {
   morning: [
     "good morninig <br />OK, only that.",
     "slept well last night?",
+    `${character[Math.floor(Math.random() * character.length)]} comes to play.<br />please wake up...`,
     "have you tidy up your bed and your bed clothes?",
     "have something to write?<br/>we have a writing space top there.",
     "got your breakfast and your coffee ready yet?",
