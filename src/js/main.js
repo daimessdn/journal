@@ -75,16 +75,21 @@ document.getElementById("loading").innerHTML = loading;
 
 // get random push message
 //// based on hours
-if (hour >= 6 && hour < 12) {
-  document.getElementById("push-message").innerHTML = morning;
-} else if (hour >= 12 && hour < 19) {
-  document.getElementById("push-message").innerHTML = afternoon;
-} else {
-  document.getElementById("push-message").innerHTML = evening;
-}
+const pushMessage = (hour) => {
+  if (hour >= 6 && hour < 12) {
+    return morning;
+  } else if (hour >= 12 && hour < 19) {
+    return afternoon;
+  } else {
+    return evening;
+  }
+};
 
-// init'd highlight.js and begin highlighting all code related...
-document.addEventListener('DOMContentLoaded', reloadNotes());
+// begin DOM on load
+document.addEventListener('DOMContentLoaded', () => {
+  reloadNotes();
+  document.getElementById("push-message").textContent = pushMessage(hour);
+});
 
 /* Set the width of the side navigation to 250px */
 const nav = document.getElementById("mySidenav");
@@ -255,6 +260,7 @@ function toToday() {
   reloadNotes(curr_date_str);
 
   document.getElementById("next").style.width = 0;
+  document.getElementById("push-message").textContent = pushMessage(hour);
 }
 
 function pushTriggerUp() {
