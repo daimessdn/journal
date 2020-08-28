@@ -171,7 +171,11 @@ function getNotes(content) {
                             <input type="date" name="date" />
 
                             <p>
-                              <label for="tags">tags (use spaces and then <span class="tag-search">#anothertags</span> for add another tags)</label>
+                              <label for="tags">
+                                tags (use spaces and then 
+                                  <span class="tag-search">#anothertags</span>
+                                 for add another tags)
+                              </label>
                             </p>
                             <input type="text" name="tags" placeholder="#tags"/>
 
@@ -186,9 +190,15 @@ function getNotes(content) {
   const container = document.getElementById("container");
 
   if (content.length > 0) {
-    content = `<p class='date'>${got_notes_phrases[Math.floor(Math.random() * got_notes_phrases.length)]}</p>${content}`;
+    content = `<p class='date'>
+              ${got_notes_phrases[
+                Math.floor(Math.random() * got_notes_phrases.length)
+              ]}</p>${content}`;
   } else {
-    content = `<p class='date'>${not_found_phrases[Math.floor(Math.random() * not_found_phrases.length)]}</p>`;
+    content = `<p class='date'>
+              ${not_found_phrases[
+                Math.floor(Math.random() * not_found_phrases.length)
+              ]}</p>`;
   }
 
   container.innerHTML = `${formHTML}
@@ -286,6 +296,8 @@ function reloadNotesBasedOnTags(tag) {
         </div>
       `;
     }
+
+    document.getElementById("push-message").textContent = `getting tag: ${tag}`;
   });
 
   pushTriggerUp();
