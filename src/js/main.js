@@ -88,7 +88,7 @@ const pushMessage = (hour) => {
 // begin DOM on load
 document.addEventListener('DOMContentLoaded', () => {
   reloadNotes();
-  document.getElementById("push-message").textContent = pushMessage(hour);
+  document.getElementById("push-message").innerHTML = pushMessage(hour);
 });
 
 /* Set the width of the side navigation to 250px */
@@ -260,7 +260,7 @@ function toToday() {
   reloadNotes(curr_date_str);
 
   document.getElementById("next").style.width = 0;
-  document.getElementById("push-message").textContent = pushMessage(hour);
+  document.getElementById("push-message").innerHTML = pushMessage(hour);
 }
 
 function pushTriggerUp() {
@@ -303,7 +303,7 @@ function reloadNotesBasedOnTags(tag) {
       `;
     }
 
-    document.getElementById("push-message").textContent = `getting tag: ${tag}`;
+    document.getElementById("push-message").innerHTML = `getting tag: ${tag}`;
   });
 
   pushTriggerUp();
