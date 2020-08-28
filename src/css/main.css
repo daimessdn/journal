@@ -194,7 +194,7 @@ ul {
 }
 
 #push-trigger {
-  font: bolder 14px "Major Mono Display";
+  font: 14px "Major Mono Display";
   width: 300px;
   padding: 8px;
   bottom: 40px;
@@ -207,7 +207,6 @@ ul {
 
 #close-push-trigger {
   float: right;
-  font-weight: bolder;
   cursor: pointer;
 }
 
