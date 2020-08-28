@@ -62,7 +62,7 @@ data.forEach((post) => {
 // display unique tags results function
 const getTagSearch = (tags) => {
   let tagresults = "";
-  tags.forEach((tag) => {
+  tags.sort().forEach((tag) => {
     tagresults += `<span class="tag-search"
                          onclick="reloadNotesBasedOnTags(this.textContent);"
                          >${tag}</span>`
