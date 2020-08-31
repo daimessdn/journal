@@ -376,5 +376,13 @@ const data = [
       "#journal"
     ],
     "content": "<p>dear, journal…</p><p>it's friday and I didn't have college scheduled for today. it's time for finishing online courses, web projects, and get clean up the room after the mess…</p><p>~~~</p>"
+  },
+  {
+    "id": "owmiivdka",
+    "date": "31/08/2020",
+    "tags": [
+      "#journal"
+    ],
+    "content": "<p>dear, journal…</p>\n<p>it's been 2 days ago since I have a problem with my laptop and I need to reinstall it. and finally Alhamdulillah, I can use my laptop again after got confused with complecated installation since I didn't have reinstalled my laptop for a long time (approx. 3 years perhaps). now, it's time for re-finishing the projects and deal with homework deadlines.</p>\n<p>… ready for the first September, eh? ~~~</p>"
   }
 ]
