@@ -26,6 +26,11 @@
   src: url("Akkurat-Mono.OTF");
 }
 
+@font-face {
+  font-family: "Helvetica";
+  src: url("Helvetica.ttf");
+}
+
 html {
   height: 100%;
 }
