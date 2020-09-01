@@ -391,6 +391,6 @@ const data = [
     "tags": [
       "#journal"
     ],
-    "content": "<p>dear, journal…</p>\n<p>welcome to the first September. I've got my laptop small error again and have to fix it for moments. I felt so confused for fixing laptop for day. just need a little break, then…</p><p>hmm... feels that I didn't ready for today...</p>"
+    "content": "<p>dear, journal…</p>\n<p>welcome to the first September. I've got my laptop small error again and have to fix it for moments. I felt so confused for fixing laptop for days. just need a little break, then…</p><p>hmm... feels that I didn't ready for today...</p>"
   }
 ]
