@@ -384,5 +384,13 @@ const data = [
       "#journal"
     ],
     "content": "<p>dear, journal…</p>\n<p>it's been 2 days ago since I have a problem with my laptop and I need to reinstall it. and finally Alhamdulillah, I can use my laptop again after got confused with complecated installation since I didn't have reinstalled my laptop for a long time (approx. 3 years perhaps). now, it's time for re-finishing the projects and deal with homework deadlines.</p>\n<p>… ready for the first September, eh? ~~~</p>"
+  },
+  {
+    "id": "tprnimhz",
+    "date": "01/09/2020",
+    "tags": [
+      "#journal"
+    ],
+    "content": "<p>dear, journal…</p>\n<p>welcome to the first September. I've got my laptop small error again and have to fix it for moments. I felt so confused for fixing laptop for day. just need a little break, then…</p><p>hmm... feels that I didn't ready for today...</p>"
   }
 ]
