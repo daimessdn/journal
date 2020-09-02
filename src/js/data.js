@@ -392,5 +392,13 @@ const data = [
       "#journal"
     ],
     "content": "<p>dear, journal…</p>\n<p>welcome to the first September. I've got my laptop small error again and have to fix it for moments. I felt so confused for fixing laptop for days. just need a little break, then…</p><p>hmm... feels that I didn't ready for today...</p>"
+  },
+  {
+    "id": "fqhlnjhss",
+    "date": "02/09/2020",
+    "tags": [
+      "#journal"
+    ],
+    "content": "<p>dear, journal…</p>\n<p>it's been 8036 days walking and exploring this glorious earth.</p>\n<p>that means it's been 22 years when I was born.</p>\n<p>Alhamdulillah, thanks to God for the 22 years given to me, although the pandemic of Coronavirus is not the right time to celebrate anything, especially this moment.</p>\n<p>I just hope my friends and my family will be stay healthy and stay happy. I also hope we can struggle against pandemic and the pandemic will be end soon…</p>\n<p>nice to meet you, world (with a laptop on my table and glass of ice chocolate for small celebration)\nthanks for Twitter for the small reminder (although you don't need remind me to)…\n<img src=\"src/Screenshot_2020-09-02-17-56-42-894_com.twitter.android.png\" alt=\"small reminder of today\" /></p>"
   }
 ]
