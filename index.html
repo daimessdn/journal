@@ -57,58 +57,51 @@
     </span>
   </div>
 
-  <form name="postJournal"
-        onsubmit="submitNotes(document.postJournal.date.value,
-                              document.postJournal.tags.value,
-                              document.postJournal.content.value);"
-        method="POST">
-          <p>
-            <label for="date">date</label>
-          </p>
-          <input type="date" name="date" />
+  <form name="postJournal" method="POST">
+    <p><label for="date">date</label></p>
+    <input type="date" name="date" />
 
-          <p>
-            <label for="tags">
-              tags (use spaces and then 
-                <span class="tag-search">#anothertags</span>
-                for add another tags)
-            </label>
-          </p>
-          <input type="text" name="tags" placeholder="#tags"/>
+    <p><label for="tags">
+      tags (use spaces and then 
+        <span class="tag-search">#anothertags</span>
+      for add another tags)
+    </label></p>
+    <input type="text" name="tags" placeholder="#tags"/>
 
-          <p>
-            <label for="content">text to be written</label>
-          </p>
-          <textarea name="content"
-                    placeholder="What's on your journal?"></textarea>
+    <p><label for="content">text to be written</label>
+    </p>
+    <textarea name="content"
+              placeholder="What's on your journal?"></textarea>
 
-          <button type="button" 
-                  name="bold"
-                  title="Bold"
-                  onclick="formatContent(this.name)"
-                  >
-                  <strong>B</strong>
-          </button>
-          <button type="button" 
-                  name="italic"
-                  title="Italic"
-                  onclick="formatContent(this.name)">
-                  <em>I</em>
-          </button>
-          <button type="button" 
-                  name="shortcode"
-                  title="Short code"
-                  onclick="formatContent(this.name)">
-                  &gt;
-          </button>
-          <button type="button" 
-                  name="longcode"
-                  title="Long code"
-                  onclick="formatContent(this.name)">
-                  <input type="text" name="language">
-          </button>
-
-          <button type="submit">POST</button>
+    <nav class="format-nav">
+      <button type="button" 
+              name="bold"
+              title="Bold"
+              onclick="formatContent(this.name)"
+              >
+              <strong>B</strong>
+      </button>
+      <button type="button" 
+              name="italic"
+              title="Italic"
+              onclick="formatContent(this.name)">
+              <em>I</em>
+      </button>
+      <button type="button" 
+              name="shortcode"
+              title="Short code"
+              onclick="formatContent(this.name)">
+              &gt;
+      </button>
+      <button type="button" 
+              name="longcode"
+              title="Long code"
+              onclick="formatContent(this.name)">
+              &gt; <input type="text" name="language">
+      </button>
+  
+      <button type="submit">POST</button>
+    </nav>
   </form>
 
   <div class="container" id="container">

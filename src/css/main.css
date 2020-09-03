@@ -60,6 +60,19 @@ form[name="postJournal"] input, form[name="postJournal"] button {
   border-radius: 5px;
 }
 
+form[name="postJournal"] button {
+  background-color: #084177;
+  color: #fff;
+}
+
+[name="longcode"] {
+  padding-right: 0;
+}
+
+[name="language"] {
+  border-left: 1px solid #000;
+}
+
 /* #container button[type="submit"] {
   position: absolute;
   bottom: 12px;
@@ -72,6 +85,15 @@ form[name="postJournal"] textarea {
   border-radius: 5px;
   width: 99%;
   height: 100px;
+}
+
+form[name="postJournal"] button input {
+  width: 50px;
+  border: none;
+}
+
+.format-nav {
+  float: right;
 }
 
 #container img {

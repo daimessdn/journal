@@ -307,6 +307,15 @@ function formatContent(formatMenu) {
     case "shortcode":
       formatAttribute = "`"
       break;
+    case "longcode":
+      formatAttribute = "";
+
+      if (document.querySelector(`[name="language"]`).value !== "") {
+        text += "\n\n```" + document.querySelector(`[name="language"]`).value + "\n\n```";
+        document.querySelector(`[name="language"]`).value = "";
+      }
+
+      break;
     default:
       break;
   }

@@ -11,3 +11,11 @@ document.addEventListener("keydown", function(event) {
     // console.log('prev clicked');
   }
 });
+
+postJournal.addEventListener("submit", function(event) {
+  submitNotes(document.postJournal.date.value,
+    document.postJournal.tags.value,
+    document.postJournal.content.value);
+  
+    event.preventDefault();
+});
