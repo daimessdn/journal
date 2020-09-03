@@ -400,5 +400,22 @@ const data = [
       "#journal"
     ],
     "content": "<p>dear, journal…</p>\n<p>it's been 8036 days walking and exploring this glorious earth.</p>\n<p>that means it's been 22 years when I was born (c'mon guys, that's not special at all).</p>\n<p>Alhamdulillah, thanks to God for the 22 years given to me, although the pandemic of Coronavirus is not the right time to celebrate anything, especially this moment.</p>\n<p>I just hope my friends and my family will be stay healthy and stay happy. I also hope we can struggle against pandemic and the pandemic will be end soon…</p>\n<p>nice to meet you, world (with a laptop on my table and glass of ice chocolate for small celebration)\nthanks for Twitter for the small reminder (although you don't need remind me to)…</p><img src=\"src/Screenshot_2020-09-02-17-56-42-894_com.twitter.android.png\" alt=\"small reminder of today\" />"
+  },
+  {
+    "id": "pdhxhphsyo",
+    "date": "04/09/2020",
+    "tags": [
+      "#test"
+    ],
+    "content": "<p><strong>Hello,</strong> <em>world</em></p>"
+  },
+  {
+    "id": "yrvqlacje",
+    "date": "04/09/2020",
+    "tags": [
+      "#journal",
+      "#test"
+    ],
+    "content": "<p>dear, journal…</p>\n<p>I've created a small feature for formatting this journal content (bold and italic first). let me show you how…  </p>\n<p>let say I want to type the character…</p>\n<pre><code>Hello, world!\n</code></pre>\n<ul>\n<li>by using the \"Bold\" button, I can make the selected text bold (let say \"Hello\") from \"Hello, world!\" to \"<strong>Hello</strong>, world!\"<br />\nin markdown, it will be written as <code>**Hello**, world</code>.</li>\n<li>by using the \"Italic\" button, I can make the selected text italic (let say \"world!\") from \"Hello, world!\" to \"Hello, <em>world!</em>\"<br />\nin markdown, it will be written as <code>Hello, *world!*</code>.</li>\n</ul>\n<p>try to use the button as you can. wish u luck~~~</p>"
   }
 ]
