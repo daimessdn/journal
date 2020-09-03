@@ -193,14 +193,28 @@ function getNotes(content) {
 
                             <button type="button" 
                                     name="bold"
+                                    title="Bold"
                                     onclick="formatContent(this.name)"
                                     >
-                                    <strong>Bold</strong>
+                                    <strong>B</strong>
                             </button>
                             <button type="button" 
                                     name="italic"
+                                    title="Italic"
                                     onclick="formatContent(this.name)">
-                                    <em>Italic</em>
+                                    <em>I</em>
+                            </button>
+                            <button type="button" 
+                                    name="shortcode"
+                                    title="Short code"
+                                    onclick="formatContent(this.name)">
+                                    &gt;
+                            </button>
+                            <button type="button" 
+                                    name="longcode"
+                                    title="Long code"
+                                    onclick="formatContent(this.name)">
+                                    <input type="text" name="language">
                             </button>
 
                             <button type="submit">POST</button>
@@ -334,19 +348,22 @@ function formatContent(formatMenu) {
   let element = document.postJournal.content
   let text = element.value;
 
+  let formatAttribute;
+
   switch(formatMenu) {
     case "bold":
-      text = text.slice(0, element.selectionStart) + "**" + text.slice(element.selectionStart, element.selectionEnd) + "**" + text.slice(element.selectionEnd);
+      formatAttribute = "**"
       break;
     case "italic":
-      text = text.slice(0, element.selectionStart) + "*" + text.slice(element.selectionStart, element.selectionEnd) + "*" + text.slice(element.selectionEnd);
+      formatAttribute = "*"
       break;
     case "shortcode":
-      text = text.slice(0, element.selectionStart) + "`" + text.slice(element.selectionStart, element.selectionEnd) + "`" + text.slice(element.selectionEnd);
+      formatAttribute = "`"
       break;
     default:
       break;
   }
 
+  text = text.slice(0, element.selectionStart) + formatAttribute + text.slice(element.selectionStart, element.selectionEnd) + formatAttribute + text.slice(element.selectionEnd);
   element.value = text;
 }
