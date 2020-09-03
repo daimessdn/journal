@@ -8,9 +8,9 @@ const tag_search = tag_phrases[
                    Math.floor(Math.random() * tag_phrases.length)
                  ];
 const loading = loading_phrases[Math.floor(Math.random() * loading_phrases.length)];
-const textarea = textarea_phrases[
-                   Math.floor(Math.random() * textarea_phrases.length)
-                 ];
+// const textarea = textarea_phrases[
+//                    Math.floor(Math.random() * textarea_phrases.length)
+//                  ];
 
 const morning = push_phrases.morning[
                   Math.floor(Math.random() * push_phrases.morning.length)
@@ -166,59 +166,7 @@ function reloadNotes(event) {
 
 function getNotes(content) {
   let formHTML = `
-                    <form name="postJournal"
-                          onsubmit="submitNotes(document.postJournal.date.value,
-                                                document.postJournal.tags.value,
-                                                document.postJournal.content.value);"
-                          method="POST">
-                            <p>
-                              <label for="date">date</label>
-                            </p>
-                            <input type="date" name="date" />
-
-                            <p>
-                              <label for="tags">
-                                tags (use spaces and then 
-                                  <span class="tag-search">#anothertags</span>
-                                 for add another tags)
-                              </label>
-                            </p>
-                            <input type="text" name="tags" placeholder="#tags"/>
-
-                            <p>
-                              <label for="content">text to be written</label>
-                            </p>
-                            <textarea name="content"
-                                      placeholder="${textarea}"></textarea>
-
-                            <button type="button" 
-                                    name="bold"
-                                    title="Bold"
-                                    onclick="formatContent(this.name)"
-                                    >
-                                    <strong>B</strong>
-                            </button>
-                            <button type="button" 
-                                    name="italic"
-                                    title="Italic"
-                                    onclick="formatContent(this.name)">
-                                    <em>I</em>
-                            </button>
-                            <button type="button" 
-                                    name="shortcode"
-                                    title="Short code"
-                                    onclick="formatContent(this.name)">
-                                    &gt;
-                            </button>
-                            <button type="button" 
-                                    name="longcode"
-                                    title="Long code"
-                                    onclick="formatContent(this.name)">
-                                    <input type="text" name="language">
-                            </button>
-
-                            <button type="submit">POST</button>
-                    </form>`;
+                    `;
   
   const container = document.getElementById("container");
 
@@ -343,7 +291,6 @@ function reloadNotesBasedOnTags(tag) {
   setTimeout(getNotes(tagcontent), 3000);
 }
 
-// Function to get the Selected Text  
 function formatContent(formatMenu) {
   let element = document.postJournal.content
   let text = element.value;

@@ -17,14 +17,14 @@ const loading_phrases = [
   "still be patient?"
 ];
 
-const textarea_phrases = [
-  "Dear, journal...",
-  "Once upon a time...",
-  "Hello, world!",
-  "Tell me.",
-  "Is there any interesting thing you want to tell?",
-  "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
-];
+// const textarea_phrases = [
+//   "Dear, journal...",
+//   "Once upon a time...",
+//   "Hello, world!",
+//   "Tell me.",
+//   "Is there any interesting thing you want to tell?",
+//   "Lorem ipsum dolor sit amet, consectetur adipiscing elit..."
+// ];
 
 const not_found_phrases = [
   "uh oh. seems you are lost, little bro. let me get you into the right direction.",
