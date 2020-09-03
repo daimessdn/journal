@@ -341,6 +341,9 @@ function formatContent(formatMenu) {
     case "italic":
       text = text.slice(0, element.selectionStart) + "*" + text.slice(element.selectionStart, element.selectionEnd) + "*" + text.slice(element.selectionEnd);
       break;
+    case "shortcode":
+      text = text.slice(0, element.selectionStart) + "`" + text.slice(element.selectionStart, element.selectionEnd) + "`" + text.slice(element.selectionEnd);
+      break;
     default:
       break;
   }
