@@ -190,6 +190,19 @@ function getNotes(content) {
                             </p>
                             <textarea name="content"
                                       placeholder="${textarea}"></textarea>
+
+                            <button type="button" 
+                                    name="bold"
+                                    onclick="formatContent(this.name)"
+                                    >
+                                    <strong>Bold</strong>
+                            </button>
+                            <button type="button" 
+                                    name="italic"
+                                    onclick="formatContent(this.name)">
+                                    <em>Italic</em>
+                            </button>
+
                             <button type="submit">POST</button>
                     </form>`;
   
@@ -314,4 +327,23 @@ function reloadNotesBasedOnTags(tag) {
 
   pushTriggerUp();
   setTimeout(getNotes(tagcontent), 3000);
+}
+
+// Function to get the Selected Text  
+function formatContent(formatMenu) {
+  let element = document.postJournal.content
+  let text = element.value;
+
+  switch(formatMenu) {
+    case "bold":
+      text = text.slice(0, element.selectionStart) + "**" + text.slice(element.selectionStart, element.selectionEnd) + "**" + text.slice(element.selectionEnd);
+      break;
+    case "italic":
+      text = text.slice(0, element.selectionStart) + "*" + text.slice(element.selectionStart, element.selectionEnd) + "*" + text.slice(element.selectionEnd);
+      break;
+    default:
+      break;
+  }
+
+  element.value = text;
 }

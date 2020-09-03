@@ -60,11 +60,11 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 5px;
 }
 
-#container button[type="submit"] {
+/* #container button[type="submit"] {
   position: absolute;
   bottom: 12px;
   right: 1.2%;
-}
+} */
 
 #container textarea {
   font: 14px "Akkurat Mono";
