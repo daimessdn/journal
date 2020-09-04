@@ -17,5 +17,11 @@ postJournal.addEventListener("submit", function(event) {
     document.postJournal.tags.value,
     document.postJournal.content.value);
   
-    event.preventDefault();
+  event.preventDefault();
+});
+
+linkOption.addEventListener("submit", function(event) {
+  
+  
+  event.preventDefault();
 });

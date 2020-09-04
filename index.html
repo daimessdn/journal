@@ -23,6 +23,7 @@
     <!-- <input type="text" name="search_query" placeholder="SEARCH HERE..." /> -->
     <div id="query"></div>
   </div>
+
   <ul id="navbar">
     <li
       onclick="openNav()">
@@ -57,56 +58,80 @@
     </span>
   </div>
 
-  <form name="postJournal" method="POST">
-    <p><label for="date">date</label></p>
-    <input type="date" name="date" />
-
-    <p><label for="tags">
-      tags (use spaces and then 
-        <span class="tag-search">#anothertags</span>
-      for add another tags)
-    </label></p>
-    <input type="text" name="tags" placeholder="#tags"/>
-
-    <p><label for="content">text to be written</label>
-    </p>
-    <textarea name="content"
-              placeholder="What's on your journal?"></textarea>
-
-    <nav class="format-nav">
-      <button type="button" 
-              name="bold"
-              title="Bold"
-              onclick="formatContent(this.name)"
-              >
-              <strong>B</strong>
-      </button>
-      <button type="button" 
-              name="italic"
-              title="Italic"
-              onclick="formatContent(this.name)">
-              <em>I</em>
-      </button>
-      <button type="button" 
-              name="shortcode"
-              title="Short code"
-              onclick="formatContent(this.name)">
-              &gt;
-      </button>
-      <button type="button" 
-              name="longcode"
-              title="Long code"
-              onclick="formatContent(this.name)">
-              &gt; <input type="text" name="language">
-      </button>
+  <div class="form-section">
+    <form name="postJournal" method="POST">
+      <p><label for="date">date</label></p>
+      <input type="date" name="date" />
   
-      <button type="submit">POST</button>
-    </nav>
-  </form>
+      <p><label for="tags">
+        tags (use spaces and then 
+          <span class="tag-search">#anothertags</span>
+        for add another tags)
+      </label></p>
+      <input type="text" name="tags" placeholder="#tags"/>
+  
+      <p><label for="content">text to be written</label>
+      </p>
+      <textarea name="content"
+                placeholder="What's on your journal?"></textarea>
+  
+      <nav class="format-nav">
+        <button type="button" 
+                name="bold"
+                title="Bold"
+                onclick="formatContent(this.name)"
+                >
+                <strong>B</strong>
+        </button>
+        <button type="button" 
+                name="italic"
+                title="Italic"
+                onclick="formatContent(this.name)">
+                <em>I</em>
+        </button>
+        <button type="button" 
+                name="shortcode"
+                title="Short code"
+                onclick="formatContent(this.name)">
+                &gt;
+        </button>
+        <button type="button" 
+                name="longcode"
+                title="Long code"
+                onclick="formatContent(this.name)">
+                &gt; <input type="text" name="language">
+        </button>
+        <button type="button" 
+        name="link"
+        title="Link"
+        onclick="formatContent(this.name)">
+        <i class="fa fa-link"></i>
+       </button>
+      
+       <button type="submit">POST</button>
+      </nav>
+    </form>
+  
+    <div class="option-aside">
+      <div class="option-section">
+        <form name="linkOption">
+          <p><label for="link">link</label></p>
+          <input type="text" name="link" placeholder="https://example.com" />
+  
+          <p><label for="link-description">description</label></p>
+          <input type="text" name="link-description" placeholder="link description here..." />
+
+         <button type="submit">APPLY</button>
+        </form>
+      </div>
+    </div>
+  </div>
 
   <div class="container" id="container">
     <p class="date" id="loading">...</p>
   </div>
+
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.0/highlight.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
 
