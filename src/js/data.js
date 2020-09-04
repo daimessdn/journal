@@ -417,5 +417,13 @@ const data = [
       "#test"
     ],
     "content": "<p>dear, journal…</p>\n<p>I've created a small feature for formatting this journal content (bold and italic first). let me show you how…  </p>\n<p>let say I want to type the character…</p>\n<pre><code>Hello, world!\n</code></pre>\n<ul>\n<li>by using the \"Bold\" button, I can make the selected text bold (let say \"Hello\") from \"Hello, world!\" to \"<strong>Hello</strong>, world!\"<br />\nin markdown, it will be written as <code>**Hello**, world</code>.</li>\n<li>by using the \"Italic\" button, I can make the selected text italic (let say \"world!\") from \"Hello, world!\" to \"Hello, <em>world!</em>\"<br />\nin markdown, it will be written as <code>Hello, *world!*</code>.</li>\n</ul>\n<p>try to use the button as you can. wish u luck~~~</p>"
+  },
+  {
+    "id": "awzexcwn",
+    "date": "04/09/2020",
+    "tags": [
+      "#journal"
+    ],
+    "content": "<p>dear, journal…</p>\n<p>still adding some featues for the journal.</p>\n<p>just wait…</p>"
   }
 ]
