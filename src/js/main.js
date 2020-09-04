@@ -165,9 +165,6 @@ function reloadNotes(event) {
 }
 
 function getNotes(content) {
-  let formHTML = `
-                    `;
-  
   const container = document.getElementById("container");
 
   if (content.length > 0) {
@@ -182,8 +179,7 @@ function getNotes(content) {
               ]}</p>`;
   }
 
-  container.innerHTML = `${formHTML}
-                         <p class="date">based on tags</p>
+  container.innerHTML = `<p class="date">based on tags</p>
                          <div class="tag-results">
                            ${getTagSearch(uniqueTags)}
                          </div>
