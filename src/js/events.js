@@ -21,7 +21,7 @@ postJournal.addEventListener("submit", function(event) {
 });
 
 linkOption.addEventListener("submit", function(event) {
-  
+      document.querySelector(`[name="linkOption"]`).style.display = "none";
   
   event.preventDefault();
 });

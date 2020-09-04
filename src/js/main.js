@@ -312,6 +312,9 @@ function formatContent(formatMenu) {
       }
 
       break;
+    case "link-toogle":
+      formatAttribute = "";
+      document.querySelector(`[name="linkOption"]`).style.display = "block";
     default:
       break;
   }
