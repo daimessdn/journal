@@ -10,6 +10,29 @@ document.addEventListener("keydown", function(event) {
     navbar.children[1].click();
     // console.log('prev clicked');
   }
+
+  // ctrl + char events
+  if (event.ctrlKey && String.fromCharCode(event.keyCode) === 'B') {
+    formatContent("bold");
+    event.preventDefault();
+    event.stopPropagation();
+  } else if (event.ctrlKey && String.fromCharCode(event.keyCode) === 'I') {
+    formatContent("italic");
+    event.preventDefault();
+    event.stopPropagation();
+  } else if (event.ctrlKey && event.shiftKey && event.key === '`') {
+    formatContent("longcode");
+    event.preventDefault();
+    event.stopPropagation();
+  } else if (event.ctrlKey && event.key === "`") {
+    formatContent("shortcode");
+    event.preventDefault();
+    event.stopPropagation();
+  } else if (event.ctrlKey && String.fromCharCode(event.keyCode) === 'L') {
+    formatContent("link-toogle");
+    event.preventDefault();
+    event.stopPropagation();
+  }
 });
 
 postJournal.addEventListener("submit", function(event) {
