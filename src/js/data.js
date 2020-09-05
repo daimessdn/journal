@@ -425,5 +425,14 @@ const data = [
       "#journal"
     ],
     "content": "<p>dear, journal…</p>\n<p>still adding some featues for the journal.</p>\n<p>just wait…</p>"
+  },
+  {
+    "id": "nadgnbxxs",
+    "date": "05/09/2020",
+    "tags": [
+      "#journal",
+      "#petroleum"
+    ],
+    "content": "<p>dear, journal…</p>\n<p>in this weekend time, I've spent my time to learn well-testing - according to Amanat U. Chaudry (2004) is a branch of petroleum reservoir engineering, discussing about measuring oil and gas well performance based on pressure drop and several pysical properties of oil and gas (please correct me if I'm wrong). now, I'm get lost in calculating oil and gas properties in <em>steady-state</em>, <em>pseudo-steady state</em>, and (finally) <em>unsteady-state</em>.</p>\n<p>so many mathematics out there. need to have some materials of recent petroleum class review until I can understand this.</p>\n<p>wish me luck~~~</p>"
   }
 ]
