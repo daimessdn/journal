@@ -451,5 +451,13 @@ const data = [
       "#journal"
     ],
     "content": "<p>dear, journal…</p>\n<p>I've cooked my own fried rice from fried rice instant ingredients (indo: <em>bumbu racik nasi goreng</em>). I'm so proud to have a cook by myself. money saved and have some full in my tummy (although it was so spicy that my tummy hurt anyway)</p>\n<p>what should I cooked again, then? :D~~~</p>"
+  },
+  {
+    "id": "dbaabe",
+    "date": "07/09/2020",
+    "tags": [
+      "#journal"
+    ],
+    "content": "<p>dear, Pikachu…</p>\n<p>thanks for coming to play for me, but I have to finish my job first…</p>\n<p>cheers~~~\n@dimaswehhh…</p>"
   }
 ]
