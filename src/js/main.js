@@ -315,6 +315,7 @@ function formatContent(formatMenu) {
     case "link-toogle":
       formatAttribute = "";
       document.querySelector(`[name="linkOption"]`).style.display = "block";
+      document.linkOption.link.focus();
     default:
       break;
   }
