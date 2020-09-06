@@ -32,6 +32,12 @@ document.addEventListener("keydown", function(event) {
     formatContent("link-toogle");
     event.preventDefault();
     event.stopPropagation();
+  } else if (event.ctrlKey && event.key === "Enter") {
+    submitNotes(document.postJournal.date.value,
+      document.postJournal.tags.value,
+      document.postJournal.content.value);
+    
+    event.preventDefault();
   }
 });
 
