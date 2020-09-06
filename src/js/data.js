@@ -443,5 +443,13 @@ const data = [
       "#test"
     ],
     "content": "<p>dear journal</p>\n<p>I've added some keyboard shortcuts in notes text formatting for my typing comfort.</p>\n<p>here's the shortcut</p>\n<ul>\n<li><kbd>Ctrl + B</kbd> - bold text.</li>\n<li><kbd>Ctrl + I</kbd> - italic text.</li>\n<li><kbd>Ctrl + Shift + `</kbd> - long code.</li>\n<li><kbd>Ctrl + `</kbd> - short code.</li>\n<li><kbd>Ctrl + L</kbd> - link.</li>\n</ul>"
+  },
+  {
+    "id": "hpuhq",
+    "date": "06/09/2020",
+    "tags": [
+      "#journal"
+    ],
+    "content": "<p>dear, journal…</p>\n<p>I've cooked my own fried rice from fried rice instant ingredients (indo: <em>bumbu racik nasi goreng</em>). I'm so proud to have a cook by myself. money saved and have some full in my tummy (although it was so spicy that my tummy hurt anyway)</p>\n<p>what should I cooked again, then? :D~~~</p>"
   }
 ]
