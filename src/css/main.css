@@ -165,7 +165,7 @@ pre code {
   overflow-y: auto;
 }
 
-code {
+code, kbd {
   font-family: "Akkurat Mono";
 }
 
