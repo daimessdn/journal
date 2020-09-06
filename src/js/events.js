@@ -50,7 +50,12 @@ postJournal.addEventListener("submit", function(event) {
 });
 
 linkOption.addEventListener("submit", function(event) {
-      document.querySelector(`[name="linkOption"]`).style.display = "none";
+  document.querySelector(`[name="linkOption"]`).style.display = "none";
+  
+  document.postJournal.content.value += `[${linkOption.linkDescription.value}](${linkOption.link.value})`;
+  
+  linkOption.link.value = "";
+  linkOption.linkDescription.value = "";
   
   event.preventDefault();
 });
