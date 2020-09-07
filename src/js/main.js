@@ -179,7 +179,7 @@ function getNotes(content) {
               ]}</p>`;
   }
 
-  container.innerHTML = `<p class="date">based on tags</p>
+  container.innerHTML = `<p class="date">Based on tags</p>
                          <div class="tag-results">
                            ${getTagSearch(uniqueTags)}
                          </div>

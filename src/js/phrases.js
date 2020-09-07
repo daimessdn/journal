@@ -1,20 +1,20 @@
 const search_phrases = [
-  "what are you looking for?",
-  "search something, huh?",
-  "found what you need?",
-  "looking for something?",
-  "found some words?",
-  "searched any useful stuffs?"
+  "What are you looking for?",
+  "Search something, huh?",
+  "Found what you need?",
+  "Looking for something?",
+  "Found some words?",
+  "Searched any useful stuffs?"
 ];
 
 const loading_phrases = [
-  "getting your journal ready...",
-  "please wait for a moment once your journal is ready...",
-  "can't wait for reading, eh?",
-  "relax and we will make things done for you...",
-  "ready for the reads?",
-  "let see what we have for you...",
-  "still be patient?"
+  "Getting your journal ready...",
+  "Please wait for a moment once your journal is ready...",
+  "Can't wait for reading, eh?",
+  "Relax and we will make things done for you...",
+  "Ready for the reads?",
+  "Let see what we have for you...",
+  "Still be patient?"
 ];
 
 // const textarea_phrases = [
@@ -27,14 +27,14 @@ const loading_phrases = [
 // ];
 
 const not_found_phrases = [
-  "uh oh. seems you are lost, little bro. let me get you into the right direction.",
-  "one more arrow button to find your little story...",
-  "did I say that you've got the little treasure?",
-  "one more arrow button or create one. there's nothing here.",
-  "nothing...",
-  "have tried the search button yet? just look at the magnifying glass icon and type something you look for there. it should be worked. good luck... :)",
-  "nothing's here. any place, maybe?",
-  "right or left?"
+  "Uh oh. It seems you are lost, little bro. Let me get you into the right direction.",
+  "One more arrow button to find your little story...",
+  "Did I say that you've got the little treasure?",
+  "One more arrow button or create one. There's nothing here.",
+  "Nothing...",
+  "Have tried the search button yet? Just look at the magnifying glass icon and type something you look for there. It should be worked. good luck... :)",
+  "Nothing's here. any place, maybe?",
+  "Right or left?"
 ];
 
 const got_notes_phrases = [
@@ -47,47 +47,47 @@ const got_notes_phrases = [
 ];
 
 const character = [
-  "spiderman",
-  "superhero",
-  "cute bunny",
-  "pikachu",
-  "avatar aang",
-  "mr. bean",
-  "superman",
-  "mr. gingerbread",
-  "mr. hokage",
-  "ms. stella"
+  "Spiderman",
+  "Superhero",
+  "Cute bunny",
+  "Pikachu",
+  "Avatar Aang",
+  "Mr. Bean",
+  "Superman",
+  "Mr. Gingerbread",
+  "Mr. Hokage",
+  "Ms. Stella"
 ];
 
 const push_phrases = {
   morning: [
-    "good morninig <br />OK, only that.",
-    "slept well last night?",
-    `${character[Math.floor(Math.random() * character.length)]} comes to play.<br />please wake up...`,
-    "have you tidy up your bed and your bed clothes?",
-    "have something to write?<br/>we have a writing space top there.",
-    "got your breakfast and your coffee ready yet?",
-    "rise and shine...",
+    "Good morninig <br />OK, only that.",
+    "Slept well last night?",
+    `${character[Math.floor(Math.random() * character.length)]} comes to play.<br />Please wake up...`,
+    "Have you tidy up your bed and your bed clothes?",
+    "Have something to write?<br/>We have a writing space top there.",
+    "Got your breakfast and your coffee ready yet?",
+    "Rise and shine...",
   ],
   afternoon: [
-    "have prepared your sunblock already?",
-    "wait. is it still morning?<br />why the people said it's afternoon?",
-    "don't forget to have some few rest.<br />it's lunch time I think.",
-    "lunch time, honey...",
-    "how was your nap?",
-    "don't forget to eat",
-    "have you taken a nap?",
+    "Have prepared your sunblock already?",
+    "Wait. Is it still morning?<br />Why the people said it's afternoon?",
+    "Don't forget to have some few rest.<br />It's lunch time I think.",
+    "Lunch time, honey...",
+    "How was your nap?",
+    "Don't forget to eat",
+    "Have you taken a nap?",
   ],
   evening: [
-    "already have dinner?",
-    "good night...",
-    "zzz...",
-    "can't sleep?",
-    "need a bedtime story?",
-    "have prepared your lotion?",
-    "have prepared something before going to bed?",
-    `don't want to sleep alone?<br />${character[Math.floor(Math.random() * character.length)]} is here with you.`,
-    "sleep is good for health.<br /> don't forget to sleep.",
+    "Already have dinner?",
+    "Good night...",
+    "ZzZ...",
+    "Can't sleep?",
+    "Need a bedtime story?",
+    "Have prepared your lotion?",
+    "Have prepared something before going to bed?",
+    `Don't want to sleep alone?<br />${character[Math.floor(Math.random() * character.length)]} is here with you.`,
+    "Sleep is good for health.<br /> Don't forget to sleep.",
   ],
 };
 
