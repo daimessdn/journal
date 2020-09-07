@@ -236,7 +236,7 @@ ul {
   z-index: 10;
 }
 
-#navbar img {
+.nav-item img {
   width: 18px;
 }
 
