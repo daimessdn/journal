@@ -60,7 +60,7 @@ const data = [
       "#test"
     ],
     "id": "jpsyolrwa",
-    "content": "<p>Dear journal…</p>\n<p>I have added several physical features for you. hope you like it… :)</p>"
+    "content": "<p>Dear journal…</p>\n<p>I have added several physical features for you. Hope you like it… :)</p>"
   },
   {
     "id": "yqjty2eS1k",
@@ -79,7 +79,7 @@ const data = [
       "#journal",
       "#learning",
     ],
-    "content": "<p>Dear, journal…</p>\n<p>Alhamdulillah, I've done all of my certifications on Coursera. one of them is \"Data Engineering with Google Cloud Professional Certificate\". needs a lot of time to accomplish all of them. BTW, tomorrow #JuaraGCP is open for the <a href=\"https://goo.gle/JuaraGCP\">3rd time</a> and I can't wait for accomplish all of 12 quests for challenge myself and of course - <a href=\"https://twitter.com/googledevsid/status/1255671210517475328?s=20\">amazing swags</a>!!!</p>\n<p>and I also can't wait for data science class and machine learning from dicoding and accomplish data science course from IBM and also on Coursera…</p>\n<p>Wish me luck~~</p>\n<p><img src=\"https://coursera-certificate-images.s3.amazonaws.com/ZZZW2UU4Z7WK\" alt=\"keep spirit\" /></p>"
+    "content": "<p>Dear, journal…</p>\n<p>Alhamdulillah, I've done all of my certifications on Coursera. One of them is \"Data Engineering with Google Cloud Professional Certificate\". Needs a lot of time to accomplish all of them. BTW, tomorrow #JuaraGCP is open for the <a href=\"https://goo.gle/JuaraGCP\">3rd time</a> and I can't wait for accomplish all of 12 quests for challenge myself and of course - <a href=\"https://twitter.com/googledevsid/status/1255671210517475328?s=20\">amazing swags</a>!!!</p>\n<p>and I also can't wait for data science class and machine learning from dicoding and accomplish data science course from IBM and also on Coursera…</p>\n<p>Wish me luck~~</p>\n<p><img src=\"https://coursera-certificate-images.s3.amazonaws.com/ZZZW2UU4Z7WK\" alt=\"keep spirit\" /></p>"
   },
   {
     "id": "vhftkvzl",
@@ -98,7 +98,7 @@ const data = [
       "#journal",
       "#googlecloud"
     ],
-    "content": "<p>Dear, journal…</p>\n<p>Finally, I've accomplished #JuaraGCP challenge by completing 12 quests in Qwiklabs.</p>\n<p><img src=\"https://pbs.twimg.com/media/EXCRyd9VcAADeAD?format=jpg&name=large\" alt=\"image\" /></p>\n<p>You can join the challenge by <a href=\"https://goo.gle/JuaraGCP\">one click here</a>. learn some technology concepts on Google Cloud, complete the quests, and get the exclusive swags…</p>\n<p>stay safe, happy learning, and wish u luck~~~\n<strong>*the quests are pretty tough enough. it will be a lot fun...</strong></p>"
+    "content": "<p>Dear, journal…</p>\n<p>Finally, I've accomplished #JuaraGCP challenge by completing 12 quests in Qwiklabs.</p>\n<p><img src=\"https://pbs.twimg.com/media/EXCRyd9VcAADeAD?format=jpg&name=large\" alt=\"image\" /></p>\n<p>You can join the challenge by <a href=\"https://goo.gle/JuaraGCP\">one click here</a>. Learn some technology concepts on Google Cloud, complete the quests, and get the exclusive swags…</p>\n<p>Stay safe, happy learning, and wish u luck~~~\n<strong>*the quests are pretty tough enough. It will be a lot fun...</strong></p>"
   },
   {
     "id": "bpfgyaonuu",
@@ -124,7 +124,7 @@ const data = [
     "tags": [
       "#journal"
     ],
-    "content": "<p>Dear, journal…</p>\n<p>1 more day for my chance to learn many stuffs from Datacamp and today we just started to learn all stuffs about machine learning and data science for Shopee data science competitions. it might be rough, but we sure that we can prepared it all we can…</p>\n<p>Wish us luck~~</p>"
+    "content": "<p>Dear, journal…</p>\n<p>1 more day for my chance to learn many stuffs from Datacamp and today we just started to learn all stuffs about machine learning and data science for Shopee data science competitions. It might be rough, but we sure that we can prepared it all we can…</p>\n<p>Wish us luck~~</p>"
   },
   {
     "id": "knxufdurgk",
@@ -143,7 +143,7 @@ const data = [
       "#aws",
       "#ml"
     ],
-    "content": "<p>Dear, journal…</p>\n<p>Alhamdulliah, several days ago (maybe a week ago), I've got free course of <strong>AWS Machine Learning Fundamentals</strong> as a first step to get a <strong>AWS Machine Learning Nanodegree Scholarships Program</strong> and today is the beginning of the course I've started. you can join too via <a href=\"https://www.udacity.com/scholarships/aws-machine-learning-scholarship-program\">this url</a>. According to the AWS <strong>Google-hosted website</strong>, there will be a second step (I mean, advanced course such as dicoding has maybe). Wish me luck for get it and learn a lot…</p>\n<p>*tommorow is Syawal 3rd and ready for the second fasting… Wish me luck~~~</p>\n<p><img src=\"https://lh3.google.com/u/0/d/1xduKERO_RJx-TIJpE2uxvrxxAbAzMMij=w1600-h801-iv1\" alt=\"aws scholarship image\" />\n<img src=\"https://lh3.google.com/u/0/d/1b9T5CyPsHt4XoazAHku4sI08uV7GX330=w1600-h547-iv1\" alt=\"first step on AWS ML\" /></p>"
+    "content": "<p>Dear, journal…</p>\n<p>Alhamdulliah, several days ago (maybe a week ago), I've got free course of <strong>AWS Machine Learning Fundamentals</strong> as a first step to get a <strong>AWS Machine Learning Nanodegree Scholarships Program</strong> and today is the beginning of the course I've started. You can join too via <a href=\"https://www.udacity.com/scholarships/aws-machine-learning-scholarship-program\">this url</a>. According to the AWS <strong>Google-hosted website</strong>, there will be a second step (I mean, advanced course such as dicoding has maybe). Wish me luck for get it and learn a lot…</p>\n<p>*tommorow is Syawal 3rd and ready for the second fasting… Wish me luck~~~</p>\n<p><img src=\"https://lh3.google.com/u/0/d/1xduKERO_RJx-TIJpE2uxvrxxAbAzMMij=w1600-h801-iv1\" alt=\"aws scholarship image\" />\n<img src=\"https://lh3.google.com/u/0/d/1b9T5CyPsHt4XoazAHku4sI08uV7GX330=w1600-h547-iv1\" alt=\"first step on AWS ML\" /></p>"
   },
   {
     "id": "srojqtgxa",
@@ -151,7 +151,7 @@ const data = [
     "tags": [
       "#journal"
     ],
-    "content": "<p>Dear, journal…</p>\n<p>Alhamdulillah, when I was arrived into the boarding house (<strong>indo: <em>indekos</em>/<em>kos-kosan</em></strong>), I was surprised when there is a black big package in the basement and it was for me. I was so happy when I opened that package, there are #JuaraGCP swags containing bag, hat, and unique bottle. thanks for #JuaraGCP, Google Cloud, and Qwiklabs for bringing me the best learning experiences during Ramadhan and COVID-19. I can't wait for wear them after pandemics and learn more about technology in the next Google Cloud sessions…</p>\n<p><img src=\"https://lh3.google.com/u/0/d/1Af7Vt_3_9a1oFXrAJhlar5NE9GXk0TXb=w1600-h899-iv1\" alt=\"swag juaragcp season 3\" /></p>\n<p>And I've got followed by Google Cloud Platform on <a href=\"https://twitter.com/daimessdn/status/1266343777012076544\">Twitter</a>. So happy… :D</p>\n<p>And thanks for #JuaraGCP for helping me learn more about GCP and spending time during this Ramadan. I can't wait for the next learning season on GCP and many platforms…</p>\n<p><strong>*I always want the Google kevlar (millet). It looks cute..</strong></p>\n<p><img src='https://your.googlemerchandisestore.com/Images/Products/Large/GGL1591_gilet_4454.jpg' /></p>"
+    "content": "<p>Dear, journal…</p>\n<p>Alhamdulillah, when I was arrived into the boarding house (<strong>indo: <em>indekos</em>/<em>kos-kosan</em></strong>), I was surprised when there is a black big package in the basement and it was for me. I was so happy when I opened that package, there are #JuaraGCP swags containing bag, hat, and unique bottle. Thanks for #JuaraGCP, Google Cloud, and Qwiklabs for bringing me the best learning experiences during Ramadhan and COVID-19. I can't wait for wear them after pandemics and learn more about technology in the next Google Cloud sessions…</p>\n<p><img src=\"https://lh3.google.com/u/0/d/1Af7Vt_3_9a1oFXrAJhlar5NE9GXk0TXb=w1600-h899-iv1\" alt=\"swag juaragcp season 3\" /></p>\n<p>And I've got followed by Google Cloud Platform on <a href=\"https://twitter.com/daimessdn/status/1266343777012076544\">Twitter</a>. So happy… :D</p>\n<p>And thanks for #JuaraGCP for helping me learn more about GCP and spending time during this Ramadan. I can't wait for the next learning season on GCP and many platforms…</p>\n<p><strong>*I always want the Google kevlar (millet). It looks cute..</strong></p>\n<p><img src='https://your.googlemerchandisestore.com/Images/Products/Large/GGL1591_gilet_4454.jpg' /></p>"
   },
   {
     "id": "wbiwygk",
@@ -179,7 +179,7 @@ const data = [
       "#blender3d",
       "#learning"
     ],
-    "content": "<p>Dear, journal…</p>\n<p>I've created virus model with Blender 2.82. thanks for <a href=\"https://www.youtube.com/watch?v=s1NEEM8FPZ0\">CGI DEAL</a> for the YouTube video which helps me create this amazing (but still ugly) virus model. maybe I can create better than I was made today.</p>\n<p><img src=\"https://lh3.google.com/u/0/d/196-4GunuRTJDJYKErMLDrKa5-KFKHLJs=w1600-h547-iv1\" alt=\"virus model\" /></p>\n<p>Unfortunately, I can't export whole model along with color modelling for my Augmented Reality testing on the web (<a href=\"https://ar-js-org.github.io\">AR.js</a> and <a href=\"https://a-frame.io\">A-FRAME</a>). I will find out how to solve this and make my model visible in AR.js…</p>\n<p>Wish me luck~~~</p>"
+    "content": "<p>Dear, journal…</p>\n<p>I've created virus model with Blender 2.82. Thanks for <a href=\"https://www.youtube.com/watch?v=s1NEEM8FPZ0\">CGI DEAL</a> for the YouTube video which helps me create this amazing (but still ugly) virus model. Maybe I can create better than I was made today.</p>\n<p><img src=\"https://lh3.google.com/u/0/d/196-4GunuRTJDJYKErMLDrKa5-KFKHLJs=w1600-h547-iv1\" alt=\"virus model\" /></p>\n<p>Unfortunately, I can't export whole model along with color modelling for my Augmented Reality testing on the web (<a href=\"https://ar-js-org.github.io\">AR.js</a> and <a href=\"https://a-frame.io\">A-FRAME</a>). I will find out how to solve this and make my model visible in AR.js…</p>\n<p>Wish me luck~~~</p>"
   },
   {
     "id": "tlrcxwk",
@@ -187,7 +187,7 @@ const data = [
     "tags": [
       "#journal"
     ],
-    "content": "<p>Dear, journal…</p>\n<p>I was so excited to attend the <a href=\"https://www.youtube.com/watch?v=Fcf0-VrGzig\">Virtual Graduation Day 2019</a> from Indosat Ooredoo Digital Camp (IDCamp) and meet the <em>cum laude</em> fresh graduate of IDCamp 2019 Awardee. I was also excited to hear the motivated messages and materials from speakers there. thanks for this webinar. hope will be the next fresh graduates…</p>\n<p>Wish me luck~~~</p>\n<p>*wish u a happy birthday for my elder brother…</p>"
+    "content": "<p>Dear, journal…</p>\n<p>I was so excited to attend the <a href=\"https://www.youtube.com/watch?v=Fcf0-VrGzig\">Virtual Graduation Day 2019</a> from Indosat Ooredoo Digital Camp (IDCamp) and meet the <em>cum laude</em> fresh graduate of IDCamp 2019 Awardee. I was also excited to hear the motivated messages and materials from speakers there. Thanks for this webinar. Hope will be the next fresh graduates…</p>\n<p>Wish me luck~~~</p>\n<p>*wish u a happy birthday for my elder brother…</p>"
   },
   {
     "id": "tcydnouqmxe",
@@ -195,7 +195,7 @@ const data = [
     "tags": [
       "#journal"
     ],
-    "content": "<p>Dear, journal…</p>\n<p>Since 4 days ago, I've accepted Awla's little commitment job for creating website forum for college major and I'm still being stuck on how to make the scrollable behavior on each columns. this challenge is so stressful by today so I need to do so one-hour-rest for today before I begin to continue again…</p>\n<p><em>Bismillah…</em></p>"
+    "content": "<p>Dear, journal…</p>\n<p>Since 4 days ago, I've accepted Awla's little commitment job for creating website forum for college major and I'm still being stuck on how to make the scrollable behavior on each columns. This challenge is so stressful by today so I need to do so one-hour-rest for today before I begin to continue again…</p>\n<p><em>Bismillah…</em></p>"
   },
   {
     "id": "hpxiaece",
@@ -203,7 +203,7 @@ const data = [
     "tags": [
       "#journal"
     ],
-    "content": "<p>Dear, journal…</p>\n<p>it's been 2 day ago since I've joined Mongga project by Awla and friends and I've made a big improvements of web template made. you can see what it's like by <a href=\"https://daimessdn.github.io/mongga-template\">clicking here</a>.</p>\n<p>OK, maybe that's all until I begin to continue this project tomorrow…</p>\n<p>Wish me luck~~~</p>"
+    "content": "<p>Dear, journal…</p>\n<p>It's been 2 day ago since I've joined Mongga project by Awla and friends and I've made a big improvements of web template made. You can see what it's like by <a href=\"https://daimessdn.github.io/mongga-template\">clicking here</a>.</p>\n<p>OK, maybe that's all until I begin to continue this project tomorrow…</p>\n<p>Wish me luck~~~</p>"
   },
   {
     "id": "nmonh",
@@ -211,7 +211,7 @@ const data = [
     "tags": [
       "#journal"
     ],
-    "content": "<p>Dear, journal…</p>\n<p>I didn't know what I want to do so that I decided to write this random note. I also have done several homeworks on Udemy about Python hands-on, which I got it free.</p>\n<p>okay,that's all~~</p>\n<p>*by the way, I've got chat with Kak Laura, one of Google Indonesia Staff and she will send me something outside of #JuaraGCP swags, which I will know what kind of something she will give me. can't wait!!!</p>"
+    "content": "<p>Dear, journal…</p>\n<p>I didn't know what I want to do so that I decided to write this random note. I also have done several homeworks on Udemy about Python hands-on, which I got it free.</p>\n<p>okay,that's all~~</p>\n<p>*by the way, I've got chat with Kak Laura, one of Google Indonesia Staff and she will send me something outside of #JuaraGCP swags, which I will know what kind of something she will give me. Can't wait!!!</p>"
   },
   {
     "id": "cqrrewb",
@@ -221,7 +221,7 @@ const data = [
       "#shopeecodeleague",
       "#competition"
     ],
-    "content": "<p>Dear, journal…</p>\n<p>The second competition of Shopee Code League was just begun. in this competition, our team are asked to classify (or categorized) so huge of product image of data!!! can't be easy, but it must be wonderful to solve…</p>\n<p>Unfortunately, for this time, we cannot download the data since there are so many participants who had downloaded the data. we just focus on algorithm strategy how to detect an image and classify them.</p>\n<p>Luckily, I've learned a little about image recognition from <strong>dicoding</strong> 'Machine Learning for Beginners' class. and thanks for our leader, Ronny Fahrudin for another material he shared to us. we shared our notebooks each other for our learning.</p>\n<p>Good luck for us (<em>Bismillah</em>)~~~</p>"
+    "content": "<p>Dear, journal…</p>\n<p>The second competition of Shopee Code League was just begun. In this competition, our team are asked to classify (or categorized) so huge of product image of data!!! can't be easy, but it must be wonderful to solve…</p>\n<p>Unfortunately, for this time, we cannot download the data since there are so many participants who had downloaded the data. We just focus on algorithm strategy how to detect an image and classify them.</p>\n<p>Luckily, I've learned a little about image recognition from <strong>dicoding</strong> 'Machine Learning for Beginners' class. And thanks for our leader, Ronny Fahrudin for another material he shared to us. We shared our notebooks each other for our learning.</p>\n<p>Good luck for us (<em>Bismillah</em>)~~~</p>"
   },
   {
     "id": "ryyaqrt",
@@ -229,7 +229,7 @@ const data = [
     "tags": [
       "#journal",
     ],
-    "content": "<p>Dear, journal…</p>\n<p>2 days ago, Kak Laura Vieloma chatted me about something that she will give to me, and today, she chatted me again and also emailed me about the same thing~~~</p>\n<p>thanks, Kak Laura for the email. and I know why I and several people of #JuaraGCP received that email. it was great to join with #JuaraGCP and learning together~</p>\n<img src='https://lh3.google.com/u/0/d/1wJZHvdn2oa3rZ0D7VNdn4352OaJkk1Ge=w1600-h801-iv1'>\n<p>OK, what's next then?</p>"
+    "content": "<p>Dear, journal…</p>\n<p>2 days ago, Kak Laura Vieloma chatted me about something that she will give to me, and today, she chatted me again and also emailed me about the same thing~~~</p>\n<p>thanks, Kak Laura for the email. And I know why I and several people of #JuaraGCP received that email. It was great to join with #JuaraGCP and learning together~</p>\n<img src='https://lh3.google.com/u/0/d/1wJZHvdn2oa3rZ0D7VNdn4352OaJkk1Ge=w1600-h801-iv1'>\n<p>OK, what's next then?</p>"
   },
   {
     "id": "tkhlayivo",
@@ -246,7 +246,7 @@ const data = [
     "tags": [
       "#journal"
     ],
-    "content": "<p>Dear, journal…</p>\n<p>the 'small gift' that Kak Laura told to me has finally arrive on my boarding house (<strong><em>indekos</em></strong>) and I can't believe that the gift was a bluetooth speaker. so cute!!!</p>\n<p><img src=\"https://lh3.google.com/u/0/d/1nVdDcKn5ND8IvceSi2QvN_f6anBmnLMi=w1600-h801-iv1\" alt=\"small gift from Google Cloud\" /></p>"
+    "content": "<p>Dear, journal…</p>\n<p>the 'small gift' that Kak Laura told to me has finally arrive on my boarding house (<strong><em>indekos</em></strong>) and I can't believe that the gift was a bluetooth speaker. So cute!!!</p>\n<p><img src=\"https://lh3.google.com/u/0/d/1nVdDcKn5ND8IvceSi2QvN_f6anBmnLMi=w1600-h801-iv1\" alt=\"small gift from Google Cloud\" /></p>"
   },
   {
     "id": "nnfgsd",
@@ -263,7 +263,7 @@ const data = [
     "tags": [
       "#journal"
     ],
-    "content": "<p>Dear, journal…</p>\n<p>I want to post my algorithm code somewhere to get everything get organized. but I don't know where. should I put it on this journal, or let me just put them on one repository? hmm, so confused &gt;o&lt;…</p>"
+    "content": "<p>Dear, journal…</p>\n<p>I want to post my algorithm code somewhere to get everything get organized. But I don't know where. Should I put it on this journal, or let me just put them on one repository? hmm, so confused &gt;o&lt;…</p>"
   },
   {
     "id": "lopxc",
@@ -271,7 +271,7 @@ const data = [
     "tags": [
       "#journal"
     ],
-    "content": "<p>Dear journal…</p>\n<p>we joined the 3rd (I guess…) Shopee Code League competition about the mini programming contest. Unfortunately, we've only be able to solve 2 of 5 challenges out there. the challenges was very hard &gt;.&lt;, but that was fun.</p>\n<p>hmm… I we should get more exercise, then…</p>"
+    "content": "<p>Dear journal…</p>\n<p>we joined the 3rd (I guess…) Shopee Code League competition about the mini programming contest. Unfortunately, we've only be able to solve 2 of 5 challenges out there. The challenges was very hard &gt;.&lt;, but that was fun.</p>\n<p>hmm… I we should get more exercise, then…</p>"
   },
   {
     "id": "pobuccvq",
@@ -288,7 +288,7 @@ const data = [
       "#mongodb",
       "#learning"
     ],
-    "content": "<p>Dear journal…</p>\n<p>I've been learning some basic <code>MongoDB</code> after several times failed to install it and finally succeeded. here are some basic syntaxes did I learned so far.</p>\n<ul>\n<li>Let's see what <strong>database do we use</strong> currently: <br /></li>\n</ul>\n<pre><code>&gt; db\ntest\n</code></pre>\n<ul>\n<li>Let's <strong>show</strong> our databases there: <br /></li>\n</ul>\n<pre><code>&gt; show dbs\nadmin     0.000GB\nconfig    0.000GB\nlocal     0.000GB\ntokobuku  0.000GB\n</code></pre>\n<ul>\n<li>Let's <strong>switch</strong> the currently database:<br />\nfor example, <strong>tokobuku</strong><br />\nwhen we <code>use tokobuku</code>, the database will be switched from <code>test</code> to <code>tokobuku</code> when we typed <code>db</code> again.</li>\n</ul>\n<pre><code>&gt; use tokobuku\nswitched to db tokobuku\n&gt; db\ntokobuku\n</code></pre>\n<ul>\n<li>creating a <code>collection</code>, a same thing as a table.<br />\nfor example, we want to create <code>buku</code> collection.</li>\n</ul>\n<pre><code>&gt; db.createCollections(\"buku\")\n</code></pre>\n<ul>\n<li>or, we can create a collection and also <strong>insert the data into it</strong></li>\n</ul>\n<pre><code>&gt; db.buku.insert({\n...    judul: \"Belajar MongoDB\",\n...    sinopsis: \"Panduan MongoDB untuk Pemula\",\n...    pengarang: \"Petani Kode\"\n... })\nWriteResult({ \"nInserted\" : 1 })\n</code></pre>\n<ul>\n<li>Let's try <strong>add another data</strong></li>\n</ul>\n<pre><code>&gt; db.buku.insert({\n    judul: \"Pemrograman Javascript dan MongoDB\",\n    sinopsis: \"Panduan Pemrograman JS dan MongoDB\",\n    pengarang: \"Petani Kode\",\n    harga: 90000\n})\nWriteResult({ \"nInserted\" : 1 })\n</code></pre>\n<ul>\n<li>Let's see <code>how many</code> books out there</li>\n</ul>\n<pre><code>&gt; db.buku.count()\n4\n</code></pre>\n<ul>\n<li>Let's see what kind of stuffs <code>inside</code> buku collection</li>\n</ul>\n<pre><code>&gt; db.buku.find()\n{ \"_id\" : ObjectId(\"5f168b1d2fe6122097d1de0b\"), \"judul\" : \"Belajar MongoDB\", \"sinopsis\" : \"Panduan MongoDB untuk Pemula\", \"pengarang\" : \"Petani Kode\" }\n{ \"_id\" : ObjectId(\"5f1f7740defe759c168d661f\"), \"judul\" : \"Pemrograman Javascript dan MongoDB\", \"sinopsis\" : \"Panduan Pemrograman JS dan MongoDB\", \"pengarang\" : \"Petani Kode\", \"harga\" : 90000 }\n</code></pre>\n<ul>\n<li>Let's see the books where <code>price = 90000</code></li>\n</ul>\n<pre><code>&gt; db.buku.find({ harga: 90000 })\n{ \"_id\" : ObjectId(\"5f1f78c6f31044ce6a46719b\"), \"judul\" : \"Pemrograman Javascript dan MongoDB\", \"sinopsis\" : \"Panduan Pemrograman JS dan MongoDB\", \"pengarang\" : \"Petani Kode\", \"harga\" : 90000 }\n</code></pre>\n<ul>\n<li>Let's <strong>update the data</strong></li>\n</ul>\n<pre><code>&gt; db.buku.update(\n...     {\n...         judul: \"Pemrograman Javascript dan MongoDB\"\n...     },\n...     {\n...         judul: \"Pemrograman Javascript dan MongoDB\",\n...         sinopsis: \"Panduan Pemrograman Js dan MongoDB\",\n...         pengarang: \"Petani Kode\",\n...         harga: 75000\n...     }\n... )\nWriteResult({ \"nMatched\" : 1, \"nUpserted\" : 0, \"nModified\" : 1 })\n</code></pre>\n<ul>\n<li>Let's <strong>delete some</strong> data</li>\n</ul>\n<pre><code>&gt; db.buku.remove({judul: \"Belajar MongoDB\"})\nWriteResult({ \"nRemoved\" : 1 })\n</code></pre>\n<ul>\n<li>Let's delete <strong>all</strong> of our data</li>\n</ul>\n<pre><code>&gt; db.buku.remove({})\nWriteResult({ \"nRemoved\" : 1 })\n</code></pre>\n<ul>\n<li>Let's drop the collection and also delete the database</li>\n</ul>\n<pre><code>&gt; db.buku.drop()\ntrue\n</code></pre>\n<pre><code>&gt; db.dropDatabase()\n{ \"dropped\" : \"tokobuku\", \"ok\" : 1 }\n</code></pre>"
+    "content": "<p>Dear journal…</p>\n<p>I've been learning some basic <code>MongoDB</code> after several times failed to install it and finally succeeded. Here are some basic syntaxes did I learned so far.</p>\n<ul>\n<li>Let's see what <strong>database do we use</strong> currently: <br /></li>\n</ul>\n<pre><code>&gt; db\ntest\n</code></pre>\n<ul>\n<li>Let's <strong>show</strong> our databases there: <br /></li>\n</ul>\n<pre><code>&gt; show dbs\nadmin     0.000GB\nconfig    0.000GB\nlocal     0.000GB\ntokobuku  0.000GB\n</code></pre>\n<ul>\n<li>Let's <strong>switch</strong> the currently database:<br />\nfor example, <strong>tokobuku</strong><br />\nwhen we <code>use tokobuku</code>, the database will be switched from <code>test</code> to <code>tokobuku</code> when we typed <code>db</code> again.</li>\n</ul>\n<pre><code>&gt; use tokobuku\nswitched to db tokobuku\n&gt; db\ntokobuku\n</code></pre>\n<ul>\n<li>creating a <code>collection</code>, a same thing as a table.<br />\nfor example, we want to create <code>buku</code> collection.</li>\n</ul>\n<pre><code>&gt; db.createCollections(\"buku\")\n</code></pre>\n<ul>\n<li>or, we can create a collection and also <strong>insert the data into it</strong></li>\n</ul>\n<pre><code>&gt; db.buku.insert({\n...    judul: \"Belajar MongoDB\",\n...    sinopsis: \"Panduan MongoDB untuk Pemula\",\n...    pengarang: \"Petani Kode\"\n... })\nWriteResult({ \"nInserted\" : 1 })\n</code></pre>\n<ul>\n<li>Let's try <strong>add another data</strong></li>\n</ul>\n<pre><code>&gt; db.buku.insert({\n    judul: \"Pemrograman Javascript dan MongoDB\",\n    sinopsis: \"Panduan Pemrograman JS dan MongoDB\",\n    pengarang: \"Petani Kode\",\n    harga: 90000\n})\nWriteResult({ \"nInserted\" : 1 })\n</code></pre>\n<ul>\n<li>Let's see <code>how many</code> books out there</li>\n</ul>\n<pre><code>&gt; db.buku.count()\n4\n</code></pre>\n<ul>\n<li>Let's see what kind of stuffs <code>inside</code> buku collection</li>\n</ul>\n<pre><code>&gt; db.buku.find()\n{ \"_id\" : ObjectId(\"5f168b1d2fe6122097d1de0b\"), \"judul\" : \"Belajar MongoDB\", \"sinopsis\" : \"Panduan MongoDB untuk Pemula\", \"pengarang\" : \"Petani Kode\" }\n{ \"_id\" : ObjectId(\"5f1f7740defe759c168d661f\"), \"judul\" : \"Pemrograman Javascript dan MongoDB\", \"sinopsis\" : \"Panduan Pemrograman JS dan MongoDB\", \"pengarang\" : \"Petani Kode\", \"harga\" : 90000 }\n</code></pre>\n<ul>\n<li>Let's see the books where <code>price = 90000</code></li>\n</ul>\n<pre><code>&gt; db.buku.find({ harga: 90000 })\n{ \"_id\" : ObjectId(\"5f1f78c6f31044ce6a46719b\"), \"judul\" : \"Pemrograman Javascript dan MongoDB\", \"sinopsis\" : \"Panduan Pemrograman JS dan MongoDB\", \"pengarang\" : \"Petani Kode\", \"harga\" : 90000 }\n</code></pre>\n<ul>\n<li>Let's <strong>update the data</strong></li>\n</ul>\n<pre><code>&gt; db.buku.update(\n...     {\n...         judul: \"Pemrograman Javascript dan MongoDB\"\n...     },\n...     {\n...         judul: \"Pemrograman Javascript dan MongoDB\",\n...         sinopsis: \"Panduan Pemrograman Js dan MongoDB\",\n...         pengarang: \"Petani Kode\",\n...         harga: 75000\n...     }\n... )\nWriteResult({ \"nMatched\" : 1, \"nUpserted\" : 0, \"nModified\" : 1 })\n</code></pre>\n<ul>\n<li>Let's <strong>delete some</strong> data</li>\n</ul>\n<pre><code>&gt; db.buku.remove({judul: \"Belajar MongoDB\"})\nWriteResult({ \"nRemoved\" : 1 })\n</code></pre>\n<ul>\n<li>Let's delete <strong>all</strong> of our data</li>\n</ul>\n<pre><code>&gt; db.buku.remove({})\nWriteResult({ \"nRemoved\" : 1 })\n</code></pre>\n<ul>\n<li>Let's drop the collection and also delete the database</li>\n</ul>\n<pre><code>&gt; db.buku.drop()\ntrue\n</code></pre>\n<pre><code>&gt; db.dropDatabase()\n{ \"dropped\" : \"tokobuku\", \"ok\" : 1 }\n</code></pre>"
   },
   {
     "id": "vvrhvgut",
@@ -297,7 +297,7 @@ const data = [
       "#glintsacademy",
       "#learning"
     ],
-    "content": "<p>Dear, journal…</p>\n<p>I just started to join <strong>Career Exploration Program batch 5</strong> from <strong>Glints Academy</strong>. the welcome session was great with introduction of <strong>Progate</strong> and <strong>Piazza</strong>. thanks, Wanda for the funny introduction, Kak Jefri Divanli and Kak Jeffry Vincent for the nice and fun introduction.</p>\n<p>OK, to be continued once I have get rid with terrible toothache…</p>"
+    "content": "<p>Dear, journal…</p>\n<p>I just started to join <strong>Career Exploration Program batch 5</strong> from <strong>Glints Academy</strong>. The welcome session was great with introduction of <strong>Progate</strong> and <strong>Piazza</strong>. Thanks, Wanda for the funny introduction, Kak Jefri Divanli and Kak Jeffry Vincent for the nice and fun introduction.</p>\n<p>OK, to be continued once I have get rid with terrible toothache…</p>"
   },
   {
     "id": "qnsdihlj",
@@ -305,7 +305,7 @@ const data = [
     "tags": [
       "#journal"
     ],
-    "content": "<p>Dear, journal…</p>\n<p>this terrible toothache are getting worse and worse and I have been feeling hurt and chubby on my right cheek. feels that my tooth is being drilled and will be blown out.</p>\n<p>😖😖🦷</p>"
+    "content": "<p>Dear, journal…</p>\n<p>this terrible toothache are getting worse and worse and I have been feeling hurt and chubby on my right cheek. Feels that my tooth is being drilled and will be blown out.</p>\n<p>😖😖🦷</p>"
   },
   {
     "id": "pghottvc",
@@ -313,7 +313,7 @@ const data = [
     "tags": [
       "#journal"
     ],
-    "content": "<p>Dear journal…</p>\n<p>approximately since 6 days ago I've got terrible toothache and I can't do anything except sleeping. now, I don't feel my tooth hurts so bad (now it still) and I'm hungry in the midnight. Luckily I have bread I've bought yesterday. hope it will hold the hunger for hours until the dawn.</p>\n<p>hmm…</p>"
+    "content": "<p>Dear journal…</p>\n<p>approximately since 6 days ago I've got terrible toothache and I can't do anything except sleeping. Now, I don't feel my tooth hurts so bad (now it still) and I'm hungry in the midnight. Luckily I have bread I've bought yesterday. Hope it will hold the hunger for hours until the dawn.</p>\n<p>hmm…</p>"
   },
   {
     "id": "xjvrwtws",
@@ -321,7 +321,7 @@ const data = [
     "tags": [
       "#journal"
     ],
-    "content": "<p>Dear, journal…</p>\n<p>my tooth still feel bad (although it's feels not too bad). after finishing several online course, I'm currently confused about what kind of college lessons I will take meanwhile, online college will start 2 weeks from now.</p>\n  <p>&gt;o&lt;~~~</p>"
+    "content": "<p>Dear, journal…</p>\n<p>my tooth still feel bad (although it's feels not too bad). After finishing several online course, I'm currently confused about what kind of college lessons I will take meanwhile, online college will start 2 weeks from now.</p>\n  <p>&gt;o&lt;~~~</p>"
   },
   {
     "id": "mhuytmd",
@@ -399,7 +399,7 @@ const data = [
     "tags": [
       "#journal"
     ],
-    "content": "<p>Dear, journal…</p>\n<p>It's been 8036 days walking and exploring this glorious earth.</p>\n<p>That means it's been 22 years when I was born (c'mon guys, that's not special at all).</p>\n<p>Alhamdulillah, thanks to God for the 22 years given to me, although the pandemic of Coronavirus is not the right time to celebrate anything, especially this moment.</p>\n<p>I just hope my friends and my family will be stay healthy and stay happy. I also hope we can struggle against pandemic and the pandemic will be end soon…</p>\n<p>Nice to meet you, world (with a laptop on my table and glass of ice chocolate for small celebration)\nThanks for Twitter for the small reminder (although you don't need remind me to)…</p><img src=\"src/Screenshot_2020-09-02-17-56-42-894_com.twitter.android.png\" alt=\"small reminder of today\" />"
+    "content": "<p>Dear, journal…</p>\n<p>It's been 8036 days walking and exploring this glorious earth.</p>\n<p>That means It's been 22 years when I was born (c'mon guys, that's not special at all).</p>\n<p>Alhamdulillah, thanks to God for the 22 years given to me, although the pandemic of Coronavirus is not the right time to celebrate anything, especially this moment.</p>\n<p>I just hope my friends and my family will be stay healthy and stay happy. I also hope we can struggle against pandemic and the pandemic will be end soon…</p>\n<p>Nice to meet you, world (with a laptop on my table and glass of ice chocolate for small celebration)\nThanks for Twitter for the small reminder (although you don't need remind me to)…</p><img src=\"src/Screenshot_2020-09-02-17-56-42-894_com.twitter.android.png\" alt=\"small reminder of today\" />"
   },
   {
     "id": "pdhxhphsyo",
