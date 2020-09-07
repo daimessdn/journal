@@ -458,6 +458,6 @@ const data = [
     "tags": [
       "#journal"
     ],
-    "content": "<p>dear, Pikachu…</p>\n<p>thanks for coming to play for me, but I have to finish my job first…</p>\n<p>cheers~~~\n@dimaswehhh…</p>"
+    "content": "<p>dear, Pikachu…</p>\n<p>thanks for coming to play for me, but I have to finish my job first…</p>\n<p>cheers~~~<br />@dimaswehhh…</p>"
   }
 ]
