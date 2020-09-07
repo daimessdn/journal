@@ -86,6 +86,10 @@ form button {
   padding: 2px 5px 0 5px;
 }
 
+button img {
+  width: 12px;
+}
+
 [name="longcode"] {
   padding-right: 0;
   padding-top: 0;
@@ -230,6 +234,10 @@ ul {
   bottom: 8px;
   overflow: hidden;
   z-index: 10;
+}
+
+#navbar img {
+  width: 18px;
 }
 
 #back-trigger {

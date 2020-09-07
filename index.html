@@ -7,7 +7,6 @@
   <meta name="keywords" content="journal, miniblog">
   <title>my journal</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.0/styles/monokai.min.css">
-  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
   <link rel="stylesheet" type="text/css" href="src/css/main.css">
   <link rel="stylesheet" type="text/css" href="src/css/mobile.css">
@@ -26,17 +25,17 @@
   <ul id="navbar">
     <li
       onclick="openNav()">
-      <span class="nav-item"><i class="fa fa-search"></i></span>
+      <span class="nav-item"><img src="src/search.svg" title="search"></span>
     </li>
     <li
       onclick="previousNotes()"
       id="previous">
-      <span class="nav-item"><i class="fa fa-arrow-left"></i></span>
+      <span class="nav-item"><img src="src/arrow-left.svg" title="previous"></span>
     </li>
     <li
       onclick="nextNotes()"
       id="next">
-      <span class="nav-item"><i class="fa fa-arrow-right"></i></span>
+      <span class="nav-item"><img src="src/arrow-right.svg" title="next"></span>
     </li>
     <li>
       <span class="nav-item" id="date_ribbon">DATE</span>
@@ -106,7 +105,7 @@
         name="link-toogle"
         title="Link"
         onclick="formatContent(this.name)">
-        <i class="fa fa-link"></i>
+        <img src="src/link.svg" title="link">
        </button>
       
        <button type="submit">POST</button>
