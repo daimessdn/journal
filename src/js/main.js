@@ -168,18 +168,18 @@ function getNotes(content) {
   const container = document.getElementById("container");
 
   if (content.length > 0) {
-    content = `<p class='date'>
+    content = `<h1 class='date'>
               ${got_notes_phrases[
                 Math.floor(Math.random() * got_notes_phrases.length)
-              ]}</p>${content}`;
+              ]}</h1>${content}`;
   } else {
-    content = `<p class='date'>
+    content = `<h1 class='date'>
               ${not_found_phrases[
                 Math.floor(Math.random() * not_found_phrases.length)
-              ]}</p>`;
+              ]}</h1>`;
   }
 
-  container.innerHTML = `<p class="date">Based on tags</p>
+  container.innerHTML = `<h1 class="date">Based on tags</h1>
                          <div class="tag-results">
                            ${getTagSearch(uniqueTags)}
                          </div>
