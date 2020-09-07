@@ -44,7 +44,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Major Mono Display";
+  font-family: "Akkurat Mono";
 }
 
 .form-section {
@@ -75,7 +75,7 @@ form[name="linkOption"] {
 }
 
 form input, form button {
-  font-family: "Major Mono Display";
+  font-family: "Akkurat Mono";
   border: 1px solid #222222;
   border-radius: 5px;
 }
@@ -83,10 +83,12 @@ form input, form button {
 form button {
   background-color: #084177;
   color: #fff;
+  padding: 2px 5px 0 5px;
 }
 
 [name="longcode"] {
   padding-right: 0;
+  padding-top: 0;
 }
 
 [name="language"] {
@@ -114,7 +116,12 @@ form button input {
 }
 
 .format-nav {
-  float: right;
+  display: flex;
+  flex-direction: row;
+}
+
+.format-nav button {
+  margin: 2px;
 }
 
 #container img {
@@ -141,6 +148,10 @@ form button input {
   transition: all 1s ease;
 }
 
+form {
+  margin: 5px 0;
+}
+
 .post:hover {
   box-shadow: none;
 }
@@ -152,7 +163,7 @@ form {
 }
 
 form p {
-  font-family: "Major Mono Display";
+  font-family: "Akkurat Mono";
   font-size: 12px;
   margin: 7px 0 0 0;
 }
@@ -177,7 +188,7 @@ blockquote {
 }
 
 .date {
-  font-family: "Major Mono Display";
+  font-family: "Akkurat Mono";
   font-style: 24px;
   font-weight: bold;
   margin: 14px 0 0 0;
@@ -192,7 +203,7 @@ blockquote {
 }
 
 .tags, .source strong {
-  font-family: "Major Mono Display";
+  font-family: "Akkurat Mono";
   font-size: 14px;
   font-weight: bold;
 }
@@ -235,14 +246,14 @@ ul {
 }
 
 .nav-item {
-  font: bold 25px "Major Mono Display";
+  font: bold 25px "Akkurat Mono";
   text-decoration: none;
   color: #fff;
   cursor: pointer;
 }
 
 #push-trigger {
-  font: 14px "Major Mono Display";
+  font: 14px "Akkurat Mono";
   width: 300px;
   padding: 8px;
   bottom: 40px;
@@ -264,7 +275,7 @@ ul {
 
  /* The side navigation menu */
 .sidenav {
-  font-family: "Major Mono Display";
+  font-family: "Akkurat Mono";
   height: 100%; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
@@ -288,7 +299,7 @@ ul {
 }
 
 .sidenav input {
-  font: bold 14px "Major Mono Display";
+  font: bold 14px "Akkurat Mono";
   margin-left: 5%;
   width: 80%;
   background-color: #fff;
@@ -302,9 +313,9 @@ ul {
 }
 
 .tag-search, .date-section {
-  font-family: "Major Mono Display";
+  font-family: "Akkurat Mono";
   font-weight: bold;
-  padding: 5px;
+  padding: 2px 5px;
   cursor: pointer;
   margin: 5px 2px;
   border-radius: 5px;
@@ -353,5 +364,5 @@ form {
   width: 100%;
   /*transform: rotate(90deg);*/
   /*transform-origin: right top;*/
-  font-family: "Major Mono Display";
+  font-family: "Akkurat Mono";
 }
