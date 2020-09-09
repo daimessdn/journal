@@ -209,7 +209,7 @@ blockquote {
   margin-bottom: 0;
 }
 
-.tags, .source strong {
+.source strong {
   font-family: "Akkurat Mono", monospace;
   font-size: 14px;
   font-weight: bold;
@@ -220,7 +220,7 @@ ul {
   margin: 0;
 }
 
-.date::after, .tags::after {
+.date::after {
   content: "|";
   font-weight: normal;
   animation: blink 1s infinite;
@@ -376,6 +376,10 @@ form {
   /*transform: rotate(90deg);*/
   /*transform-origin: right top;*/
   font-family: "Akkurat Mono", monospace;
+}
+
+.tags {
+  padding-bottom: 10px;
 }
 
 .dark-mode, .dark-mode form, .dark-mode input, .dark-mode textarea {

@@ -179,11 +179,12 @@ function getNotes(content) {
               ]}</h1>`;
   }
 
-  container.innerHTML = `<h1 class="date">Based on tags</h1>
-                         <div class="tag-results">
-                           ${getTagSearch(uniqueTags)}
+  container.innerHTML = `<div class="tags">
+                           <h1 class="date">Based on tags</h1>
+                           <div class="tag-results">
+                             ${getTagSearch(uniqueTags)}
+                           </div>
                          </div>
-                         <hr />
                          ${content}`;
 
   document.querySelectorAll('pre code').forEach((block) => {
