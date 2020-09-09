@@ -308,14 +308,14 @@ ul {
   transition: 0.3s;
 }
 
-.sidenav input {
+/* .sidenav input {
   font: bold 14px "Akkurat Mono", monospace;
   margin-left: 5%;
   width: 80%;
   background-color: #fff;
   padding: 8px;
   border: none;
-}
+} */
 
 #query {
   margin: 10px 0 0 5%;
@@ -375,4 +375,18 @@ form {
   /*transform: rotate(90deg);*/
   /*transform-origin: right top;*/
   font-family: "Akkurat Mono", monospace;
+}
+
+.dark-mode, .dark-mode form, .dark-mode input, .dark-mode textarea {
+  background-color: #000;
+  color: #fff;
+}
+
+.dark-mode input, .dark-mode textarea, .dark-mode button {
+  border: 1px solid #fff; 
+}
+
+.dark-mode form, .dark-mode .post {
+  border: 1px solid #fff;
+  border-left: 10px solid #d7686d;
 }
