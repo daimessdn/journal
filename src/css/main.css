@@ -137,7 +137,7 @@ form button input {
   border: 20px solid #eee;
 }
 
-.post, form {
+.post, form, .tags {
   border: 1px solid #222222;
   border-left: 10px solid #d7686d;
   
@@ -379,7 +379,7 @@ form {
 }
 
 .tags {
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .dark-mode, .dark-mode form, .dark-mode input, .dark-mode textarea {
@@ -391,7 +391,11 @@ form {
   border: 1px solid #fff; 
 }
 
-.dark-mode form, .dark-mode .post {
+.dark-mode form, .dark-mode .post, .dark-mode .tags {
   border: 1px solid #fff;
   border-left: 10px solid #d7686d;
+}
+
+.dark-mode .tag-search {
+  border: 1px solid #fff;
 }
