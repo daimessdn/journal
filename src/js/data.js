@@ -468,5 +468,13 @@ const data = [
       "#juaragcp"
     ],
     "content": "<p>Dear, journal…</p>\n<p>I'm so happy that there are <strong>#JuaraGCP season 4</strong> on next 2 days for another one month. There are so many labs that I have to accomplish to get at least 8 quests and 15 quests at maximum.</p>\n<p>Hmm… Another chance to learn again about GCP and also few materials reviews…</p>\n<p>*You can register and join this awesome GCP learning by <a href=\"https://goo.gle/JuaraGCP\">clicking here</a>…</p>"
+  },
+  {
+    "id": "whuqzg",
+    "date": "09/09/2020",
+    "tags": [
+      "#journal"
+    ],
+    "content": "<p>Dear, Pikachu…</p>\n<p>Thanks for accompanying me to sleep. Honestly, I'm so happy you're here with me…</p>"
   }
 ]
