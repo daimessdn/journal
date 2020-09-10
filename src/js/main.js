@@ -324,3 +324,16 @@ function formatContent(formatMenu) {
   text = text.slice(0, element.selectionStart) + formatAttribute + text.slice(element.selectionStart, element.selectionEnd) + formatAttribute + text.slice(element.selectionEnd);
   element.value = text;
 }
+
+// theme toggle function
+function toggleDarkMode() {
+  let body = document.body;
+  let icon = document.getElementsByClassName("nav-item")[3].children[0];
+
+  body.classList.toggle("dark-mode");
+  if (body.classList.length === 1) {
+    icon.src = "src/moon.svg";
+  } else {
+    icon.src = "src/sun.svg";
+  }
+}
