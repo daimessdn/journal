@@ -476,5 +476,13 @@ const data = [
       "#journal"
     ],
     "content": "<p>Dear, Pikachu…</p>\n<p>Thanks for accompanying me to sleep. Honestly, I'm so happy you're here with me…</p>"
+  },
+  {
+    "id": "zpzoeki",
+    "date": "10/09/2020",
+    "tags": [
+      "#journal"
+    ],
+    "content": "<p>Dear, journal…</p>\n<p>I had cooked sardines using rice cooker since I felt bored with home-made fried rice and egg omelette. Because it tasted so good, I've been cooking sardines again for daily meal…</p>\n<p>Bon appetite~~~</p>"
   }
 ]
