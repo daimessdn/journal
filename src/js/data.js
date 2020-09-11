@@ -484,5 +484,13 @@ const data = [
       "#journal"
     ],
     "content": "<p>Dear, journal…</p>\n<p>I had cooked sardines using rice cooker since I felt bored with home-made fried rice and egg omelette. Because it tasted so good, I've been cooking sardines again for daily meal…</p>\n<p>Bon appetite~~~</p>"
+  },
+  {
+    "id": "kwubmzaf",
+    "date": "11/09/2020",
+    "tags": [
+      "#journal"
+    ],
+    "content": "<p>Dear, journal…</p>\n<p>It's the day for #JuaraGCP season 4. but I didn't started yet because of so many deadlines…</p>\n<p>OK, deadline…</p>"
   }
 ]
