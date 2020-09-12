@@ -492,5 +492,13 @@ const data = [
       "#journal"
     ],
     "content": "<p>Dear, journal…</p>\n<p>It's the day for #JuaraGCP season 4. but I didn't started yet because of so many deadlines…</p>\n<p>OK, deadline…</p>"
-  }
+  },
+  {
+  "id": "zqhmadcui",
+    "date": "12/09/2020",
+    "tags": [
+      "#journal"
+    ],
+    "content": "<p>Dear, journal…</p>\n<p>It's been a day I've tried to re-install my laptop again after unable to display welcome screen. I hope today will be my last time I re-installed this laptop…</p>\n<p>OK, resting first due to Sunday, then…</p>"
+  },
 ]
