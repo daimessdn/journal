@@ -500,5 +500,13 @@ const data = [
       "#journal"
     ],
     "content": "<p>Dear, journal…</p>\n<p>After re-installed my laptop yesterday, I've got the same problem again so I need to re'install it again. Now, it's re-installed again and expect no upcoming problem in this laptop…</p>\n<p>Hmm… seems don't ready to go to college again since this… 😫</p>"
-  }
+  },
+  "id": "zqhmadcui",
+    "date": "12/09/2020",
+    "tags": [
+      "#journal"
+    ],
+    "content": "<p>Dear, journal…</p>\n<p>It's been a day I've tried to re-install my laptop again after unable to display welcome screen. I hope today will be my last time I re-installed this laptop…</p>\n<p>OK, resting first due to Sunday, then…</p>"
+  },
 ]
+
