@@ -332,8 +332,8 @@ function toggleDarkMode() {
 
   body.classList.toggle("dark-mode");
   if (body.classList.length === 1) {
-    icon.src = "src/img/moon.svg";
+    icon.src = "src/svg-icon/moon.svg";
   } else {
-    icon.src = "src/img/sun.svg";
+    icon.src = "src/svg-icon/sun.svg";
   }
 }
