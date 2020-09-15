@@ -516,6 +516,16 @@ const data = [
       "#journal"
     ],
     "content": "<p>Dear, journal…</p>\n<p>Today I don't feel so well today, seems like my learning spirit is gonna be faded away. Yesterday was a electricity blackout on my boarding house (indo: <em>indekos</em>). So I need to go outside for the electricity (and also WiFi connection :D).</p>\n<p>Hmm… What should I do?</p>"
+  },
+  {
+    "id": "wkzeunvn",
+    "date": "16/09/2020",
+    "tags": [
+      "#journal",
+      "#linux",
+      "#tips"
+    ],
+    "content": "<p>Dear, readers…</p>\n<p>I've successfully executed code externally with just <code>gedit</code>, Ubuntu standard text editor. By using external tools plugin, I have successfully executed <strong>JavaScript</strong> and <strong>Python</strong> externally.</p>\n<p>You can find it how on <a href=\"https://dev.to/daimessdn/testing-gedit-external-tools-for-executing-codes-50ca\">my article</a>…</p>\n<p>Hope it useful…</p>"
   }
 ]
 
