@@ -508,6 +508,14 @@ const data = [
       "#journal"
     ],
     "content": "<p>Dear, journal…</p>\n<p>It's been a day I've tried to re-install my laptop again after unable to display welcome screen. I hope today will be my last time I re-installed this laptop…</p>\n<p>OK, resting first due to Sunday, then…</p>"
+  },
+  {
+    "id": "eaizlla",
+    "date": "15/09/2020",
+    "tags": [
+      "#journal"
+    ],
+    "content": "<p>Dear, journal…</p>\n<p>Today I don't feel so well today, seems like my learning spirit is gonna be faded away. Yesterday was a electricity blackout on my boarding house (indo: <em>indekos</em>). So I need to go outside for the electricity (and also WiFi connection :D).</p>\n<p>Hmm… What should I do?</p>"
   }
 ]
 
