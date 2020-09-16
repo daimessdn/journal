@@ -526,6 +526,16 @@ const data = [
       "#tips"
     ],
     "content": "<p>Dear, readers…</p>\n<p>I've successfully executed code externally with just <code>gedit</code>, Ubuntu standard text editor. By using external tools plugin, I have successfully executed <strong>JavaScript</strong> and <strong>Python</strong> externally.</p>\n<p>You can find it how on <a href=\"https://dev.to/daimessdn/testing-gedit-external-tools-for-executing-codes-50ca\">my article</a>…</p>\n<p>Hope it useful…</p>"
+  },
+  {
+    "id": "fldwg",
+    "date": "16/09/2020",
+    "tags": [
+      "#googlecloud",
+      "#journal",
+      "#learning"
+    ],
+    "content": "<p>Dear, readers…</p>\n<p>I've done some labs in <a href=\"https://google.qwiklabs.com/quests/123\"><strong>Insights from Data with Bigquery</strong></a> quests on Qwiklabs. In these labs, I've learned something and also reviewing some labs there.</p>\n<ul>\n<li><a href=\"https://google.qwiklabs.com/focuses/2802?parent=catalog\"><strong>Introduction to SQL for BigQuery and Cloud SQL</strong></a> - learns some SQL code. SQL code (Structured Query Language) is a code used for managed structured data such as tables. SQL codes can be used in both <strong>Cloud SQL</strong> and <strong>BigQuery</strong>.</li>\n<li><a href=\"https://google.qwiklabs.com/focuses/1145?parent=catalog\">BigQuery: Qwik Start</a> - learns how to use BigQuery on <strong>console</strong>. BigQuery can also be used by using <a href=\"https://google.qwiklabs.com/focuses/577?parent=catalog\">command line</a>.</li>\n<li><a href=\"https://google.qwiklabs.com/focuses/3642?parent=catalog\">Troubleshooting Common SQL Errors with BigQuery</a> - learns some common errors in executing SQL codes.</li>\n<li><a href=\"https://google.qwiklabs.com/focuses/3565?parent=catalog\">Big Data Analysis to a Slide Presentation</a> - learn how to serving BigQuery in <strong>Google Spreadsheet</strong> and also <strong>Google Slides</strong> using <strong>Google App Script</strong>.</li>\n<li><a href=\"https://google.qwiklabs.com/focuses/3614?parent=catalog\">Explore and Create Reports with Data Studio</a> - learn how to <strong>visualize</strong> the BigQuery data and also create the data report.</li>\n<li><a href=\"https://google.qwiklabs.com/focuses/11988?parent=catalog`\"> Insights from Data with BigQuery: Challenge Lab</a> - which I will accomplish it later on.</li>\n</ul>\n<p>OK, continue to the next quest and skip the challenge lab first…</p>"
   }
 ]
 
