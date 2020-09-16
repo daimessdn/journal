@@ -547,6 +547,14 @@ const data = [
       "#learning"
     ],
     "content": "<p>Dear, readers…</p>\n<p>I've learned many web lessons in <a href=\"https://google.qwiklabs.com/quests/115\">Build a Website on Google Cloud</a> quest on Qwiklabs. Here are some things I've learned.</p>\n<ul>\n<li><a href=\"https://google.qwiklabs.com/video/15131\">Hosting a Static Web App on Google Cloud using Cloud Storage</a><br />\nlearns how to deploy our static websites (HTML, CSS, and JavaScript) using <strong>Google Cloud Storage</strong>, some <em>Google Drive-like</em> GCP services that stores some file and metadata. It sounds like using Amazon S3 to deploy the same things.</li>\n<li><a href=\"https://google.qwiklabs.com/focuses/10445?parent=catalog\">Deploy Your Website on Cloud Run</a><br />\nlearns how to deploy websites using <strong>Cloud Run</strong>, some GCP services which interacts with <strong>Docker</strong> web project to build and also deploy the web. We can also update some changes and revisions by uploading the updates and <strong>Cloud Run</strong> will update the Docker web.</li>\n<li><a href=\"https://google.qwiklabs.com/focuses/11952?parent=catalog\">Hosting a Web App on Google Cloud Using Compute Engine</a><br />\nlearns how to deploy websites using <strong>Google Compute Engine</strong> and also learn about load balancer, health-checking, firewall, and more for satisfying our web performance.</li>\n<li><a href=\"https://google.qwiklabs.com/focuses/10470?parent=catalog\">Deploy, Scale, and Update Your Website on Google Kubernetes Engine</a><br />\nlearns how to create deployment using Kubernetes, by firstly creating Kubernetes cluster, Dockerize-ing, and deploying Docker into Kubernetes.</li>\n<li><a href=\"https://google.qwiklabs.com/focuses/11953?parent=catalog\">Migrating a Monolithic Website to Microservices on Google Kubernetes Engine</a><br />\nlearn how to de-centralized monolitic web apps into microservices and also deploy microservices web apps into Kubernetes.</li>\n<li><a href=\"https://google.qwiklabs.com/video/15133\">Case Study: Hosting Scalable web apps on Google Cloud</a><br />\nreviewing how to use GCP services in cases of deployment.</li>\n<li><a href=\"https://google.qwiklabs.com/focuses/11765?parent=catalog\">Build a Website on Google Cloud: Challenge Lab</a><br />\nwhich I will accomplish it later on…</li>\n</ul>"
+  },
+  {
+    "id": "euprulka",
+    "date": "16/09/2020",
+    "tags": [
+      "#journal"
+    ],
+    "content": "<p>Dear, journal…</p>\n<p>I saw that there are some road renovations along Jalan Cisitu Lama to few ways to Jalan Dago Asri (I think). The new asphalt feels so hot and smelly like coal (yeah, looks like I'm on the way into coal mining factory).</p>\n<p>Hmm… Need patience for days to accomplish the road renovations and wait for asphalt drying so the road can be used…</p>"
   }
 ]
 
