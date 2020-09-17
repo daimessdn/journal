@@ -555,6 +555,14 @@ const data = [
       "#journal"
     ],
     "content": "<p>Dear, journal…</p>\n<p>I saw that there are some road renovations along Jalan Cisitu Lama to few ways to Jalan Dago Asri (I think). The new asphalt feels so hot and smelly like coal (yeah, looks like I'm on the way into coal mining factory).</p>\n<p>Hmm… Need patience for days to accomplish the road renovations and wait for asphalt drying so the road can be used…</p>"
+  },
+  {
+    "id": "ysvmwoqfv",
+    "date": "17/09/2020",
+    "tags": [
+      "#journal"
+    ],
+    "content": "<p>Dear, journal…</p>\n<p>I was feel not motivated today to do daily lists. Need a few rest to prepare for tomorrow…</p>\n<p>.. and also clean up the room.</p>"
   }
 ]
 
