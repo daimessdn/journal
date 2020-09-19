@@ -337,3 +337,26 @@ function toggleDarkMode() {
     icon.src = "src/svg-icon/sun.svg";
   }
 }
+
+// get tags for inputting
+function searchTags(tagQuery, tagData) {
+  // console.log(`you typed ${query}`);
+  
+  let results = [];
+  for (tag of tagData) {
+    let tagLower = tag.toLowerCase();
+    
+    if (tagLower.includes(tagQuery.toLowerCase())) {
+      results.push(tag);
+    }
+  }
+
+  console.log(results);
+
+  // // clear all posts
+  // content.innerHTML = "";
+
+  // if (results.length !== 0) {
+  //   loadPosts(results);
+  // }
+}

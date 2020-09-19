@@ -63,19 +63,24 @@
     <form name="postJournal" method="POST">
       <h1 class="date">Your notes matter!</h1>
       <p><label for="date">Date</label></p>
-      <input type="date" name="date" />
+      <div class="input-control">
+        <input type="date" name="date" />
+      </div>
   
       <p><label for="tags">
         Tags (use spaces and then 
           <span class="tag-search">#anothertags</span>
         for add another tags)
       </label></p>
-      <input type="text" name="tags" placeholder="#tags"/>
+      <div class="input-control">
+        <input type="text" name="tags" placeholder="#tags"/>
+      </div>
   
-      <p><label for="content">Text to be written</label>
-      </p>
-      <textarea name="content"
-                placeholder="What's on your journal?"></textarea>
+      <p><label for="content">Text to be written</label></p>
+      <div class="input-control">
+        <textarea name="content"
+                  placeholder="What's on your journal?"></textarea>
+      </div>
   
       <nav class="format-nav">
         <button type="button" 
@@ -139,8 +144,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
 
   <script src="src/js/data.js"></script>
-  <script src="src/js/events.js"></script>
   <script src="src/js/phrases.js"></script>
   <script src="src/js/main.js"></script>
+  <script src="src/js/events.js"></script>
 </body>
 </html>
