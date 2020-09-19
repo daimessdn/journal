@@ -83,6 +83,7 @@ form[name="linkOption"] {
 
 form input, form button {
   font-family: "Akkurat Mono", monospace;
+  margin-top: 5px;
   border: 1px solid #222222;
   border-radius: 5px;
   transition: all 1s ease;
@@ -121,6 +122,7 @@ form textarea {
 form button input {
   width: 50px;
   border: none;
+  margin-top: 0;
 }
 
 .format-nav {
@@ -375,7 +377,7 @@ form {
   z-index: 5;
 }
 
-.tag-results, .tag-queries {
+.tag-results, #tag-queries {
   font-weight: bold;
   overflow-y: auto;
   overflow-x: auto;
