@@ -55,6 +55,11 @@ h1, h2, h3, h4, h5, h6 {
   margin: 8px 8px 0 8px;
 }
 
+.input-control {
+  display: flex;
+  flex-direction: column;
+}
+
 form[name="postJournal"] {
   flex-basis: 70%;
 }
@@ -154,16 +159,12 @@ form button input {
 
 form {
   margin: 5px 0;
+  box-shadow: none;
+  position: relative;
 }
 
 .post:hover {
   box-shadow: none;
-}
-
-form {
-  box-shadow: none;
-
-  position: relative;
 }
 
 form p {
@@ -374,7 +375,7 @@ form {
   z-index: 5;
 }
 
-.tag-results {
+.tag-results, .tag-queries {
   font-weight: bold;
   overflow-y: auto;
   overflow-x: auto;

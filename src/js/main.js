@@ -340,23 +340,29 @@ function toggleDarkMode() {
 
 // get tags for inputting
 function searchTags(tagQuery, tagData) {
-  // console.log(`you typed ${query}`);
+  console.log(`you typed ${tagQuery}`);
   
+  let query = document.getElementById("tag-queries");
   let results = [];
-  for (tag of tagData) {
-    let tagLower = tag.toLowerCase();
-    
-    if (tagLower.includes(tagQuery.toLowerCase())) {
-      results.push(tag);
+
+  if (tagQuery !== "") {
+    for (tag of tagData) {
+      let tagLower = tag.toLowerCase();
+      
+      if (tagLower.includes(tagQuery.toLowerCase())) {
+        results.push(tag);
+      }
     }
   }
 
   console.log(results);
 
-  // // clear all posts
-  // content.innerHTML = "";
+  // clear all tag
+  query.innerHTML = "";
 
-  // if (results.length !== 0) {
-  //   loadPosts(results);
-  // }
+  if (results.length !== 0) {
+    for (tag of results) {
+      query.innerHTML += `<div class="tag-search">${tag}</div>`
+    }
+  }
 }
