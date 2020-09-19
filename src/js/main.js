@@ -342,7 +342,7 @@ function toggleDarkMode() {
 function searchTags(tagQuery, tagData) {
   console.log(`you typed ${tagQuery}`);
   
-  let query = document.getElementById("tag-queries");
+  let queries = document.getElementById("tag-queries");
   let results = [];
 
   if (tagQuery !== "") {
@@ -353,16 +353,21 @@ function searchTags(tagQuery, tagData) {
         results.push(tag);
       }
     }
-  }
 
-  console.log(results);
-
-  // clear all tag
-  query.innerHTML = "";
-
-  if (results.length !== 0) {
-    for (tag of results) {
-      query.innerHTML += `<div class="tag-search">${tag}</div>`
+    console.log(results);
+  
+    // clear all tag
+    queries.innerHTML = "";
+  
+    if (results.length !== 0) {
+      for (tag of results) {
+        queries.innerHTML += `<div class="tag-search">${tag}</div>`
+      }
+    } else {
+      queries.innerHTML = `<div class="tag-search">Tag "#${tagQuery}" not found.</div>`;
     }
+  } else {
+    queries.innerHTML = `<div class="tag-search">Type to search.</div>`;
   }
+
 }
