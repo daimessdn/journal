@@ -70,9 +70,6 @@ const getTagSearch = (tags) => {
   return tagresults;
 };
 
-// loading interfaces
-document.getElementById("loading").innerHTML = loading;
-
 // get random push message
 //// based on hours
 const pushMessage = (hour) => {
@@ -84,13 +81,6 @@ const pushMessage = (hour) => {
     return evening;
   }
 };
-
-// begin DOM on load
-document.addEventListener('DOMContentLoaded', () => {
-  reloadNotes();
-  document.getElementById("push-message").innerHTML = pushMessage(hour);
-  document.getElementById("next").style.display = "none";
-});
 
 /* Set the width of the side navigation to 250px */
 const nav = document.getElementById("mySidenav");

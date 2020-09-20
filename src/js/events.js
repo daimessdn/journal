@@ -1,3 +1,9 @@
+// begin DOM on load
+document.addEventListener('DOMContentLoaded', () => {
+  reloadNotes();
+  document.getElementById("push-message").innerHTML = pushMessage(hour);
+  document.getElementById("next").style.display = "none";
+});
 
 // keyboard press action
 document.addEventListener("keydown", function(event) {
