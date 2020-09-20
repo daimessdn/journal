@@ -330,7 +330,7 @@ ul {
   color: #fff;
 }
 
-.tag-search, .date-section {
+.tag-search, .date-section, .tag-suggestion {
   font-family: "Akkurat Mono", monospace;
   font-weight: bold;
   padding: 2px 5px;
@@ -347,7 +347,7 @@ ul {
   background-color: #7e1f24;
 }
 
-.tag-search {
+.tag-search, .tag-suggestion {
   background-color: #084177;
 }
 

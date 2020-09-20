@@ -339,6 +339,18 @@ function toggleDarkMode() {
 }
 
 // get tags for inputting
+function suggestiontag(element, query) {
+  let tagInput = document.postJournal.tags;
+
+  querySplit = query.split(" ");
+
+  querySplit[querySplit.length - 1] = element.textContent;
+
+  tagInput.value = `${querySplit.join(separator = "")} `;
+  tagInput.focus();
+  searchTags(tagInput.value, uniqueTags);
+}
+
 function searchTags(tagQuery, tagData) {
   console.log(`you typed ${tagQuery}`);
   
@@ -346,7 +358,7 @@ function searchTags(tagQuery, tagData) {
   let results = [];
   let lastQuery = tagQuery.split(" ");
   console.log(lastQuery);
-
+  
   if (lastQuery[lastQuery.length - 1] !== "") {
     for (tag of tagData) {
       let tagLower = tag.toLowerCase();
@@ -363,12 +375,15 @@ function searchTags(tagQuery, tagData) {
   
     if (results.length !== 0) {
       for (tag of results) {
-        queries.innerHTML += `<div class="tag-search">${tag}</div>`
+        queries.innerHTML += `<div class="tag-suggestion"
+                                   onclick="console.log(this);
+                                            suggestiontag(this,
+                                                          document.postJournal.tags.value);">${tag}</div>`
       }
     } else {
-      queries.innerHTML = `<div class="tag-search">Tag "#${tagQuery}" not found.</div>`;
+      queries.innerHTML = `<div class="tag-suggestion">Tag "#${tagQuery}" not found.</div>`;
     }
   } else {
-    queries.innerHTML = `<div class="tag-search">Type to search.</div>`;
+    queries.innerHTML = `<div class="tag-suggestion">Type to search.</div>`;
   }
 }
