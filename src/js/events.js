@@ -63,5 +63,5 @@ linkOption.addEventListener("submit", function(event) {
 // input trigger
 document.postJournal.tags.addEventListener("input", function() {
   let initialValue = this.value;
-  searchTags(initialValue, uniqueTags)
+  searchTags(initialValue, uniqueTags);
 });

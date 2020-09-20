@@ -344,12 +344,14 @@ function searchTags(tagQuery, tagData) {
   
   let queries = document.getElementById("tag-queries");
   let results = [];
+  let lastQuery = tagQuery.split(" ");
+  console.log(lastQuery);
 
-  if (tagQuery !== "") {
+  if (lastQuery[lastQuery.length - 1] !== "") {
     for (tag of tagData) {
       let tagLower = tag.toLowerCase();
       
-      if (tagLower.includes(tagQuery.toLowerCase())) {
+      if (tagLower.includes(lastQuery[lastQuery.length - 1].toLowerCase())) {
         results.push(tag);
       }
     }
@@ -369,5 +371,4 @@ function searchTags(tagQuery, tagData) {
   } else {
     queries.innerHTML = `<div class="tag-search">Type to search.</div>`;
   }
-
 }
