@@ -115,10 +115,15 @@ function closeNav() {
 // function trigger
 //// for submit notes
 const submitNotes = (date, tags, content) => {
+  tags = tags.split(" ");
+  if (tags[tags.length - 1] === "") {
+    tags.pop();
+  }
+
   let preposted = {
     id : Math.random().toString(36).replace(/[^a-z]+/g, '').substr(0, 11),
     date : "",
-    tags : tags.split(" "),
+    tags : tags,
     content : ""
   };
 
