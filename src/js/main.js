@@ -376,13 +376,14 @@ function searchTags(tagQuery, tagData) {
     if (results.length !== 0) {
       for (tag of results) {
         queries.innerHTML += `<div class="tag-suggestion"
-                                   onclick="console.log(this);
-                                            suggestiontag(this,
+                                   onclick="suggestiontag(this,
                                                           document.postJournal.tags.value);">${tag}</div>`
       }
     } else {
-      queries.innerHTML = `<div class="tag-suggestion">
-                             Tag "#${lastQuery[lastQuery.length - 1]}" not found.
+      queries.innerHTML = `<div class="tag-suggestion" onclick="suggestiontag(this.children[0],
+                                                                              document.postJournal.tags.value);">
+                             Tag "<b>#${lastQuery[lastQuery.length - 1]}</b>" not found.
+                             Click to create.
                            </div>`;
     }
   } else {
