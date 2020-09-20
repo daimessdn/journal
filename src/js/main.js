@@ -306,7 +306,6 @@ function formatContent(formatMenu) {
         text += "\n\n```" + document.querySelector(`[name="language"]`).value + "\n\n```";
         document.querySelector(`[name="language"]`).value = "";
       }
-
       break;
     case "link-toogle":
       formatAttribute = "";
@@ -316,7 +315,12 @@ function formatContent(formatMenu) {
       break;
   }
 
-  text = text.slice(0, element.selectionStart) + formatAttribute + text.slice(element.selectionStart, element.selectionEnd) + formatAttribute + text.slice(element.selectionEnd);
+  text = text.slice(0,element.selectionStart) + 
+         formatAttribute +
+         text.slice(element.selectionStart, element.selectionEnd) +
+         formatAttribute +
+         text.slice(element.selectionEnd);
+  
   element.value = text;
 }
 
@@ -338,7 +342,6 @@ function suggestiontag(element, query) {
   let tagInput = document.postJournal.tags;
 
   querySplit = query.split(" ");
-
   querySplit[querySplit.length - 1] = element.textContent;
 
   tagInput.value = `${querySplit.join(separator=" ")} `;
@@ -370,17 +373,33 @@ function searchTags(tagQuery, tagData) {
                                                           document.postJournal.tags.value);">${tag}</div>`
       }
     } else {
-      queries.innerHTML = `<div class="tag-suggestion" onclick="suggestiontag(this.children[0],
-                                                                              document.postJournal.tags.value);">
+      queries.innerHTML = `<div class="tag-suggestion"
+                                onclick="suggestiontag(this.children[0],
+                                                       document.postJournal.tags.value);">
                              Tag "<b>#${lastQuery[lastQuery.length - 1]}</b>" not found.
                              Click to create.
                            </div>`;
     }
   } else {
     if (lastQuery.length > 1) {
-      queries.innerHTML = `<div class="tag-suggestion">Type another to search.</div>`;
+      queries.innerHTML = `<div class="tag-suggestion">
+                             Type another to search.
+                           </div>`;
     } else {
-      queries.innerHTML = `<div class="tag-suggestion">Type to search.</div>`;
+      queries.innerHTML = `<div class="tag-suggestion">
+                             Type to search.
+                           </div>`;
     }
   }
 }
+
+function getAllFunctions() { 
+  var allfunctions = [];
+  for (var i in window) {
+    if((typeof window[i]).toString() == "function"){
+      allfunctions.push(window[i].name);
+    }
+  }
+}
+
+console.log(getAllFunctions());
