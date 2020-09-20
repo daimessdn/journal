@@ -136,7 +136,8 @@ form button input {
 
 #container img {
   width: 50%;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 6px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
+              0 3px 6px 0 rgba(0, 0, 0, 0.19);
   border: 20px solid #eee;
 }
 
@@ -392,19 +393,30 @@ form {
   margin-bottom: 10px;
 }
 
-.dark-mode, .dark-mode form, .dark-mode input, .dark-mode textarea {
+.dark-mode,
+.dark-mode form,
+.dark-mode input,
+.dark-mode textarea {
   background-color: #000;
   color: #fff;
 
   transition: all 1s ease;
 }
 
-.dark-mode input, .dark-mode textarea, .dark-mode button, .dark-mode .tag-search, .dark-mode .date-section, .dark-mode button input {
+.dark-mode .tag-search,
+.dark-mode .tag-suggestion,
+.dark-mode input,
+.dark-mode textarea,
+.dark-mode button,
+.dark-mode .date-section,
+.dark-mode button input {
   border: 1px solid #fff;
   transition: all 1s ease;
 }
 
-.dark-mode form, .dark-mode .post, .dark-mode .tags {
+.dark-mode form,
+.dark-mode .post,
+.dark-mode .tags {
   border: 1px solid #fff;
   border-left: 10px solid #d7686d;
   transition: all 1s ease;
