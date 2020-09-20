@@ -392,14 +392,3 @@ function searchTags(tagQuery, tagData) {
     }
   }
 }
-
-function getAllFunctions() { 
-  var allfunctions = [];
-  for (var i in window) {
-    if((typeof window[i]).toString() == "function"){
-      allfunctions.push(window[i].name);
-    }
-  }
-}
-
-console.log(getAllFunctions());
