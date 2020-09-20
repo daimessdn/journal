@@ -572,6 +572,14 @@ const data = [
       "#test"
     ],
     "content": "<p>Dear, journal…</p>\n<p>I've created some tag suggestion input when I intended to create the post without needed to type the tag entirely. My head was so confused before I began to create this feature…</p>\n<p>… and yeah, still.</p>"
+  },
+  {
+    "id": "qyptmmf",
+    "date": "20/09/2020",
+    "tags": [
+      "#journal"
+    ],
+    "content": "<p>Dear, Mr. Gingerbread…</p>\n<p>Thanks for accompanying me so I can sleep together now…</p>\n<p>Sleep tight~~~</p>"
   }
 ]
 
