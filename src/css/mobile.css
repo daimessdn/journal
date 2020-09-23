@@ -45,6 +45,10 @@
   .post {
     margin-right: 50px;
   }
+
+  #push-trigger {
+    width: 80%;
+  }
 }
 
 @media screen and (max-height: 500px) {
