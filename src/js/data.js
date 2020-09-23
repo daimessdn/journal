@@ -580,6 +580,14 @@ const data = [
       "#journal"
     ],
     "content": "<p>Dear, Mr. Gingerbread…</p>\n<p>Thanks for accompanying me so I can sleep together now…</p>\n<p>Sleep tight~~~</p>"
+  },
+  {
+    "id": "ovzrirztn",
+    "date": "23/09/2020",
+    "tags": [
+      "#journal"
+    ],
+    "content": "<p>Dear, journal…</p>\n<p>2 days ago since my laptop was broken again (again, from software) and I reinstall it (again (let's see what happen if it will be broken (again)) and I didn't have much time for write some notes, yet. Now, I'm currently doing some large clean up mess since I didn't have done it yet for weeks…</p>\n<p>OK, continue…</p>"
   }
 ]
 
