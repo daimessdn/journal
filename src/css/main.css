@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,700;1,400&display=swap');
+
 @keyframes blink {
   0% {
     opacity: 0;
@@ -38,7 +41,7 @@ html {
 }
 
 body {
-  font-family: "Helvetica", "Arial", sans-serif;
+  font-family: "Roboto", "Arial", sans-serif;
   margin: 0;
   height: 100%;
   font-size: 14px;
@@ -47,7 +50,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Akkurat Mono", monospace;
+  font-family: "Roboto Mono", monospace;
 }
 
 .form-section {
@@ -82,7 +85,7 @@ form[name="linkOption"] {
 }
 
 form input, form button {
-  font-family: "Akkurat Mono", monospace;
+  font-family: "Roboto Mono", monospace;
   margin-top: 5px;
   border: 1px solid #222222;
   border-radius: 5px;
@@ -109,7 +112,7 @@ button img {
 }
 
 form textarea {
-  font: 14px "Akkurat Mono", monospace;
+  font: 14px "Roboto Mono", monospace;
   border: 1px solid #222222;
   border-radius: 5px;
   padding: 3px;
@@ -171,13 +174,13 @@ form {
 }
 
 form p {
-  font-family: "Akkurat Mono", monospace;
+  font-family: "Roboto Mono", monospace;
   font-size: 12px;
   margin: 7px 0 0 0;
 }
 
 pre code {
-  font: 14px "Akkurat Mono", monospace;
+  font: 14px "Roboto Mono", monospace;
   white-space: pre-wrap;
   line-height: 1.3;
   max-height: 162px;
@@ -186,7 +189,7 @@ pre code {
 }
 
 code, kbd {
-  font-family: "Akkurat Mono", monospace;
+  font-family: "Roboto Mono", monospace;
   padding: 2px 5px;
   cursor: pointer;
   margin: 5px 2px;
@@ -196,14 +199,14 @@ code, kbd {
 }
 
 blockquote {
-  font-family: "Akkurat Mono", monospace;
+  font-family: "Roboto Mono", monospace;
   margin-left: 0;
   border-left: 10px solid #222222;
   padding-left: 10px;
 }
 
 .date {
-  font-family: "Akkurat Mono", monospace;
+  font-family: "Roboto Mono", monospace;
   font-size: 14px;
   font-weight: bold;
   margin: 0;
@@ -218,7 +221,7 @@ blockquote {
 }
 
 .source strong {
-  font-family: "Akkurat Mono", monospace;
+  font-family: "Roboto Mono", monospace;
   font-size: 14px;
   font-weight: bold;
 }
@@ -265,14 +268,14 @@ ul {
 }
 
 .nav-item {
-  font: bold 25px "Akkurat Mono", monospace;
+  font: bold 25px "Roboto Mono", monospace;
   text-decoration: none;
   color: #fff;
   cursor: pointer;
 }
 
 #push-trigger {
-  font: 14px "Akkurat Mono", monospace;
+  font: 14px "Roboto Mono", monospace;
   width: 300px;
   padding: 8px;
   bottom: 40px;
@@ -294,7 +297,7 @@ ul {
 
 /* The side navigation menu */
 .sidenav {
-  font-family: "Akkurat Mono", monospace;
+  font-family: "Roboto Mono", monospace;
   height: 100%; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
@@ -318,7 +321,7 @@ ul {
 } */
 
 /* .sidenav input {
-  font: bold 14px "Akkurat Mono", monospace;
+  font: bold 14px "Roboto Mono", monospace;
   margin-left: 5%;
   width: 80%;
   background-color: #fff;
@@ -332,7 +335,7 @@ ul {
 }
 
 .tag-search, .date-section, .tag-suggestion {
-  font-family: "Akkurat Mono", monospace;
+  font-family: "Roboto Mono", monospace;
   font-weight: bold;
   padding: 2px 5px;
   cursor: pointer;
@@ -386,7 +389,7 @@ form {
   width: 100%;
   /*transform: rotate(90deg);*/
   /*transform-origin: right top;*/
-  font-family: "Akkurat Mono", monospace;
+  font-family: "Roboto Mono", monospace;
 }
 
 .tags {
