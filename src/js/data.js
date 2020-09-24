@@ -588,17 +588,6 @@ const data = [
       "#journal"
     ],
     "content": "<p>Dear, journal…</p>\n<p>2 days ago since my laptop was broken again (again, from software) and I reinstall it (again (let's see what happen if it will be broken (again)) and I didn't have much time for write some notes, yet. Now, I'm currently doing some large clean up mess since I didn't have done it yet for weeks…</p>\n<p>OK, continue…</p>"
-  },
-  {
-    "id": "copihdgm",
-    "date": "23/09/2020",
-    "tags": [
-      "#journal",
-      "#linux",
-      "#tech",
-      "#tips"
-    ],
-    "content": "<p>Dear, readers…</p>\n<p>Several times I have some problem in operating Ubuntu on my MacBook Pro laptop because some \"won't boot\" process and (I think) some graphic driver problem. There are some ways I've done when I installed Ubuntu in MacBook Pro. I'm currently using MacBook Pro late 2008 releases with NVIDIA GeForce 9600M GT graphic drivers.</p>\n<ul>\n<li>Installation #1: Installed Ubuntu 18.04 without additional drivers (such as WiFi and graphic), results by \"laggy\" after installation and my first login.</li>\n<li>Installation #2: I have no idea how to install Ubuntu 18.04 with some additional drivers and I have problem in connecting Ubuntu 18.04 live boot through WiFi (since it was not installed yet). Fortunately, <strong>Bluetooth</strong> saved my internet problem by Bluetooth tethering. I can finally installed additional drivers through it.</li>\n<li>Installation #3: After several weeks of use, I've got problem with <code>fsck</code> that should help me to fix disk problem, It won't boot anymore so that I need to re-install it again. Same process by <strong>Installation #2</strong> have been done, but It won't help <code>fsck</code> problem for several weeks.</li>\n<li>Installation #4: I've installed Ubuntu 18.04 without additional drivers installed and selected \"<strong>Auto login</strong>\". I can't believe that it would be worked. I've installed some additional drivers and updates later on after post-installation.</li>\n</ul>\n<p>And until now, I have the same problem about <code>fsck</code> that I will find it out soon…</p>\n<p>Thanks you, MacBook Pro for make me learn more about Ubuntu Installation that are so complicated… :')</p>"
   }
 ]
 
