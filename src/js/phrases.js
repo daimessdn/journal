@@ -59,7 +59,7 @@ const push_phrases = {
     "Have something to write?<br/>We have a writing space top there.",
     "Got your breakfast and your coffee ready yet?",
     "Rise and shine...",
-    data.length + (data.length !== 1 ? " stories were " : " story was ") + "written by you so far.<br />What's your another fresh story?"
+    data.length + " stories were written by you so far.<br />What's your another fresh story?"
   ],
   afternoon: [
     "Have prepared your sunblock already?",
@@ -69,7 +69,7 @@ const push_phrases = {
     "How was your nap?",
     "Don't forget to eat",
     "Have you taken a nap?",
-    data.length + (data.length !== 1 ? " stories were " : " story was ") + "written by you so far.<br />What's your another fresh story?"
+    data.length + " stories were written by you so far.<br />What's your another fresh story?"
   ],
   evening: [
     "Already have dinner?",
@@ -81,7 +81,7 @@ const push_phrases = {
     "Have prepared something before going to bed?",
     `Don't want to sleep alone?<br />${character[Math.floor(Math.random() * character.length)]} is here with you.`,
     "Sleep is good for health.<br /> Don't forget to sleep.",
-    data.length + (data.length !== 1 ? " stories were " : " story was ") + "written by you so far.<br />What's your another fresh story?"
+    data.length + " stories were written by you so far.<br />What's your another fresh story?"
   ],
 };
 
