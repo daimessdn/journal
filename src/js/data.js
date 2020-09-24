@@ -588,6 +588,15 @@ const data = [
       "#journal"
     ],
     "content": "<p>Dear, journal…</p>\n<p>2 days ago since my laptop was broken again (again, from software) and I reinstall it (again (let's see what happen if it will be broken (again)) and I didn't have much time for write some notes, yet. Now, I'm currently doing some large clean up mess since I didn't have done it yet for weeks…</p>\n<p>OK, continue…</p>"
+  },
+  {
+    "id": "otoubedae",
+    "date": "24/09/2020",
+    "tags": [
+      "#journal",
+      "#juaragcpseason4"
+    ],
+    "content": "<p>Dear, journal…</p>\n<p>I've currently completing some labs on Qwiklabs in order to complete 15 quests on #JuaraGCP. It may need ont or two days for me to accomplish all of them.</p>\n<p>Wish me luck~~~</p>"
   }
 ]
 
