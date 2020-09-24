@@ -237,14 +237,14 @@ function toToday() {
 }
 
 function pushTriggerUp() {
-  document.getElementById("back-trigger").style.bottom = "47px";
-  document.getElementById("push-trigger").style.bottom = "85px";
+  document.getElementById("back-trigger").style.bottom = "40px";
+  document.getElementById("push-trigger").style.bottom = "68px";
   document.getElementById("back-trigger").style.opacity = "1";
 }
 
 function pushTriggerDown() {
   document.getElementById("back-trigger").style.bottom = "8px";
-  document.getElementById("push-trigger").style.bottom = "47px";
+  document.getElementById("push-trigger").style.bottom = "40px";
   document.getElementById("back-trigger").style.opacity = "0";
 }
 
