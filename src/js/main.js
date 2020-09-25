@@ -309,7 +309,7 @@ function formatContent(formatMenu) {
       break;
     case "link-toogle":
       formatAttribute = "";
-      document.querySelector(`[name="linkOption"]`).style.height = "100%";
+      document.querySelector(`[name="linkOption"]`).style.display = "block%";
       document.linkOption.link.focus();
     default:
       break;
