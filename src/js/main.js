@@ -276,7 +276,7 @@ function reloadNotesBasedOnTags(tag) {
       `;
     }
 
-    document.getElementById("push-message").innerHTML = `getting tag: ${tag}`;
+    document.getElementById("push-message").innerHTML = `Getting based on tag: ${tag}`;
   });
 
   pushTriggerUp();
@@ -309,7 +309,7 @@ function formatContent(formatMenu) {
       break;
     case "link-toogle":
       formatAttribute = "";
-      document.querySelector(`[name="linkOption"]`).style.display = "block";
+      document.querySelector(`[name="linkOption"]`).style.height = "100%";
       document.linkOption.link.focus();
     default:
       break;
@@ -350,43 +350,49 @@ function suggestiontag(element, query) {
 }
 
 function searchTags(tagQuery, tagData) {
-  let queries = document.getElementById("tag-queries");
+  let queryElement = document.getElementById("tag-queries");
   let results = [];
-  let lastQuery = tagQuery.split(" ");
+
+  let queries = tagQuery.split(" ");
+  let lastQuery = queries[queries.length - 1];
+
+  console.log(queries);
   
-  if (lastQuery[lastQuery.length - 1] !== "") {
+  if (lastQuery !== "") {
     for (tag of tagData) {
       let tagLower = tag.toLowerCase();
       
-      if (tagLower.includes(lastQuery[lastQuery.length - 1].toLowerCase())) {
+      if (tagLower.includes(lastQuery.toLowerCase())) {
         results.push(tag);
       }
     }
     
     // clear all tag
-    queries.innerHTML = "";
+    queryElement.innerHTML = "";
   
     if (results.length !== 0) {
       for (tag of results) {
-        queries.innerHTML += `<div class="tag-suggestion"
+        queryElement.innerHTML += `<div class="tag-suggestion"
                                    onclick="suggestiontag(this,
                                                           document.postJournal.tags.value);">${tag}</div>`
       }
     } else {
-      queries.innerHTML = `<div class="tag-suggestion"
+      queryElement.innerHTML = `<div class="tag-suggestion"
                                 onclick="suggestiontag(this.children[0],
                                                        document.postJournal.tags.value);">
-                             Tag "<b>#${lastQuery[lastQuery.length - 1]}</b>" not found.
+                             Tag "<b>#${
+                               lastQuery.includes("#") === true ? lastQuery.slice(1, ) : lastQuery
+                             }</b>" not found.
                              Click to create.
                            </div>`;
     }
   } else {
     if (lastQuery.length > 1) {
-      queries.innerHTML = `<div class="tag-suggestion">
+      queryElement.innerHTML = `<div class="tag-suggestion">
                              Type another to search.
                            </div>`;
     } else {
-      queries.innerHTML = `<div class="tag-suggestion">
+      queryElement.innerHTML = `<div class="tag-suggestion">
                              Type to search.
                            </div>`;
     }
