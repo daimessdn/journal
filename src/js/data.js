@@ -597,6 +597,24 @@ const data = [
       "#juaragcpseason4"
     ],
     "content": "<p>Dear, journal…</p>\n<p>I've currently completing some labs on Qwiklabs in order to complete 15 quests on #JuaraGCP. It may need ont or two days for me to accomplish all of them.</p>\n<p>Wish me luck~~~</p>"
+  },
+  {
+    "id": "dtlzvaoo",
+    "date": "08/10/2020",
+    "tags": [
+      "#journal"
+    ],
+    "content": "<p>Dear, journal…</p>\n<p>My laptop as broken again and just have re-installed it again this afternoon. Before I've reinstalled my laptop, I saw that there was no booting process to Ubuntu. I've checked Ubuntu live disk and found drive error in <strong>GParted</strong> and found no drives detected in <strong>Disks</strong>. I wonder why this happen. :v</p>"
+  },
+  {
+    "id": "zzvqdz",
+    "date": "07/10/2020",
+    "tags": [
+      "#journal",
+      "#learning",
+      "#security"
+    ],
+    "content": "<p>Dear, journal…</p>\n<p>I've just started learning cybersecurity with DSC (Google <strong>Developer Students Club</strong>) students of Unilag (University of Lagos). I've learned (and still learning) intro to cybersecurity, the tools, and also the certification of cybersecurity. They're all new to me and I need to review it at a moment for getting more understanding about their jobs and also their roles in technology.</p>\n<p>Wish me luck~~~</p>"
   }
 ]
 
