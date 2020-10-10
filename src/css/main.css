@@ -253,7 +253,7 @@ ul {
 
 .date::after {
   content: "|";
-  font-weight: normal;
+  font-style: normal;
   animation: blink 1s infinite;
 }
 
@@ -444,4 +444,8 @@ form {
   border: 1px solid #fff;
   border-left: 10px solid #d7686d;
   transition: all 1s ease;
+}
+
+.dark-mode a {
+  font-weight: bold;
 }
