@@ -615,6 +615,14 @@ const data = [
       "#security"
     ],
     "content": "<p>Dear, journal…</p>\n<p>I've just started learning cybersecurity with DSC (Google <strong>Developer Students Club</strong>) students of Unilag (University of Lagos). I've learned (and still learning) intro to cybersecurity, the tools, and also the certification of cybersecurity. They're all new to me and I need to review it at a moment for getting more understanding about their jobs and also their roles in technology.</p>\n<p>Wish me luck~~~</p>"
+  },
+  {
+    "id": "rhtuwrses",
+    "date": "10/10/2020",
+    "tags": [
+      "#journal"
+    ],
+    "content": "<p>Dear, journal…</p>\n<p>I have same problem again with my laptop. It firstly won't boot and got stuck on Ubuntu <strong>MokList</strong> failed. I've got <strong>error: failed reading sector</strong> (I still can't figured out what's going on). It boots normally after waiting for several long time, and then got a loop in welcome screen (it appears <strong>NVIDIA</strong> logo, then it return <strong>black screen and pointer</strong> and then <strong>NVIDIA</strong> and <strong>black screen</strong> again).</p>\n<p>After playing with <strong>grub</strong> for a long time (I was can't figured out what I did), it finally booted normally again and successfully appear Desktop.</p>\n<p>I still can't figured out what's going on, it was so happy to see my laptop was fine and can be used again…</p>\n<p>Hmm.. I wonder what kind of error was be and what kind of errors will be soon… :v</p>"
   }
 ]
 
