@@ -228,6 +228,7 @@ blockquote {
   font-family: "Space Mono", monospace;
   font-size: 13px;
   font-style: italic;
+  font-weight: normal;
   margin: 0;
 }
 
@@ -356,6 +357,7 @@ ul {
 .tag-search, .date-section, .tag-suggestion {
   font-family: "Space Mono", monospace;
   font-style: italic;
+  font-weight: normal;
   padding: 2px 5px;
   cursor: pointer;
   margin: 5px 2px;
