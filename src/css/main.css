@@ -202,6 +202,11 @@ pre code {
   border: 1px solid #fff;
 }
 
+pre code::after {
+  content: "\A\A";
+  white-space: pre;
+}
+
 code, kbd {
   font-family: "Space Mono", monospace;
   padding: 2px 5px;
