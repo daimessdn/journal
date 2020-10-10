@@ -446,6 +446,7 @@ form {
   transition: all 1s ease;
 }
 
-.dark-mode a {
+.dark-mode .post a {
+  color: #fff;
   font-weight: bold;
 }
