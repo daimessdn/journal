@@ -356,7 +356,7 @@ function searchTags(tagQuery, tagData) {
   let queries = tagQuery.split(" ");
   let lastQuery = queries[queries.length - 1];
 
-  console.log(queries);
+  // console.log(queries);
   
   if (lastQuery !== "") {
     for (tag of tagData) {
