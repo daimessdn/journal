@@ -623,6 +623,16 @@ const data = [
       "#journal"
     ],
     "content": "<p>Dear, journal…</p>\n<p>I have same problem again with my laptop. It firstly won't boot and got stuck on Ubuntu <strong>MokList</strong> failed. I've got <strong>error: failed reading sector</strong> (I still can't figured out what's going on). It boots normally after waiting for several long time, and then got a loop in welcome screen (it appears <strong>NVIDIA</strong> logo, then it return <strong>black screen and pointer</strong> and then <strong>NVIDIA</strong> and <strong>black screen</strong> again).</p>\n<p>After playing with <strong>grub</strong> for a long time (I was can't figured out what I did), it finally booted normally again and successfully appear Desktop.</p>\n<p>I still can't figured out what's going on, it was so happy to see my laptop was fine and can be used again…</p>\n<p>Hmm.. I wonder what kind of error was be and what kind of errors will be soon… :v</p>"
+  },
+  {
+    "id": "wtkxborki",
+    "date": "12/10/2020",
+    "tags": [
+      "#journal",
+      "#juaragcpseason4",
+      "#juaragcp"
+    ],
+    "content": "<p>Dear, journal…</p>\n<p>It was so nice to accomplished 15 Qwiklabs quests from #JuaraGVCP and submit all the forms before the deadline. I was so worried for cannot accomplished those quests because of errors happened on my laptop.</p>\n<p>Phew, rest time…</p>"
   }
 ]
 
