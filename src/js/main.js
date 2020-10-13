@@ -322,6 +322,7 @@ function formatContent(formatMenu) {
          text.slice(element.selectionEnd);
   
   element.value = text;
+  element.focus();
 }
 
 // theme toggle function
