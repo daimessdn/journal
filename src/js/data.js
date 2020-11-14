@@ -633,6 +633,12 @@ const data = [
       "#juaragcp"
     ],
     "content": "<p>Dear, journal…</p>\n<p>It was so nice to accomplished 15 Qwiklabs quests from #JuaraGVCP and submit all the forms before the deadline. I was so worried for cannot accomplished those quests because of errors happened on my laptop.</p>\n<p>Phew, rest time…</p>"
+  },
+  {
+    "id": "ethptti",
+    "date": "14/11/2020",
+    "tags": ["#cybersecurity", "#learning", "#journal"],
+    "content": "<p>Dear, journal…</p><p>It's been a long time I didn't write some notes since I'm still struggle for fixing my laptop problems (again)…</p><p>I've been learning cybersecurity with DSC Unilag students since one-half month ago because it's totally new to me and I think it's gonna be interesting since we play with hacking and something stuff. I'm still learning some concepts of security such as networking, computer infrastructure, etc. I also find <strong>Joplin</strong> as an useful notebook app for taking notes. It's open source and also sync-able to mobile and computers…</p><p>OK, continue learning, then. Wish me luck…</p><p><img src=\"IMG_20201114_234103.jpg\" alt=\"cybersecurity learning in tissue paper\" /></p>"
   }
 ]
 
