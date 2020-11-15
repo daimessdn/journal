@@ -59,7 +59,6 @@ body {
   height: 100%;
   font-size: 13px;
   overflow-y: scroll;
-  transition: all 1s ease;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -103,7 +102,6 @@ form input, form button {
   margin-top: 5px;
   border: 1px solid #222222;
   border-radius: 5px;
-  transition: all 1s ease;
 }
 
 form button {
@@ -132,8 +130,6 @@ form textarea {
   padding: 3px;
   width: 99%;
   height: 100px;
-
-  transition: all 1s ease;
 }
 
 form button input {
@@ -173,8 +169,6 @@ form button input {
   
   overflow-y: auto;
   overflow-x: hidden;
-  
-  transition: all 1s ease;
 }
 
 form {
@@ -364,8 +358,6 @@ ul {
   border-radius: 5px;
   color: #fff;
   border: 1px solid #000;
-
-  transition: all 1s ease;
 }
 
 .date-section {
@@ -417,16 +409,6 @@ form {
   margin-bottom: 10px;
 }
 
-.dark-mode,
-.dark-mode form,
-.dark-mode input,
-.dark-mode textarea {
-  background-color: #000;
-  color: #fff;
-
-  transition: all 1s ease;
-}
-
 .dark-mode .tag-search,
 .dark-mode .tag-suggestion,
 .dark-mode input,
@@ -435,15 +417,22 @@ form {
 .dark-mode .date-section,
 .dark-mode button input {
   border: 1px solid #fff;
-  transition: all 1s ease;
+  background-color: #0d83f1;
+}
+
+.dark-mode,
+.dark-mode form,
+.dark-mode input,
+.dark-mode textarea {
+  background-color: #000;
+  color: #fff;
 }
 
 .dark-mode form,
 .dark-mode .post,
 .dark-mode .tags {
   border: 1px solid #fff;
-  border-left: 10px solid #d7686d;
-  transition: all 1s ease;
+  border-left: 10px solid #e79599;
 }
 
 .dark-mode .post a {
