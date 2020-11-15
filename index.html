@@ -82,47 +82,49 @@
   
       <p><label for="content">Text to be written</label></p>
       <div class="input-control">
+        <nav class="format-nav">
+          <button type="button" 
+                  name="bold"
+                  title="Bold"
+                  onclick="formatContent(this.name)"
+                  >
+                  <strong>B</strong>
+          </button>
+          <button type="button" 
+                  name="italic"
+                  title="Italic"
+                  onclick="formatContent(this.name)">
+                  <em>I</em>
+          </button>
+          <button type="button" 
+                  name="shortcode"
+                  title="Short code"
+                  onclick="formatContent(this.name)">
+                  &gt;
+          </button>
+          <button type="button" 
+                  name="longcode"
+                  title="Long code"
+                  onclick="formatContent(this.name)">
+                  <form name="longCode">
+                    &gt; <input type="text" name="language">
+                  </form>
+          </button>
+          <button type="button" 
+          name="link-toogle"
+          title="Link"
+          onclick="formatContent(this.name)">
+            <img src="src/svg-icon/link.svg" title="link">
+          </button>
+        </nav>
         <textarea name="content"
                   placeholder="What's on your journal?"></textarea>
+                  
+        <nav class="format-nav">
+          <button type="submit">POST</button>
+        </nav>
       </div>
   
-      <nav class="format-nav">
-        <button type="button" 
-                name="bold"
-                title="Bold"
-                onclick="formatContent(this.name)"
-                >
-                <strong>B</strong>
-        </button>
-        <button type="button" 
-                name="italic"
-                title="Italic"
-                onclick="formatContent(this.name)">
-                <em>I</em>
-        </button>
-        <button type="button" 
-                name="shortcode"
-                title="Short code"
-                onclick="formatContent(this.name)">
-                &gt;
-        </button>
-        <button type="button" 
-                name="longcode"
-                title="Long code"
-                onclick="formatContent(this.name)">
-                <form name="longCode">
-                  &gt; <input type="text" name="language">
-                </form>
-        </button>
-        <button type="button" 
-        name="link-toogle"
-        title="Link"
-        onclick="formatContent(this.name)">
-        <img src="src/svg-icon/link.svg" title="link">
-       </button>
-      
-       <button type="submit">POST</button>
-      </nav>
     </form>
   
     <div class="option-aside">
