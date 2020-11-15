@@ -639,6 +639,14 @@ const data = [
     "date": "14/11/2020",
     "tags": ["#cybersecurity", "#learning", "#journal"],
     "content": "<p>Dear, journal…</p><p>It's been a long time I didn't write some notes since I'm still struggle for fixing my laptop problems (again)…</p><p>I've been learning cybersecurity with DSC Unilag students since one-half month ago because it's totally new to me and I think it's gonna be interesting since we play with hacking and something stuff. I'm still learning some concepts of security such as networking, computer infrastructure, etc. I also find <strong>Joplin</strong> as an useful notebook app for taking notes. It's open source and also sync-able to mobile and computers…</p><p>OK, continue learning, then. Wish me luck…</p><p><img src=\"IMG_20201114_234103.jpg\" alt=\"cybersecurity learning in tissue paper\" /></p><blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">Week #1 of <a href=\"https://twitter.com/hashtag/cybersecurity?src=hash&amp;ref_src=twsrc%5Etfw\">#cybersecurity</a> study group: I&#39;ve learned overview of cybersecurity and it&#39;s role, tools, and certifications with <a href=\"https://twitter.com/dsc_unilag?ref_src=twsrc%5Etfw\">@dsc_unilag</a>, that was totally new for me.<br><br>I still need to learn more about the basic concepts of networking and some new definition of tech concepts. <a href=\"https://t.co/keejltyJKF\">pic.twitter.com/keejltyJKF</a></p>&mdash; Dimas Wihandono (@daimessdn) <a href=\"https://twitter.com/daimessdn/status/1314931846828888065?ref_src=twsrc%5Etfw\">October 10, 2020</a></blockquote> <script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>"
+  },
+  {
+    "id": "pomkyyb",
+    "date": "15/11/2020",
+    "tags": [
+      "#journal"
+    ],
+    "content": "<p>Dear, journal…</p>\n<p>This is Sunday and I didn't feel like to doing anything…</p>\n<p><em>What should I do? ~~~</em></p>"
   }
 ]
 
