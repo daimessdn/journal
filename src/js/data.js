@@ -647,6 +647,16 @@ const data = [
       "#journal"
     ],
     "content": "<p>Dear, journal…</p>\n<p>This is Sunday and I didn't feel like to doing anything…</p>\n<p><em>What should I do? ~~~</em></p>"
-  }
+  },
+  {
+    "id": "rmfyrdstb",
+    "date": "22/11/2020",
+    "tags": [
+      "journal",
+      "learning",
+      "algorithm"
+    ],
+    "content": "<p>Dear, journal…</p><p>It's so nice to complete my 2 first assignments on <a href=\"https://www.coursera.org/learn/algorithmic-toolbox\">Coursera</a> and a project on <a href=\"https://hyperskill.org/projects/69?track=2\">JetBrains Academy</a>.</p><p>Hmm… seems to be hard to complete all of them with laptop errors (hope not will be errors again soon after I've repaired it)</p>"
+  } 
 ]
 
