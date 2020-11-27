@@ -348,7 +348,7 @@ ul {
   color: #fff;
 }
 
-.tag-search, .date-section, .tag-suggestion {
+.tag-search, .date-section, .tag-suggestion, .title {
   font-family: "Space Mono", monospace;
   font-style: italic;
   font-weight: normal;

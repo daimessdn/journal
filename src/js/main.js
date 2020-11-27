@@ -149,7 +149,7 @@ function reloadNotes(event) {
                       <span class="date-section">${post.date}</span>
                     </p>
 
-                    ${post.title != "" ? "<p class='date'><strong>" + post.title + "</strong></p>" : ""}
+                    ${post.title != "" ? "<p class='title'><strong>" + post.title + "</strong></p>" : ""}
 
                     <p class="tag-results" style="margin: 0; font-size: 12px;">
                       ${getTagSearch(post.tags)}
@@ -270,6 +270,8 @@ function reloadNotesBasedOnTags(tag) {
           <p style="margin: 7px 0 0 0; font-size: 12px;">
             <span class="date-section">${post.date}</span>
           </p>
+
+          ${post.title != "" ? "<p class='title'><strong>" + post.title + "</strong></p>" : ""}
 
           <p class="tag-results" style="margin: 0; font-size: 12px;">
             ${getTagSearch(post.tags)}
