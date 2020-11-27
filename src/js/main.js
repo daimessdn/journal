@@ -114,7 +114,8 @@ const submitNotes = (date, tags, content) => {
     id : Math.random().toString(36).replace(/[^a-z]+/g, '').substr(0, 11),
     date : "",
     tags : tags,
-    content : ""
+    content : "",
+    title: ""
   };
 
   const currdate = new Date(date);
