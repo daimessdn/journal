@@ -63,6 +63,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 20px;
 }
 
+.title {
+  font-weight: bold;
+}
+
 .form-section {
   display: flex;
   margin: 8px 8px 0 8px;
@@ -209,7 +213,7 @@ code, kbd {
   padding: 2px;
 }
 
-blockquote {
+blockquote, .title {
   font-family: "Space Mono", monospace;
   margin-left: 0;
   border-left: 10px solid #222222;
@@ -346,7 +350,7 @@ ul {
   color: #fff;
 }
 
-.tag-search, .date-section, .tag-suggestion, .title {
+.tag-search, .date-section, .tag-suggestion {
   font-family: "Space Mono", monospace;
   font-style: italic;
   font-weight: normal;

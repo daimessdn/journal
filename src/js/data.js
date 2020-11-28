@@ -3,9 +3,9 @@ const data = [
     "id": "rmfyrdstb",
     "date": "22/11/2020",
     "tags": [
-      "journal",
-      "learning",
-      "algorithm"
+      "#journal",
+      "#learning",
+      "#algorithm"
     ],
     "content": "<p>Dear, journal…</p><p>It's so nice to complete my 2 first assignments on <a href=\"https://www.coursera.org/learn/algorithmic-toolbox\">Coursera</a> and a project on <a href=\"https://hyperskill.org/projects/69?track=2\">JetBrains Academy</a>.</p><p>Hmm… seems to be hard to complete all of them with laptop errors (hope not will be errors again soon after I've repaired it)</p>",
     "title": ""
@@ -748,6 +748,6 @@ const data = [
       "#test"
     ],
     "content": "<p>Dear, journal…</p>\n<p>I've got successfully made feature that reads KaTeX math notation and rendered it into my journal using <a href=\"https://katex.org\">KaTeX.js</a></p>\n<p>By write this in HTML (or input in this post),</p>\n<pre><code class=\"html language-html\">&lt;span class=\"latex\" id=\"quadratic\"&gt;x^2 + 4x + 4 = 0&lt;/span&gt;\n&lt;span class=\"latex\" id=\"fx1\"&gt;f(a,b,c) = (a^2+b^2+c^2)^3&lt;/span&gt;\n&lt;span class=\"latex\" id=\"fx1\"&gt;\\sigma(z) = \\frac{1}{1 + e^{-z}}&lt;/span&gt;\n</code></pre>\n<p>it will look like this.</p>\n<p><span class=\"latex\" id=\"quadratic\">x^2 + 4x + 4 = 0</span><br />\n<span class=\"latex\" id=\"fx1\">f(a,b,c) = (a^2+b^2+c^2)^3</span><br />\n<span class=\"latex\" id=\"fx1\">\\sigma(z) = \\frac{1}{1 + e^{-z}}</span></p>",
-    "title": ""
+    "title": "Testing of rendering KaTeX syntax on this journal: new feature"
   }
 ];
