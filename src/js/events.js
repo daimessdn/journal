@@ -3,6 +3,11 @@ document.addEventListener('DOMContentLoaded', () => {
   reloadNotes();
   document.getElementById("push-message").innerHTML = pushMessage(hour);
   document.getElementById("next").style.display = "none";
+  let mathText = document.querySelectorAll(".latex");
+
+  mathText.forEach(text => {
+    katex.render(text.innerHTML, text);
+  });
 });
 
 // keyboard press action
