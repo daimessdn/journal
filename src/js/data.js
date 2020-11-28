@@ -747,7 +747,7 @@ const data = [
     "tags": [
       "#test"
     ],
-    "content": "<p>Dear, journal…</p>\n<p>I've got successfully made feature that reads KaTeX math notation and rendered it into my journal using <a href=\"https://katex.org\">KaTeX.js</a></p>\n<p>By write this in HTML (or input in this post),</p>\n<pre><code class=\"html language-html\">&lt;span class=\"latex\" id=\"quadratic\"&gt;x^2 + 4x + 4 = 0&lt;/span&gt;\n&lt;span class=\"latex\" id=\"fx1\"&gt;f(a,b,c) = (a^2+b^2+c^2)^3&lt;/span&gt;\n&lt;span class=\"latex\" id=\"fx1\"&gt;\\sigma(z) = \\frac{1}{1 + e^{-z}}&lt;/span&gt;\n</code></pre>\n<p>it will look like this.</p>\n<p><span class=\"latex\" id=\"quadratic\">x^2 + 4x + 4 = 0</span>\n<span class=\"latex\" id=\"fx1\"><br />f(a,b,c) = (a^2+b^2+c^2)^3</span><br />\n<span class=\"latex\" id=\"fx1\">\\sigma(z) = \\frac{1}{1 + e^{-z}}</span></p>",
+    "content": "<p>Dear, journal…</p>\n<p>I've got successfully made feature that reads KaTeX math notation and rendered it into my journal using <a href=\"https://katex.org\">KaTeX.js</a></p>\n<p>By write this in HTML (or input in this post),</p>\n<pre><code class=\"html language-html\">&lt;span class=\"latex\" id=\"quadratic\"&gt;x^2 + 4x + 4 = 0&lt;/span&gt;\n&lt;span class=\"latex\" id=\"fx1\"&gt;f(a,b,c) = (a^2+b^2+c^2)^3&lt;/span&gt;\n&lt;span class=\"latex\" id=\"fx1\"&gt;\\sigma(z) = \\frac{1}{1 + e^{-z}}&lt;/span&gt;\n</code></pre>\n<p>it will look like this.</p>\n<p><span class=\"latex\" id=\"quadratic\">x^2 + 4x + 4 = 0</span><br />\n<span class=\"latex\" id=\"fx1\">f(a,b,c) = (a^2+b^2+c^2)^3</span><br />\n<span class=\"latex\" id=\"fx1\">\\sigma(z) = \\frac{1}{1 + e^{-z}}</span></p>",
     "title": ""
   }
 ];
