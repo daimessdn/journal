@@ -758,5 +758,12 @@ const data = [
     ],
     "content": "<p>dear, journal…</p>\n<p>it's been a long time not have writing and also 1 day during 2021. I've got a work with my bootcamp friends building a \"big data consulting\" project together.</p>\n<p>wish me luck~</p>",
     "title": ""
+  },
+  {
+    "id": "rprxekgkyz",
+    "date": "31/12/2020",
+    "tags": ["#journal"],
+    "content": "<p>dear, journal…</p>\n<p>this is the last journal I've written on this year…</p>\n<p>happy new year~~~</p>",
+    "title": ""
   }
 ];
