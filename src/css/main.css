@@ -21,42 +21,18 @@
   }
 }
 
-@font-face {
-  font-family: "Space Mono";
-  src: url("SpaceMono-Regular.ttf") format('truetype');
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Space Mono";
-  src: url("SpaceMono-Bold.ttf") format('truetype');
-  font-weight: bold;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Space Mono";
-  src: url("SpaceMono-Italic.ttf") format('truetype');
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Space Mono";
-  src: url("SpaceMono-BoldItalic.ttf") format('truetype');
-  font-style: italic;
-  font-weight: bold;
-  font-display: swap;
+* {
+  box-sizing: border-box;
 }
 
 body {
-  font-family: "Space Mono", "Arial", sans-serif;
+  font-family: "Space Grotesk", "Arial", sans-serif;
   margin: 0;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Space Mono", monospace;
+  font-family: "Space Grotesk", monospace;
 }
 
 .latex {
@@ -99,9 +75,9 @@ form[name="linkOption"] {
 }
 
 form input, form button {
-  font-family: "Space Mono", monospace;
-  font-size: 14px;
-  margin-top: 5px;
+  font-family: "Space Grotesk", monospace;
+  font-size: 16px;
+  margin: 5px;
   border: 1px solid #222222;
   border-radius: 5px;
 }
@@ -126,10 +102,11 @@ button img {
 }
 
 form textarea {
-  font: 14px "Space Mono", monospace;
+  font: 16px "Space Grotesk", monospace;
   border: 1px solid #222222;
   border-radius: 5px;
   padding: 3px;
+  margin: 5px;
   width: 99%;
   height: 100px;
 }
@@ -186,8 +163,8 @@ form {
 }
 
 form p {
-  font-family: "Space Mono", monospace;
-  font-size: 14px;
+  font-family: "Space Grotesk", monospace;
+  font-size: 16px;
   margin: 7px 0 0 0;
 }
 
@@ -196,7 +173,7 @@ form p {
 }
 
 pre code {
-  font: 14px "Space Mono", monospace;
+  font: 14px "Roboto Mono", monospace;
   white-space: pre-wrap;
   line-height: 1.7;
   max-height: 162px;
@@ -210,7 +187,7 @@ pre code::after {
 }
 
 code, kbd {
-  font-family: "Space Mono", monospace;
+  font-family: "Roboto Mono", monospace;
   font-weight: bold;
   cursor: pointer;
   border-radius: 5px;
@@ -218,15 +195,15 @@ code, kbd {
 }
 
 blockquote, .title {
-  font-family: "Space Mono", monospace;
+  font-family: "Space Grotesk", monospace;
   margin-left: 0;
   border-left: 10px solid #222222;
   padding-left: 10px;
 }
 
 .date {
-  font-family: "Space Mono", monospace;
-  font-size: 14px;
+  font-family: "Space Grotesk", monospace;
+  font-size: 16px;
   font-style: italic;
   font-weight: normal;
   margin: 0;
@@ -241,8 +218,8 @@ blockquote, .title {
 }
 
 .source strong {
-  font-family: "Space Mono", monospace;
-  font-size: 14px;
+  font-family: "Space Grotesk", monospace;
+  font-size: 16px;
   font-weight: bold;
 }
 
@@ -259,7 +236,6 @@ ul {
 
 #navbar, #back-trigger, #push-trigger {
   background-color: #084177;
-  font-style: italic;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -282,23 +258,30 @@ ul {
   overflow: hidden;
 }
 
+#navbar {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #navbar li {
+  display: grid;
+  place-items: center;
   padding: 5px;
-  display: inline;
 }
 
 .nav-item {
-  font: bold 20px "Space Mono", monospace;
+  font: bold 20px "Space Grotesk", monospace;
   text-decoration: none;
   color: #fff;
   cursor: pointer;
 }
 
 #push-trigger {
-  font: 14px "Space Mono", monospace;
+  font: 16px "Space Grotesk", monospace;
   width: 300px;
   padding: 8px;
-  bottom: 42px;
+  bottom: 48px;
   text-decoration: none;
   color: #fff;
   z-index: 5;
@@ -317,7 +300,7 @@ ul {
 
 /* The side navigation menu */
 .sidenav {
-  font-family: "Space Mono", monospace;
+  font-family: "Roboto Mono", monospace;
   height: 100%; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
@@ -341,7 +324,7 @@ ul {
 } */
 
 /* .sidenav input {
-  font: bold 13px "Space Mono", monospace;
+  font: bold 13px "Roboto Mono", monospace;
   margin-left: 5%;
   width: 80%;
   background-color: #fff;
@@ -355,7 +338,8 @@ ul {
 }
 
 .tag-search, .date-section, .tag-suggestion {
-  font-family: "Space Mono", monospace;
+  font-family: "Space Grotesk", monospace;
+  font-size: 14px;
   font-style: italic;
   font-weight: normal;
   padding: 2px 5px;
@@ -408,7 +392,7 @@ form {
   width: 100%;
   /*transform: rotate(90deg);*/
   /*transform-origin: right top;*/
-  font-family: "Space Mono", monospace;
+  font-family: "Roboto Mono", monospace;
 }
 
 .tags {
@@ -422,7 +406,7 @@ form {
 .dark-mode button,
 .dark-mode .date-section,
 .dark-mode button input {
-  border: 1px solid #fff;
+  border: 3px solid #fff;
   background-color: #0d83f1;
 }
 
@@ -437,7 +421,7 @@ form {
 .dark-mode form,
 .dark-mode .post,
 .dark-mode .tags {
-  border: 1px solid #fff;
+  border: 3px solid #fff;
   border-left: 10px solid #e79599;
 }
 
