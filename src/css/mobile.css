@@ -20,7 +20,7 @@
   }
 
   body, pre code, #container input, #container textarea {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   form {
@@ -57,11 +57,11 @@
 
 @media screen and (max-height: 500px) {
   body {
-    overflow-y: scroll;;
+    overflow-y: scroll;
   }
 
   body, pre code, #container input, #container textarea {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .latex {
