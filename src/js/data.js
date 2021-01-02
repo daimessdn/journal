@@ -765,5 +765,23 @@ const data = [
     "tags": ["#journal"],
     "content": "<p>dear, journal…</p>\n<p>this is the last journal I've written on this year…</p>\n<p>happy new year~~~</p>",
     "title": ""
+  },
+  {
+    "id": "scwjzrqm",
+    "date": "01/01/2021",
+    "tags": [
+      "#journal"
+    ],
+    "content": "<p>dear, journal…</p>\n<p>it's the first day of 2021 and have a good time…</p>\n<p>still have some trauma when I opened social media because I've never talked to my friends since I have my laptop broken for several times several months ago…</p>\n<p>… and yet, still~~~</p>",
+    "title": ""
+  },
+  {
+    "id": "leklwpo",
+    "date": "02/01/2021",
+    "tags": [
+      "#journal"
+    ],
+    "content": "<p>dear, journal…</p>\n<p>it's the first Saturday of 2021…</p>\n<p>need some consistence to write on you everyday.</p>\n<p>OK, only that…</p>",
+    "title": ""
   }
 ];
