@@ -783,5 +783,14 @@ const data = [
     ],
     "content": "<p>dear, journal…</p>\n<p>it's the first Saturday of 2021…</p>\n<p>need some consistence to write on you everyday.</p>\n<p>OK, only that…</p>",
     "title": ""
+  },
+  {
+    "id": "drirswja",
+    "date": "06/01/2021",
+    "tags": [
+      "#journal"
+    ],
+    "content": "<p>dear, journal…</p>\n<p>it's been 6 days after January 2021…</p>\n<p>my friend Ronny has got stuck on doing his first data engineering homework stuff because of the messy data it is. while waiting for Kak Bastian doing his design homework for my web homework, I'm just doing some little help for him to get rid of messy data and classify item data.</p>\n<p>aahhh… thanks, Ronny for your great homework given to me. I've had enough fun before I finally do my own homework…</p>",
+    "title": ""
   }
 ];
