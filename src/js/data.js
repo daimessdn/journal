@@ -792,5 +792,14 @@ const data = [
     ],
     "content": "<p>dear, journal…</p>\n<p>it's been 6 days after January 2021…</p>\n<p>my friend Ronny has got stuck on doing his first data engineering homework stuff because of the messy data it is. while waiting for Kak Bastian doing his design homework for my web homework, I'm just doing some little help for him to get rid of messy data and classify item data.</p>\n<p>aahhh… thanks, Ronny for your great homework given to me. I've had enough fun before I finally do my own homework…</p>",
     "title": ""
+  },
+  {
+    "id": "vdgddqas",
+    "date": "10/02/2021",
+    "tags": [
+      "#journal"
+    ],
+    "content": "<p>dear, journal…</p>\n<p>I've got an email from Singaporean people who wants to hire me as a <strong>developer</strong>. seems interesting, although I'm still confused realizing that I'm still a <strong>petroleum engineering student</strong>.</p>\n<p>now, I have to create some programming test to make sure that I've got applied for the job…</p>\n<p>wish me luck~~~</p>",
+    "title": ""
   }
 ];
