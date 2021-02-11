@@ -801,5 +801,14 @@ const data = [
     ],
     "content": "<p>dear, journal…</p>\n<p>I've got an email from Singaporean people who wants to hire me as a <strong>developer</strong>. seems interesting, although I'm still confused realizing that I'm still a <strong>petroleum engineering student</strong>.</p>\n<p>now, I have to create some programming test to make sure that I've got applied for the job…</p>\n<p>wish me luck~~~</p>",
     "title": ""
+  },
+  {
+    "id": "zmxetbsgd",
+    "date": "11/02/2021",
+    "tags": [
+      "#journal"
+    ],
+    "content": "<p>dear, journal…</p>\n<p>I'm still learning the concept of <strong>UNIX domain socket</strong>. I've got interesting fact that UNIX domain concept uses such kind of <strong>filesystem</strong> stuff for communicating each other. in this case, I have to create some program using that concept to apply dummy Ethereum transaction (yeah, cryptocurren-shit stuffs when you play with fake money :v)…</p>\n<p>hmm… my next homework is learn such kind of cryptocurren-shit stuffs. </p>",
+    "title": ""
   }
 ];
