@@ -810,5 +810,14 @@ const data = [
     ],
     "content": "<p>dear, journal…</p>\n<p>I'm still learning the concept of <strong>UNIX domain socket</strong>. I've got interesting fact that UNIX domain concept uses such kind of <strong>filesystem</strong> stuff for communicating each other. in this case, I have to create some program using that concept to apply dummy Ethereum transaction (yeah, cryptocurren-shit stuffs when you play with fake money :v)…</p>\n<p>hmm… my next homework is learn such kind of cryptocurren-shit stuffs. </p>",
     "title": ""
+  },
+  {
+    "id": "ktaghqzfk",
+    "date": "14/02/2021",
+    "tags": [
+      "#journal"
+    ],
+    "content": "<p>dear,  journal…</p>\n<p>finally, completed my programming test. that was the first time I learn blockchain and cryptocurrency stuffs. it was hard at first, but I'm just starting to get a little understanding about that.</p>\n<p>ahh,, finally I can have some sleep~~~</p>",
+    "title": ""
   }
 ];
