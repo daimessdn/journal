@@ -819,5 +819,14 @@ const data = [
     ],
     "content": "<p>dear,  journal…</p>\n<p>finally, completed my programming test. that was the first time I learn blockchain and cryptocurrency stuffs. it was hard at first, but I'm just starting to get a little understanding about that.</p>\n<p>ahh,, finally I can have some sleep~~~</p>",
     "title": ""
+  },
+  {
+    "id": "ugtturepp",
+    "date": "04/03/2021",
+    "tags": [
+      "#journal"
+    ],
+    "content": "<p>dear, journal…</p>\n<p>seems getting more nervous. I don't know what should I do then to make me relaxed…</p>\n<p>OK, all then… :v</p>",
+    "title": ""
   }
 ];
