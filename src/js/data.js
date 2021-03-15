@@ -835,5 +835,15 @@ const data = [
     "tags": ["journal"],
     "content": "<p>dear, journal…</p>\n<p>last night I've completed my hackathon project. it's a 3D-based website that you can use to create your own park. you can <a href=\"https://daimessdn.github.io/park-creation-3d\">click here</a> for the demo.</p>\n<p>someone really likes my project and can't wait for the demo tomorrow. so nervous ~~~</p>\n<p>tomorrow is also data analytics competition. I need to be prepared for tomorrow. wish me luck…</p>",
     "title": ""
+  },
+  {
+  "id": "ffpveesy",
+    "date": "15/03/2021",
+    "tags": [
+      "#journal",
+      "#learning"
+    ],
+    "content": "<p>dear, journal…</p>\n<p>seems a long time not writing yet….</p>\n<p>currently learning Docker now, but kind of needs of many internet quota of them since the Docker container are relative large enough. just taking note first, then~~~</p>",
+    "title": ""
   }
 ];
