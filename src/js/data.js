@@ -845,5 +845,16 @@ const data = [
     ],
     "content": "<p>dear, journal…</p>\n<p>seems a long time not writing yet….</p>\n<p>currently learning Docker now, but kind of needs of many internet quota of them since the Docker container are relative large enough. just taking note first, then~~~</p>",
     "title": ""
+  },
+  {
+    "id": "untoelz",
+    "date": "20/03/2021",
+    "tags": [
+      "#aws",
+      "#dicoding",
+      "#journal"
+    ],
+    "content": "<p>dear, journal…</p>\n<p>finally, I've completed basic to AWS cloud on Dicoding since I've received the class from <strong>Cloud and Backend Scholarship Program</strong>. you can join the scholarship by <a href=\"https://aws.dicoding.com\">clicking here</a>…</p>\n<p>Thanks for Dicoding for the best chance to learn AWS Cloud. Since so many features of AWS, I need to re-explore more about how useful AWS is and its features.</p>\n<p>wish us luck~~~</p>",
+    "title": ""
   }
 ];
